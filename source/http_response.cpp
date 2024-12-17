@@ -123,7 +123,7 @@ void HttpResponse::AddContent_(Buffer& buff) {
         ErrorContent(buff, "File NotFound!");
         return; 
     }
-
+    
     //将文件映射到内存提高文件的访问速度  MAP_PRIVATE 建立一个写入时拷贝的私有映射
     LOG_DEBUG("file path %s", (srcDir_ + path_).data());
     //将文件内容映射到内存中，MAP_PRIVATE 表示创建一个私有的映射，即对映射区域的修改不会影响到文件本身。
