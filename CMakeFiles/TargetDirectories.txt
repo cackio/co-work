@@ -1,0 +1,3 @@
+/home/bluer/tiny_webserver/CMakeFiles/My_Project.dir
+/home/bluer/tiny_webserver/CMakeFiles/edit_cache.dir
+/home/bluer/tiny_webserver/CMakeFiles/rebuild_cache.dir

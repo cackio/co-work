@@ -1,0 +1,1756 @@
+2024-12-16 14:34:55.986763 [info] : ========== Server init ==========
+2024-12-16 14:34:55.986784 [info] : Port:8000, OpenLinger: false
+2024-12-16 14:34:55.986788 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 14:34:55.986790 [info] : LogSys level: 0
+2024-12-16 14:34:55.986792 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 14:34:55.986794 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 14:34:55.986797 [info] : ========== Server start ==========
+2024-12-16 14:35:12.009265 [info] : Client[6](127.0.0.1:41151) in, userCount:1
+2024-12-16 14:35:12.009391 [info] : Client[6] in!
+2024-12-16 14:35:12.009811 [info] : Client[7](127.0.0.1:45247) in, userCount:2
+2024-12-16 14:35:12.009987 [info] : Client[7] in!
+2024-12-16 14:35:12.013254 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 14:35:12.013413 [debug]: /index.html
+2024-12-16 14:35:12.013489 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:35:12.013513 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:35:12.014033 [debug]: filesize:6574, 2  to 6696
+2024-12-16 14:35:12.065752 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 14:35:12.065951 [debug]: /css/shoupiao.css
+2024-12-16 14:35:12.066150 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:35:12.066200 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:35:12.066556 [debug]: filesize:6662, 2  to 6784
+2024-12-16 14:35:12.069761 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 14:35:12.069838 [debug]: /js/shoupiao.js
+2024-12-16 14:35:12.069860 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:35:12.069863 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:35:12.069875 [debug]: filesize:5070, 2  to 5199
+2024-12-16 14:35:12.088088 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 14:35:12.088261 [debug]: /images/haiou.jpg
+2024-12-16 14:35:12.088381 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:35:12.088491 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:35:12.089141 [debug]: filesize:253755, 2  to 253880
+2024-12-16 14:35:12.126749 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 14:35:12.126829 [debug]: /fonts/houbiwen.otf
+2024-12-16 14:35:12.126918 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:35:12.127019 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:35:12.127542 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 14:35:12.127699 [debug]: filesize:53586408, 2  to 53586535
+2024-12-16 14:35:12.127758 [debug]: /fonts/lingli.ttf
+2024-12-16 14:35:12.127838 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:35:12.127938 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:35:12.128688 [debug]: filesize:2629764, 2  to 2629890
+2024-12-16 14:35:13.135209 [debug]: [GET], [/favicon.ico], [1.1]
+2024-12-16 14:35:13.135295 [debug]: /favicon.ico
+2024-12-16 14:35:13.136581 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:35:13.136631 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:35:13.137061 [debug]: filesize:2985, 2  to 3114
+2024-12-16 14:35:50.423909 [info] : Client[7] quit!
+2024-12-16 14:35:50.424201 [info] : Client[7](127.0.0.1:45247) quit, UserCount:1
+2024-12-16 14:35:50.436420 [info] : Client[6] quit!
+2024-12-16 14:35:50.436596 [info] : Client[6](127.0.0.1:41151) quit, UserCount:0
+2024-12-16 14:35:52.588669 [info] : Client[6](127.0.0.1:59573) in, userCount:1
+2024-12-16 14:35:52.588793 [info] : Client[6] in!
+2024-12-16 14:42:49.514372 [info] : ========== Server init ==========
+2024-12-16 14:42:49.514387 [info] : Port:8000, OpenLinger: false
+2024-12-16 14:42:49.514390 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 14:42:49.514393 [info] : LogSys level: 0
+2024-12-16 14:42:49.514396 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 14:42:49.514399 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 14:42:49.514402 [info] : ========== Server start ==========
+2024-12-16 14:42:57.692183 [info] : Client[6](127.0.0.1:49801) in, userCount:1
+2024-12-16 14:42:57.692331 [info] : Client[6] in!
+2024-12-16 14:42:57.693080 [info] : Client[7](127.0.0.1:50313) in, userCount:2
+2024-12-16 14:42:57.693224 [info] : Client[7] in!
+2024-12-16 14:42:57.694911 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 14:42:57.694974 [debug]: /index.html
+2024-12-16 14:42:57.695003 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:42:57.695006 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:42:57.695017 [debug]: filesize:6574, 2  to 6696
+2024-12-16 14:42:57.782183 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 14:42:57.782301 [debug]: /css/shoupiao.css
+2024-12-16 14:42:57.782365 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:42:57.782372 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:42:57.782388 [debug]: filesize:6662, 2  to 6784
+2024-12-16 14:42:57.782412 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 14:42:57.782454 [debug]: /js/shoupiao.js
+2024-12-16 14:42:57.782479 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:42:57.782498 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:42:57.782514 [debug]: filesize:5070, 2  to 5199
+2024-12-16 14:42:57.810839 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 14:42:57.810970 [debug]: /images/haiou.jpg
+2024-12-16 14:42:57.811061 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:42:57.811092 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:42:57.811122 [debug]: filesize:253755, 2  to 253880
+2024-12-16 14:42:57.878689 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 14:42:57.878805 [debug]: /fonts/houbiwen.otf
+2024-12-16 14:42:57.878887 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:42:57.878918 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:42:57.878944 [debug]: filesize:53586408, 2  to 53586535
+2024-12-16 14:42:57.879190 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 14:42:57.879279 [debug]: /fonts/lingli.ttf
+2024-12-16 14:42:57.879327 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:42:57.879433 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:42:57.879506 [debug]: filesize:2629764, 2  to 2629890
+2024-12-16 14:42:59.055331 [debug]: [GET], [/favicon.ico], [1.1]
+2024-12-16 14:42:59.055485 [debug]: /favicon.ico
+2024-12-16 14:42:59.059481 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:42:59.059571 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:42:59.059595 [debug]: filesize:2985, 2  to 3114
+2024-12-16 14:43:38.272399 [info] : ========== Server init ==========
+2024-12-16 14:43:38.272436 [info] : Port:8000, OpenLinger: false
+2024-12-16 14:43:38.272440 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 14:43:38.272442 [info] : LogSys level: 0
+2024-12-16 14:43:38.272613 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 14:43:38.272791 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 14:43:38.272926 [info] : ========== Server start ==========
+2024-12-16 14:43:46.721496 [info] : Client[6](127.0.0.1:62667) in, userCount:1
+2024-12-16 14:43:46.721660 [info] : Client[6] in!
+2024-12-16 14:43:46.723283 [info] : Client[7](127.0.0.1:63179) in, userCount:2
+2024-12-16 14:43:46.723375 [info] : Client[7] in!
+2024-12-16 14:43:46.724765 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 14:43:46.724848 [debug]: /index.html
+2024-12-16 14:43:46.724905 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:43:46.725031 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:43:46.725184 [debug]: filesize:6574, 2  to 6696
+2024-12-16 14:43:46.790258 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 14:43:46.790462 [debug]: /css/shoupiao.css
+2024-12-16 14:43:46.790576 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:43:46.790687 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:43:46.790759 [debug]: filesize:6662, 2  to 6784
+2024-12-16 14:43:46.793604 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 14:43:46.793868 [debug]: /js/shoupiao.js
+2024-12-16 14:43:46.793976 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:43:46.794005 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:43:46.794049 [debug]: filesize:5070, 2  to 5199
+2024-12-16 14:43:46.804775 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 14:43:46.804967 [debug]: /images/haiou.jpg
+2024-12-16 14:43:46.805162 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:43:46.805257 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:43:46.805321 [debug]: filesize:253755, 2  to 253880
+2024-12-16 14:43:46.869752 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 14:43:46.869939 [debug]: /fonts/houbiwen.otf
+2024-12-16 14:43:46.870046 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:43:46.870096 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:43:46.870126 [debug]: filesize:53586408, 2  to 53586535
+2024-12-16 14:43:46.870539 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 14:43:46.870720 [debug]: /fonts/lingli.ttf
+2024-12-16 14:43:46.870846 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:43:46.870891 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:43:46.870918 [debug]: filesize:2629764, 2  to 2629890
+2024-12-16 14:44:46.877396 [info] : Client[6] quit!
+2024-12-16 14:44:46.877888 [info] : Client[6](127.0.0.1:62667) quit, UserCount:1
+2024-12-16 14:44:47.262128 [info] : Client[7] quit!
+2024-12-16 14:45:30.031561 [info] : ========== Server init ==========
+2024-12-16 14:45:30.031597 [info] : Port:8000, OpenLinger: false
+2024-12-16 14:45:30.031603 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 14:45:30.031606 [info] : LogSys level: 0
+2024-12-16 14:45:30.031610 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 14:45:30.031613 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 14:45:30.031617 [info] : ========== Server start ==========
+2024-12-16 14:45:34.416226 [info] : Client[18](127.0.0.1:4321) in, userCount:1
+2024-12-16 14:45:34.416569 [info] : Client[18] in!
+2024-12-16 14:45:34.416698 [info] : Client[23](127.0.0.1:4833) in, userCount:2
+2024-12-16 14:45:34.416756 [info] : Client[23] in!
+2024-12-16 14:45:34.421361 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 14:45:34.421452 [debug]: /index.html
+2024-12-16 14:45:34.421491 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:45:34.421497 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:45:34.447993 [debug]: filesize:6574, 2  to 6696
+2024-12-16 14:45:34.497567 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 14:45:34.497679 [debug]: /css/shoupiao.css
+2024-12-16 14:45:34.497736 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:45:34.497771 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:45:34.498306 [debug]: filesize:6662, 2  to 6784
+2024-12-16 14:45:34.506653 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 14:45:34.506844 [debug]: /js/shoupiao.js
+2024-12-16 14:45:34.506984 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:45:34.507115 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:45:34.507715 [debug]: filesize:5070, 2  to 5199
+2024-12-16 14:45:34.513455 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 14:45:34.513638 [debug]: /images/haiou.jpg
+2024-12-16 14:45:34.513829 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:45:34.513958 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:45:34.514741 [debug]: filesize:253755, 2  to 253880
+2024-12-16 14:45:34.529007 [info] : Client[24](127.0.0.1:7393) in, userCount:3
+2024-12-16 14:45:34.529128 [info] : Client[24] in!
+2024-12-16 14:45:34.530427 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 14:45:34.530568 [debug]: /fonts/houbiwen.otf
+2024-12-16 14:45:34.530655 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:45:34.530683 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:45:34.531313 [debug]: filesize:53586408, 2  to 53586535
+2024-12-16 14:45:34.532691 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 14:45:34.532824 [debug]: /fonts/lingli.ttf
+2024-12-16 14:45:34.532875 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:45:34.532882 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:45:34.534429 [debug]: filesize:2629764, 2  to 2629890
+2024-12-16 14:45:51.112135 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 14:45:51.112261 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 14:45:51.147963 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 14:45:51.149674 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 14:45:51.160070 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 14:45:51.160151 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 14:45:51.160157 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 14:45:51.160160 [debug]: /index.html
+2024-12-16 14:45:51.161019 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:45:51.161157 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:45:51.161665 [debug]: filesize:6574, 2  to 6696
+2024-12-16 14:45:56.668160 [debug]: Body:{"tickets":"1,2,3"}, len:19
+2024-12-16 14:45:56.668245 [debug]: [{"tickets":"1,2"}POST], [/buy_ticket], [1.1]
+2024-12-16 14:45:56.668250 [debug]: /buy_ticket
+2024-12-16 14:45:56.668333 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:45:56.668356 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:53:34.814319 [info] : ========== Server init ==========
+2024-12-16 14:53:34.814511 [info] : Port:8000, OpenLinger: false
+2024-12-16 14:53:34.814674 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 14:53:34.814703 [info] : LogSys level: 0
+2024-12-16 14:53:34.814709 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 14:53:34.814712 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 14:53:34.814715 [info] : ========== Server start ==========
+2024-12-16 14:53:40.405306 [info] : Client[18](127.0.0.1:16005) in, userCount:1
+2024-12-16 14:53:40.405424 [info] : Client[18] in!
+2024-12-16 14:53:40.409228 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 14:53:40.409357 [debug]: /index.html
+2024-12-16 14:53:40.409413 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:53:40.409419 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:53:40.409891 [info] : Client[24](127.0.0.1:18053) in, userCount:2
+2024-12-16 14:53:40.409951 [info] : Client[24] in!
+2024-12-16 14:53:40.410046 [debug]: filesize:6574, 2  to 6696
+2024-12-16 14:53:40.470568 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 14:53:40.470776 [debug]: /css/shoupiao.css
+2024-12-16 14:53:40.470914 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:53:40.470960 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:53:40.471415 [debug]: filesize:6662, 2  to 6784
+2024-12-16 14:53:40.479859 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 14:53:40.479957 [debug]: /js/shoupiao.js
+2024-12-16 14:53:40.479988 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:53:40.480001 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:53:40.480728 [debug]: filesize:5070, 2  to 5199
+2024-12-16 14:53:40.502745 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 14:53:40.502965 [debug]: /images/haiou.jpg
+2024-12-16 14:53:40.503074 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:53:40.503107 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:53:40.504578 [debug]: filesize:253755, 2  to 253880
+2024-12-16 14:53:40.556015 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 14:53:40.556200 [debug]: /fonts/houbiwen.otf
+2024-12-16 14:53:40.556356 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:53:40.556408 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:53:40.557483 [debug]: filesize:53586408, 2  to 53586535
+2024-12-16 14:53:40.563368 [info] : Client[23](127.0.0.1:22149) in, userCount:3
+2024-12-16 14:53:40.563677 [info] : Client[23] in!
+2024-12-16 14:53:40.567425 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 14:53:40.567681 [debug]: /fonts/lingli.ttf
+2024-12-16 14:53:40.567859 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:53:40.567914 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:53:40.568643 [debug]: filesize:2629764, 2  to 2629890
+2024-12-16 14:53:56.596260 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 14:53:56.596392 [debug]: /css/shoupiao.css
+2024-12-16 14:53:56.597625 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:53:56.597749 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:53:56.597799 [debug]: filesize:6662, 2  to 6784
+2024-12-16 14:54:02.411355 [info] : Buy ticket, username:uestc ticket_id:2 quantity:1
+2024-12-16 14:54:02.411657 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 14:54:02.412519 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=2 LIMIT 1
+2024-12-16 14:54:02.413036 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='2'
+2024-12-16 14:54:02.449112 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 14:54:02.449246 [debug]: Body:{"tickets":"2,3,4"}, len:19
+2024-12-16 14:54:02.449256 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 14:54:02.449261 [debug]: /index.html
+2024-12-16 14:54:02.449319 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:54:02.449342 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:54:02.449400 [debug]: filesize:6574, 2  to 6696
+2024-12-16 14:54:25.829274 [debug]: Body:{"tickets":"11,12"}, len:19
+2024-12-16 14:54:25.856629 [debug]: [{"tickets":"2,3,4"}POST], [/buy_ticket], [1.1]
+2024-12-16 14:54:25.856858 [debug]: /buy_ticket
+2024-12-16 14:54:25.857065 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:54:25.857252 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:54:25.857888 [debug]: filesize:2985, 2  to 3114
+2024-12-16 14:54:40.523817 [info] : Client[24] quit!
+2024-12-16 14:54:40.524196 [info] : Client[24](127.0.0.1:18053) quit, UserCount:2
+2024-12-16 14:54:40.569013 [info] : Client[23] quit!
+2024-12-16 14:54:40.569427 [info] : Client[23](127.0.0.1:22149) quit, UserCount:1
+2024-12-16 14:54:53.289532 [info] : Client[23](127.0.0.1:35486) in, userCount:2
+2024-12-16 14:54:53.289654 [info] : Client[23] in!
+2024-12-16 14:54:53.290949 [debug]: [{"tickets":"11,12"}GET], [/index.html], [1.1]
+2024-12-16 14:54:53.291078 [debug]: /index.html
+2024-12-16 14:54:53.291172 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:54:53.291253 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:54:53.291283 [debug]: filesize:6574, 2  to 6696
+2024-12-16 14:54:53.361884 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 14:54:53.362116 [debug]: /css/shoupiao.css
+2024-12-16 14:54:53.362248 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:54:53.362254 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:54:53.362860 [debug]: filesize:6662, 2  to 6784
+2024-12-16 14:54:53.371513 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 14:54:53.371679 [debug]: /js/shoupiao.js
+2024-12-16 14:54:53.371772 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:54:53.371800 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:54:53.372634 [debug]: filesize:5070, 2  to 5199
+2024-12-16 14:54:53.404956 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 14:54:53.405178 [debug]: /images/haiou.jpg
+2024-12-16 14:54:53.405269 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:54:53.405387 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:54:53.405474 [debug]: filesize:253755, 2  to 253880
+2024-12-16 14:54:53.410885 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 14:54:53.411109 [debug]: /fonts/houbiwen.otf
+2024-12-16 14:54:53.411303 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:54:53.411371 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:54:53.412354 [debug]: filesize:53586408, 2  to 53586535
+2024-12-16 14:54:53.427283 [info] : Client[24](127.0.0.1:39582) in, userCount:3
+2024-12-16 14:54:53.427413 [info] : Client[24] in!
+2024-12-16 14:54:53.434290 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 14:54:53.434459 [debug]: /fonts/lingli.ttf
+2024-12-16 14:54:53.434533 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:54:53.434591 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:54:53.434648 [debug]: filesize:2629764, 2  to 2629890
+2024-12-16 14:55:15.664891 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 14:55:15.665105 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 14:55:15.665984 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 14:55:15.666429 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 14:55:15.701868 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 14:55:15.701972 [debug]: Body:{"tickets":"1,2,3"}, len:19
+2024-12-16 14:55:15.701980 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 14:55:15.701984 [debug]: /index.html
+2024-12-16 14:55:15.703230 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:55:15.703291 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:55:15.703309 [debug]: filesize:6574, 2  to 6696
+2024-12-16 14:55:38.663963 [debug]: Body:{"tickets":"3,4"}, len:17
+2024-12-16 14:55:38.664069 [debug]: [{"tickets":"1,2,3"}POST], [/buy_ticket], [1.1]
+2024-12-16 14:55:38.664077 [debug]: /buy_ticket
+2024-12-16 14:55:38.664152 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:55:38.664177 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:55:38.664192 [debug]: filesize:2985, 2  to 3114
+2024-12-16 14:55:53.410937 [info] : Client[23] quit!
+2024-12-16 14:55:53.411467 [info] : Client[23](127.0.0.1:35486) quit, UserCount:2
+2024-12-16 14:55:53.435395 [info] : Client[24] quit!
+2024-12-16 14:55:53.435814 [info] : Client[24](127.0.0.1:39582) quit, UserCount:1
+2024-12-16 14:56:38.671725 [info] : Client[18] quit!
+2024-12-16 14:56:38.672632 [info] : Client[18](127.0.0.1:16005) quit, UserCount:0
+2024-12-16 14:59:00.756872 [info] : Client[18](127.0.0.1:50908) in, userCount:1
+2024-12-16 14:59:00.757033 [info] : Client[18] in!
+2024-12-16 14:59:00.757304 [info] : Client[23](127.0.0.1:53980) in, userCount:2
+2024-12-16 14:59:00.757384 [info] : Client[23] in!
+2024-12-16 14:59:00.759759 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 14:59:00.759915 [debug]: /index.html
+2024-12-16 14:59:00.760004 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:59:00.760031 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:59:00.783585 [debug]: filesize:6574, 2  to 6696
+2024-12-16 14:59:00.879918 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 14:59:00.880153 [debug]: /css/shoupiao.css
+2024-12-16 14:59:00.880285 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:59:00.880322 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 14:59:00.882061 [debug]: filesize:6662, 2  to 6784
+2024-12-16 14:59:00.885061 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 14:59:00.885249 [debug]: /js/shoupiao.js
+2024-12-16 14:59:00.885353 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:59:00.885383 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 14:59:00.886381 [debug]: filesize:5070, 2  to 5199
+2024-12-16 14:59:00.898233 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 14:59:00.898459 [debug]: /images/haiou.jpg
+2024-12-16 14:59:00.898574 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:59:00.898671 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 14:59:00.899364 [debug]: filesize:253755, 2  to 253880
+2024-12-16 14:59:00.908746 [info] : Client[24](127.0.0.1:54492) in, userCount:3
+2024-12-16 14:59:00.908894 [info] : Client[24] in!
+2024-12-16 14:59:00.909046 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 14:59:00.909210 [debug]: /fonts/houbiwen.otf
+2024-12-16 14:59:00.909326 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:59:00.909420 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 14:59:00.910891 [debug]: filesize:53586408, 2  to 53586535
+2024-12-16 14:59:00.913759 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 14:59:00.913916 [debug]: /fonts/lingli.ttf
+2024-12-16 14:59:00.914009 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:59:00.914035 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 14:59:00.915200 [debug]: filesize:2629764, 2  to 2629890
+2024-12-16 14:59:45.601256 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 14:59:45.601557 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 14:59:45.603174 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 14:59:45.603674 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 14:59:45.644783 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 14:59:45.645030 [debug]: Body:{"tickets":"1,2,3"}, len:19
+2024-12-16 14:59:45.645190 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 14:59:45.645391 [debug]: /index.html
+2024-12-16 14:59:45.647047 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:59:45.647121 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 14:59:45.647158 [debug]: filesize:6574, 2  to 6696
+2024-12-16 14:59:50.643471 [debug]: Body:{"tickets":"1,2,3"}, len:19
+2024-12-16 14:59:50.643572 [debug]: [{"tickets":"1,2,3"}POST], [/buy_ticket], [1.1]
+2024-12-16 14:59:50.643579 [debug]: /buy_ticket
+2024-12-16 14:59:50.643629 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:59:50.643634 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 14:59:50.670797 [debug]: filesize:2985, 2  to 3114
+2024-12-16 15:00:00.911180 [info] : Client[23] quit!
+2024-12-16 15:00:00.911364 [info] : Client[23](127.0.0.1:53980) quit, UserCount:2
+2024-12-16 15:00:00.914777 [info] : Client[24] quit!
+2024-12-16 15:00:00.915036 [info] : Client[24](127.0.0.1:54492) quit, UserCount:1
+2024-12-16 15:00:10.306688 [debug]: Body:{"tickets":"4"}, len:15
+2024-12-16 15:00:10.307080 [debug]: [{"tickets":"1,2,3"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:00:10.307171 [debug]: /buy_ticket
+2024-12-16 15:00:10.307234 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:00:10.307271 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:00:10.307322 [debug]: filesize:2985, 2  to 3114
+2024-12-16 15:01:10.311469 [info] : Client[18] quit!
+2024-12-16 15:01:10.312196 [info] : Client[18](127.0.0.1:50908) quit, UserCount:0
+2024-12-16 15:01:54.199022 [info] : Client[18](127.0.0.1:31457) in, userCount:1
+2024-12-16 15:01:54.199333 [info] : Client[18] in!
+2024-12-16 15:01:54.204021 [info] : Buy ticket, username:uestc ticket_id:4 quantity:1
+2024-12-16 15:01:54.204111 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:01:54.205162 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=4 LIMIT 1
+2024-12-16 15:01:54.205898 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='4'
+2024-12-16 15:01:54.213864 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:01:54.214121 [debug]: Body:{"tickets":"4"}, len:15
+2024-12-16 15:01:54.214290 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:01:54.214360 [debug]: /index.html
+2024-12-16 15:01:54.214410 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:01:54.214434 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:01:54.214821 [debug]: filesize:6574, 2  to 6696
+2024-12-16 15:02:07.606444 [debug]: Body:{"tickets":"2,3,4"}, len:19
+2024-12-16 15:02:07.606534 [debug]: [{"tickets":"4"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:02:07.606541 [debug]: /buy_ticket
+2024-12-16 15:02:07.606578 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:02:07.606602 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:02:07.634024 [debug]: filesize:2985, 2  to 3114
+2024-12-16 15:03:07.641105 [info] : Client[18] quit!
+2024-12-16 15:03:07.641763 [info] : Client[18](127.0.0.1:31457) quit, UserCount:0
+2024-12-16 15:04:10.231065 [info] : Client[18](127.0.0.1:61589) in, userCount:1
+2024-12-16 15:04:10.231230 [info] : Client[18] in!
+2024-12-16 15:04:10.235391 [info] : Buy ticket, username:uestc ticket_id:2 quantity:1
+2024-12-16 15:04:10.235513 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:04:10.236132 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=2 LIMIT 1
+2024-12-16 15:04:10.236657 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='2'
+2024-12-16 15:04:10.241694 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:04:10.241804 [debug]: Body:{"tickets":"2,3,4"}, len:19
+2024-12-16 15:04:10.241843 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:04:10.241849 [debug]: /index.html
+2024-12-16 15:04:10.241870 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:04:10.241895 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:04:10.241915 [debug]: filesize:6574, 2  to 6696
+2024-12-16 15:04:11.757127 [debug]: Body:{"tickets":"2,3,4"}, len:19
+2024-12-16 15:04:11.757240 [debug]: [{"tickets":"2,3,4"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:04:11.757248 [debug]: /buy_ticket
+2024-12-16 15:04:11.757306 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:04:11.757310 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:04:11.757326 [debug]: filesize:2985, 2  to 3114
+2024-12-16 15:04:25.055584 [debug]: Body:{"tickets":"11,12"}, len:19
+2024-12-16 15:04:25.055711 [debug]: [{"tickets":"2,3,4"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:04:25.055745 [debug]: /buy_ticket
+2024-12-16 15:04:25.055794 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:04:25.055798 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:04:25.055812 [debug]: filesize:2985, 2  to 3114
+2024-12-16 15:05:10.321684 [debug]: Body:{"tickets":"11,12"}, len:19
+2024-12-16 15:05:10.321930 [debug]: [{"tickets":"11,12"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:05:10.321996 [debug]: /buy_ticket
+2024-12-16 15:05:10.322085 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:05:10.322121 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:05:10.322142 [debug]: filesize:2985, 2  to 3114
+2024-12-16 15:06:10.323759 [info] : Client[18] quit!
+2024-12-16 15:06:10.323951 [info] : Client[18](127.0.0.1:61589) quit, UserCount:0
+2024-12-16 15:06:25.153816 [info] : Client[18](127.0.0.1:25791) in, userCount:1
+2024-12-16 15:06:25.153955 [info] : Client[18] in!
+2024-12-16 15:06:25.157557 [info] : Buy ticket, username:uestc ticket_id:11 quantity:1
+2024-12-16 15:06:25.157647 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:06:25.158471 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=11 LIMIT 1
+2024-12-16 15:06:25.159204 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='11'
+2024-12-16 15:06:25.166050 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:06:25.166169 [debug]: Body:{"tickets":"11,12"}, len:19
+2024-12-16 15:06:25.166288 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:06:25.166366 [debug]: /index.html
+2024-12-16 15:06:25.166415 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:06:25.166441 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:06:25.166729 [debug]: filesize:6574, 2  to 6696
+2024-12-16 15:06:39.020136 [info] : Client[23](127.0.0.1:58054) in, userCount:2
+2024-12-16 15:06:39.020330 [info] : Client[23] in!
+2024-12-16 15:06:39.023986 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 15:06:39.024188 [debug]: /index.html
+2024-12-16 15:06:39.024324 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:06:39.024356 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:06:39.024396 [debug]: filesize:6574, 2  to 6696
+2024-12-16 15:06:39.030421 [info] : Client[24](127.0.0.1:61126) in, userCount:3
+2024-12-16 15:06:39.030555 [info] : Client[24] in!
+2024-12-16 15:06:39.104465 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 15:06:39.104666 [debug]: /js/shoupiao.js
+2024-12-16 15:06:39.104755 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:06:39.104790 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:06:39.107235 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 15:06:39.107447 [debug]: /css/shoupiao.css
+2024-12-16 15:06:39.107564 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:06:39.107657 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:06:39.111634 [debug]: filesize:6662, 2  to 6784
+2024-12-16 15:06:39.112382 [debug]: filesize:5130, 2  to 5259
+2024-12-16 15:06:39.727749 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 15:06:39.727906 [debug]: /images/haiou.jpg
+2024-12-16 15:06:39.727986 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:06:39.728010 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:06:39.729785 [debug]: filesize:253755, 2  to 253880
+2024-12-16 15:06:39.765154 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 15:06:39.765373 [debug]: /fonts/houbiwen.otf
+2024-12-16 15:06:39.765502 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:06:39.765602 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:06:39.766674 [debug]: filesize:53586408, 2  to 53586535
+2024-12-16 15:06:39.770632 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 15:06:39.770763 [debug]: /fonts/lingli.ttf
+2024-12-16 15:06:39.770813 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:06:39.770913 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:06:39.772115 [debug]: filesize:2629764, 2  to 2629890
+2024-12-16 15:06:41.023207 [debug]: [GET], [/favicon.ico], [1.1]
+2024-12-16 15:06:41.023395 [debug]: /favicon.ico
+2024-12-16 15:06:41.024874 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:06:41.024953 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:06:41.024989 [debug]: filesize:2985, 2  to 3114
+2024-12-16 15:06:51.325417 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 15:06:51.325537 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:06:51.326960 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 15:06:51.327760 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 15:06:51.370244 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:06:51.370402 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:06:51.370412 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:06:51.370419 [debug]: /index.html
+2024-12-16 15:06:51.370483 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:06:51.370609 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:06:51.370677 [debug]: filesize:6574, 2  to 6696
+2024-12-16 15:06:56.868747 [debug]: Body:{"tickets":"1,2,3,4"}, len:21
+2024-12-16 15:06:56.868866 [debug]: [{"tickets":"1,2"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:06:56.868874 [debug]: /buy_ticket
+2024-12-16 15:06:56.868918 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:06:56.868922 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:06:56.868936 [debug]: filesize:2985, 2  to 3114
+2024-12-16 15:07:03.378573 [info] : Client[23] quit!
+2024-12-16 15:07:03.378850 [info] : Client[23](127.0.0.1:58054) quit, UserCount:2
+2024-12-16 15:07:03.378893 [info] : Client[24] quit!
+2024-12-16 15:07:03.379144 [info] : Client[24](127.0.0.1:61126) quit, UserCount:1
+2024-12-16 15:07:25.176534 [info] : Client[18] quit!
+2024-12-16 15:07:25.176782 [info] : Client[18](127.0.0.1:25791) quit, UserCount:0
+2024-12-16 15:07:39.790159 [info] : Client[24] quit!
+2024-12-16 15:10:32.928191 [info] : ========== Server init ==========
+2024-12-16 15:10:32.928226 [info] : Port:8000, OpenLinger: false
+2024-12-16 15:10:32.928230 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 15:10:32.928234 [info] : LogSys level: 0
+2024-12-16 15:10:32.928237 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 15:10:32.928311 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 15:10:32.928319 [info] : ========== Server start ==========
+2024-12-16 15:10:37.231068 [info] : Client[18](127.0.0.1:11482) in, userCount:1
+2024-12-16 15:10:37.231232 [info] : Client[18] in!
+2024-12-16 15:10:37.232275 [info] : Client[23](127.0.0.1:12506) in, userCount:2
+2024-12-16 15:10:37.232433 [info] : Client[23] in!
+2024-12-16 15:10:37.235315 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 15:10:37.235465 [debug]: /index.html
+2024-12-16 15:10:37.235564 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:10:37.235611 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:10:37.235640 [debug]: filesize:6574, 2  to 6746
+2024-12-16 15:10:37.314227 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 15:10:37.314429 [debug]: /css/shoupiao.css
+2024-12-16 15:10:37.314509 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:10:37.314614 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:10:37.314653 [debug]: filesize:6662, 2  to 6834
+2024-12-16 15:10:37.317964 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 15:10:37.318169 [debug]: /js/shoupiao.js
+2024-12-16 15:10:37.318280 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:10:37.318381 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:10:37.318459 [debug]: filesize:5130, 2  to 5309
+2024-12-16 15:10:37.331673 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 15:10:37.331892 [debug]: /images/haiou.jpg
+2024-12-16 15:10:37.332041 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:10:37.332170 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:10:37.332280 [debug]: filesize:253755, 2  to 253930
+2024-12-16 15:10:37.360918 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 15:10:37.361217 [debug]: /fonts/lingli.ttf
+2024-12-16 15:10:37.361394 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:10:37.361516 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:10:37.361620 [debug]: filesize:2629764, 2  to 2629940
+2024-12-16 15:10:37.365453 [info] : Client[24](127.0.0.1:15578) in, userCount:3
+2024-12-16 15:10:37.365618 [info] : Client[24] in!
+2024-12-16 15:10:37.369526 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 15:10:37.369680 [debug]: /fonts/houbiwen.otf
+2024-12-16 15:10:37.369766 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:10:37.369794 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:10:37.369819 [debug]: filesize:53586408, 2  to 53586585
+2024-12-16 15:10:50.021752 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 15:10:50.022025 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:10:50.023294 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 15:10:50.023753 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 15:10:50.031534 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:10:50.031628 [debug]: Body:{"tickets":"1,2,3"}, len:19
+2024-12-16 15:10:50.031635 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:10:50.031639 [debug]: /index.html
+2024-12-16 15:10:50.034494 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:10:50.034646 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:10:50.034747 [debug]: filesize:6574, 2  to 6746
+2024-12-16 15:10:52.600375 [debug]: Body:{"tickets":"1,2,3"}, len:19
+2024-12-16 15:10:52.600492 [debug]: [{"tickets":"1,2,3"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:10:52.600500 [debug]: /buy_ticket
+2024-12-16 15:10:52.600548 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:10:52.600554 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:10:52.600610 [debug]: filesize:2985, 2  to 3164
+2024-12-16 15:11:17.737224 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:11:17.737478 [debug]: [{"tickets":"1,2,3"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:11:17.737546 [debug]: /buy_ticket
+2024-12-16 15:11:17.737597 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:11:17.737625 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:11:17.737642 [debug]: filesize:2985, 2  to 3164
+2024-12-16 15:11:30.647483 [debug]: Body:{"tickets":"11,12"}, len:19
+2024-12-16 15:11:30.647573 [debug]: [{"tickets":"1,2"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:11:30.647581 [debug]: /buy_ticket
+2024-12-16 15:11:30.647620 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:11:30.647625 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:11:30.647636 [debug]: filesize:2985, 2  to 3164
+2024-12-16 15:11:37.331989 [info] : Client[23] quit!
+2024-12-16 15:11:37.332410 [info] : Client[23](127.0.0.1:12506) quit, UserCount:2
+2024-12-16 15:11:37.362165 [info] : Client[18] quit!
+2024-12-16 15:19:39.507239 [info] : ========== Server init ==========
+2024-12-16 15:19:39.507289 [info] : Port:8000, OpenLinger: false
+2024-12-16 15:19:39.507297 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 15:19:39.507301 [info] : LogSys level: 0
+2024-12-16 15:19:39.507306 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 15:19:39.507311 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 15:19:39.507315 [info] : ========== Server start ==========
+2024-12-16 15:19:42.174399 [info] : Client[18](127.0.0.1:37515) in, userCount:1
+2024-12-16 15:19:42.174633 [info] : Client[18] in!
+2024-12-16 15:19:42.178643 [info] : Buy ticket, username:uestc ticket_id:11 quantity:1
+2024-12-16 15:19:42.178820 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:19:42.180100 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=11 LIMIT 1
+2024-12-16 15:19:42.180566 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='11'
+2024-12-16 15:19:42.190328 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:19:42.190461 [debug]: Body:{"tickets":"11,12"}, len:19
+2024-12-16 15:19:42.190492 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:19:42.190500 [debug]: /index.html
+2024-12-16 15:19:42.190625 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:19:42.190689 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:19:42.190713 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:19:46.878791 [debug]: Body:{"tickets":"11,12"}, len:19
+2024-12-16 15:19:46.878913 [debug]: [{"tickets":"11,12"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:19:46.878920 [debug]: /buy_ticket
+2024-12-16 15:19:46.878964 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:19:46.878969 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:19:46.878982 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:20:46.887964 [info] : Client[18] quit!
+2024-12-16 15:20:46.888469 [info] : Client[18](127.0.0.1:37515) quit, UserCount:0
+2024-12-16 15:21:08.414216 [info] : Client[18](127.0.0.1:44755) in, userCount:1
+2024-12-16 15:21:08.414406 [info] : Client[18] in!
+2024-12-16 15:21:08.415135 [info] : Client[23](127.0.0.1:48851) in, userCount:2
+2024-12-16 15:21:08.415262 [info] : Client[23] in!
+2024-12-16 15:21:08.418641 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 15:21:08.418728 [debug]: /index.html
+2024-12-16 15:21:08.418779 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:21:08.418804 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:21:08.418823 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:21:08.505597 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 15:21:08.505959 [debug]: /css/shoupiao.css
+2024-12-16 15:21:08.506120 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:21:08.506233 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:21:08.506350 [debug]: filesize:6662, 2  to 6836
+2024-12-16 15:21:08.508668 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 15:21:08.508876 [debug]: /js/shoupiao.js
+2024-12-16 15:21:08.508992 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:21:08.509098 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:21:08.509196 [debug]: filesize:5132, 2  to 5313
+2024-12-16 15:21:08.530844 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 15:21:08.531033 [debug]: /images/haiou.jpg
+2024-12-16 15:21:08.531124 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:21:08.531158 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:21:08.531186 [debug]: filesize:253755, 2  to 253932
+2024-12-16 15:21:08.537087 [info] : Client[24](127.0.0.1:50899) in, userCount:3
+2024-12-16 15:21:08.537226 [info] : Client[24] in!
+2024-12-16 15:21:08.538305 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 15:21:08.538442 [debug]: /fonts/lingli.ttf
+2024-12-16 15:21:08.538515 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:21:08.538543 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:21:08.538587 [debug]: filesize:2629764, 2  to 2629942
+2024-12-16 15:21:08.541031 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 15:21:08.541223 [debug]: /fonts/houbiwen.otf
+2024-12-16 15:21:08.541334 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:21:08.541426 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:21:08.541508 [debug]: filesize:53586408, 2  to 53586587
+2024-12-16 15:21:19.560974 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 15:21:19.561124 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:21:19.562723 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 15:21:19.563283 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 15:21:19.600724 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:21:19.600839 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:21:19.600854 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:21:19.600880 [debug]: /index.html
+2024-12-16 15:21:19.602339 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:21:19.602401 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:21:19.602420 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:21:21.925952 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:21:21.926056 [debug]: [{"tickets":"1,2"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:21:21.926064 [debug]: /buy_ticket
+2024-12-16 15:21:21.926154 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:21:21.926210 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:21:21.926229 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:22:08.534643 [info] : Client[23] quit!
+2024-12-16 15:22:08.534935 [info] : Client[23](127.0.0.1:48851) quit, UserCount:2
+2024-12-16 15:22:08.538462 [info] : Client[18] quit!
+2024-12-16 15:22:08.538874 [info] : Client[18](127.0.0.1:44755) quit, UserCount:1
+2024-12-16 15:22:21.925890 [info] : Client[24] quit!
+2024-12-16 15:22:21.926124 [info] : Client[24](127.0.0.1:50899) quit, UserCount:0
+2024-12-16 15:23:06.791615 [info] : Client[18](127.0.0.1:21130) in, userCount:1
+2024-12-16 15:23:06.791915 [info] : Client[18] in!
+2024-12-16 15:23:06.796056 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 15:23:06.796159 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:23:06.798093 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 15:23:06.798916 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 15:23:06.814049 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:23:06.814174 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:23:06.814186 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:23:06.814213 [debug]: /index.html
+2024-12-16 15:23:06.814249 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:23:06.814283 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:23:06.815002 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:23:09.392166 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:23:09.392284 [debug]: [{"tickets":"1,2"}POST], [/buy_ticket], [1.1]
+2024-12-16 15:23:09.392293 [debug]: /buy_ticket
+2024-12-16 15:23:09.392347 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:23:09.392354 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:26:21.733145 [info] : ========== Server init ==========
+2024-12-16 15:26:21.733174 [info] : Port:8000, OpenLinger: false
+2024-12-16 15:26:21.733179 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 15:26:21.733182 [info] : LogSys level: 0
+2024-12-16 15:26:21.733185 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 15:26:21.733189 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 15:26:21.733192 [info] : ========== Server start ==========
+2024-12-16 15:26:22.974611 [info] : Client[18](127.0.0.1:61585) in, userCount:1
+2024-12-16 15:26:22.991039 [info] : Client[18] in!
+2024-12-16 15:26:22.991170 [info] : Client[23](127.0.0.1:146) in, userCount:2
+2024-12-16 15:26:22.991279 [info] : Client[23] in!
+2024-12-16 15:26:22.994534 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 15:26:22.994683 [debug]: /index.html
+2024-12-16 15:26:22.994800 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:26:22.994822 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:26:22.995279 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:26:23.063113 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 15:26:23.063334 [debug]: /css/shoupiao.css
+2024-12-16 15:26:23.063482 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:26:23.063508 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:26:23.064106 [debug]: filesize:6662, 2  to 6836
+2024-12-16 15:26:23.071700 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 15:26:23.071899 [debug]: /js/shoupiao.js
+2024-12-16 15:26:23.072019 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:26:23.072096 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:26:23.072239 [debug]: filesize:5158, 2  to 5339
+2024-12-16 15:26:23.105394 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 15:26:23.105491 [debug]: /images/haiou.jpg
+2024-12-16 15:26:23.105552 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:26:23.105575 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:26:23.105990 [debug]: filesize:253755, 2  to 253932
+2024-12-16 15:26:23.132510 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 15:26:23.132688 [debug]: /fonts/lingli.ttf
+2024-12-16 15:26:23.132808 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:26:23.132920 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:26:23.133325 [info] : Client[25](127.0.0.1:658) in, userCount:3
+2024-12-16 15:26:23.133454 [info] : Client[25] in!
+2024-12-16 15:26:23.133675 [debug]: filesize:2629764, 2  to 2629942
+2024-12-16 15:26:23.137634 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 15:26:23.137770 [debug]: /fonts/houbiwen.otf
+2024-12-16 15:26:23.137820 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:26:23.137845 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:26:23.138750 [debug]: filesize:53586408, 2  to 53586587
+2024-12-16 15:26:52.073456 [debug]: Body:{"tickets":"2,3"}, len:17
+2024-12-16 15:26:52.073558 [debug]: [POST], [/buy_ticket?_=1734334014213], [1.1]
+2024-12-16 15:26:52.073565 [debug]: /buy_ticket?_=1734334014213
+2024-12-16 15:26:52.074435 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:26:52.074483 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:26:52.075351 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:27:23.132597 [info] : Client[23] quit!
+2024-12-16 15:27:23.133336 [info] : Client[23](127.0.0.1:146) quit, UserCount:2
+2024-12-16 15:27:23.133517 [info] : Client[18] quit!
+2024-12-16 15:27:23.133806 [info] : Client[18](127.0.0.1:61585) quit, UserCount:1
+2024-12-16 15:27:52.183927 [info] : Client[25] quit!
+2024-12-16 15:30:06.894362 [info] : ========== Server init ==========
+2024-12-16 15:30:06.894394 [info] : Port:8000, OpenLinger: false
+2024-12-16 15:30:06.894400 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 15:30:06.894404 [info] : LogSys level: 0
+2024-12-16 15:30:06.894408 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 15:30:06.894412 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 15:30:06.894416 [info] : ========== Server start ==========
+2024-12-16 15:30:10.540409 [info] : Client[18](127.0.0.1:41666) in, userCount:1
+2024-12-16 15:30:10.541716 [info] : Client[18] in!
+2024-12-16 15:30:10.545219 [debug]: Body:{"tickets":"2,3"}, len:17
+2024-12-16 15:30:10.545407 [debug]: [POST], [/buy_ticket?_=1734334211205], [1.1]
+2024-12-16 15:30:10.545577 [debug]: /buy_ticket?_=1734334211205
+2024-12-16 15:30:10.546085 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:30:10.546238 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:30:10.546673 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:30:14.929363 [debug]: Body:{"tickets":"2,3"}, len:17
+2024-12-16 15:30:14.929474 [debug]: [{"tickets":"2,3"}POST], [/buy_ticket?_=1734334217557], [1.1]
+2024-12-16 15:30:14.929481 [debug]: /buy_ticket?_=1734334217557
+2024-12-16 15:30:39.807895 [info] : ========== Server init ==========
+2024-12-16 15:30:39.807918 [info] : Port:8000, OpenLinger: false
+2024-12-16 15:30:39.807922 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 15:30:39.807924 [info] : LogSys level: 0
+2024-12-16 15:30:39.807926 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 15:30:39.807928 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 15:30:39.807931 [info] : ========== Server start ==========
+2024-12-16 15:30:47.314395 [info] : Client[18](127.0.0.1:10423) in, userCount:1
+2024-12-16 15:31:23.246918 [info] : ========== Server init ==========
+2024-12-16 15:31:23.246951 [info] : Port:8000, OpenLinger: false
+2024-12-16 15:31:23.246956 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 15:31:23.246959 [info] : LogSys level: 0
+2024-12-16 15:31:23.246963 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 15:31:23.246966 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 15:31:23.246970 [info] : ========== Server start ==========
+2024-12-16 15:31:29.831370 [info] : Client[18](127.0.0.1:15572) in, userCount:1
+2024-12-16 15:31:29.831580 [info] : Client[18] in!
+2024-12-16 15:31:29.835841 [debug]: Body:{"tickets":"2,3"}, len:17
+2024-12-16 15:31:29.835943 [debug]: [POST], [/buy_ticket?_=1734334291357], [1.1]
+2024-12-16 15:31:29.835951 [debug]: /buy_ticket?_=1734334291357
+2024-12-16 15:31:29.835997 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:31:29.836002 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:31:29.836017 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:32:02.773075 [info] : Client[23](127.0.0.1:17547) in, userCount:2
+2024-12-16 15:32:02.773267 [info] : Client[23] in!
+2024-12-16 15:32:02.774838 [debug]: [{"tickets":"2,3"}GET], [/index.html], [1.1]
+2024-12-16 15:32:02.774999 [debug]: /index.html
+2024-12-16 15:32:02.775109 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:32:02.775215 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:32:02.802150 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:32:02.870950 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 15:32:02.871175 [debug]: /css/shoupiao.css
+2024-12-16 15:32:02.871404 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:32:02.871439 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:32:02.872303 [debug]: filesize:6662, 2  to 6836
+2024-12-16 15:32:02.883308 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 15:32:02.883532 [debug]: /js/shoupiao.js
+2024-12-16 15:32:02.883686 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:32:02.883731 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:32:02.883870 [debug]: filesize:5159, 2  to 5340
+2024-12-16 15:32:02.897968 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 15:32:02.898199 [debug]: /images/haiou.jpg
+2024-12-16 15:32:02.898385 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:32:02.898516 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:32:02.900209 [debug]: filesize:253755, 2  to 253932
+2024-12-16 15:32:02.934612 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 15:32:02.934848 [debug]: /fonts/lingli.ttf
+2024-12-16 15:32:02.934987 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:32:02.935102 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:32:02.936414 [debug]: filesize:2629764, 2  to 2629942
+2024-12-16 15:32:02.966397 [info] : Client[24](127.0.0.1:20107) in, userCount:3
+2024-12-16 15:32:02.966515 [info] : Client[24] in!
+2024-12-16 15:32:02.969970 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 15:32:02.970164 [debug]: /fonts/houbiwen.otf
+2024-12-16 15:32:02.970281 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:32:02.970403 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:32:02.971385 [debug]: filesize:53586408, 2  to 53586587
+2024-12-16 15:32:15.103734 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 15:32:15.103843 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:32:15.105632 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 15:32:15.106124 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 15:32:15.115822 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:32:15.115939 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:32:15.115968 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:32:15.115974 [debug]: /index.html
+2024-12-16 15:32:15.117158 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:32:15.117238 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:32:15.117255 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:32:17.241344 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:32:17.241454 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets?_=1734334339741], [1.1]
+2024-12-16 15:32:17.241462 [debug]: /buy_tickets?_=1734334339741
+2024-12-16 15:32:17.241522 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:32:17.241558 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:32:17.241574 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:32:21.143173 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:32:21.143338 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets?_=1734334343341], [1.1]
+2024-12-16 15:32:21.143371 [debug]: /buy_tickets?_=1734334343341
+2024-12-16 15:32:21.143434 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:32:21.143469 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:32:21.143491 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:32:38.462611 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:32:38.462734 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets?_=1734334359333], [1.1]
+2024-12-16 15:32:38.462746 [debug]: /buy_tickets?_=1734334359333
+2024-12-16 15:32:38.462794 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:32:38.462826 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:32:38.462841 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:33:02.902724 [info] : Client[23] quit!
+2024-12-16 15:33:02.903005 [info] : Client[23](127.0.0.1:17547) quit, UserCount:2
+2024-12-16 15:33:02.936665 [info] : Client[18] quit!
+2024-12-16 15:34:41.822594 [info] : ========== Server init ==========
+2024-12-16 15:34:41.822624 [info] : Port:8000, OpenLinger: false
+2024-12-16 15:34:41.822629 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 15:34:41.822685 [info] : LogSys level: 0
+2024-12-16 15:34:41.822695 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 15:34:41.822699 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 15:34:41.822703 [info] : ========== Server start ==========
+2024-12-16 15:34:42.719015 [info] : Client[18](127.0.0.1:44677) in, userCount:1
+2024-12-16 15:34:42.719172 [info] : Client[18] in!
+2024-12-16 15:34:42.723190 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:34:42.723464 [debug]: [POST], [/buy_tickets?_=1734334485549], [1.1]
+2024-12-16 15:34:42.723653 [debug]: /buy_tickets?_=1734334485549
+2024-12-16 15:34:42.723853 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:34:42.723967 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:34:42.724153 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:34:52.724629 [info] : Client[23](127.0.0.1:32408) in, userCount:2
+2024-12-16 15:34:52.724746 [info] : Client[23] in!
+2024-12-16 15:34:52.725475 [info] : Client[24](127.0.0.1:34456) in, userCount:3
+2024-12-16 15:34:52.725540 [info] : Client[24] in!
+2024-12-16 15:34:52.728275 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 15:34:52.728423 [debug]: /index.html
+2024-12-16 15:34:52.728538 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:34:52.728663 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:34:52.728798 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:34:52.768943 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 15:34:52.769150 [debug]: /js/shoupiao.js
+2024-12-16 15:34:52.769194 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 15:34:52.769330 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:34:52.769362 [debug]: /css/shoupiao.css
+2024-12-16 15:34:52.769363 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 15:34:52.769439 [debug]: filesize:5133, 2  to 5314
+2024-12-16 15:34:52.769481 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:34:52.769496 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:34:52.769512 [debug]: filesize:6662, 2  to 6836
+2024-12-16 15:34:53.003224 [info] : Client[25](127.0.0.1:36504) in, userCount:4
+2024-12-16 15:34:53.003395 [info] : Client[25] in!
+2024-12-16 15:34:53.338357 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 15:34:53.338532 [debug]: /images/haiou.jpg
+2024-12-16 15:34:53.338626 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:34:53.338736 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 15:34:53.339049 [debug]: filesize:253755, 2  to 253932
+2024-12-16 15:34:53.373182 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 15:34:53.373309 [debug]: /fonts/houbiwen.otf
+2024-12-16 15:34:53.373406 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:34:53.373454 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 15:34:53.373478 [debug]: filesize:53586408, 2  to 53586587
+2024-12-16 15:34:53.374655 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 15:34:53.374902 [debug]: /fonts/lingli.ttf
+2024-12-16 15:34:53.375114 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:34:53.375265 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 15:34:53.375426 [debug]: filesize:2629764, 2  to 2629942
+2024-12-16 15:34:54.378673 [debug]: [GET], [/favicon.ico], [1.1]
+2024-12-16 15:34:54.378815 [debug]: /favicon.ico
+2024-12-16 15:34:54.381702 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:34:54.381886 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:34:54.381981 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:35:11.027849 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 15:35:11.027966 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:35:11.029837 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 15:35:11.030325 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 15:35:11.067754 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:35:11.067868 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:35:11.067875 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:35:11.067879 [debug]: /index.html
+2024-12-16 15:35:11.067929 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:35:11.067963 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:35:11.067980 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:35:13.973297 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:35:13.973412 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets], [1.1]
+2024-12-16 15:35:13.973420 [debug]: /buy_tickets
+2024-12-16 15:35:13.973476 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:35:13.973504 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:35:13.973559 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:35:42.726270 [info] : Client[18] quit!
+2024-12-16 15:35:42.726786 [info] : Client[18](127.0.0.1:44677) quit, UserCount:3
+2024-12-16 15:35:53.024598 [info] : Client[25] quit!
+2024-12-16 15:35:53.025213 [info] : Client[25](127.0.0.1:36504) quit, UserCount:2
+2024-12-16 15:35:53.378104 [info] : Client[24] quit!
+2024-12-16 15:35:53.378743 [info] : Client[24](127.0.0.1:34456) quit, UserCount:1
+2024-12-16 15:35:54.247837 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:35:54.247944 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets], [1.1]
+2024-12-16 15:35:54.247953 [debug]: /buy_tickets
+2024-12-16 15:35:54.248000 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:35:54.248005 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:35:54.248020 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:35:56.409365 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:35:56.409469 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets], [1.1]
+2024-12-16 15:35:56.409477 [debug]: /buy_tickets
+2024-12-16 15:35:56.409524 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:35:56.409528 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:35:56.409543 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:36:07.855359 [info] : Client[23] quit!
+2024-12-16 15:36:07.878564 [info] : Client[23](127.0.0.1:32408) quit, UserCount:0
+2024-12-16 15:36:13.105817 [info] : Client[18](127.0.0.1:50339) in, userCount:1
+2024-12-16 15:36:13.105965 [info] : Client[18] in!
+2024-12-16 15:36:13.110736 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 15:36:13.110874 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:36:13.111792 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 15:36:13.112485 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 15:36:13.118296 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:36:13.118444 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:36:13.118563 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:36:13.118685 [debug]: /index.html
+2024-12-16 15:36:13.118765 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:36:13.118864 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:36:13.118957 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:36:13.390247 [info] : Client[23](127.0.0.1:52899) in, userCount:2
+2024-12-16 15:36:13.390364 [info] : Client[23] in!
+2024-12-16 15:36:15.906821 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:36:15.906917 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets], [1.1]
+2024-12-16 15:36:15.906924 [debug]: /buy_tickets
+2024-12-16 15:36:15.906981 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:36:15.906986 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:36:15.906999 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:36:17.927655 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:36:17.927797 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets], [1.1]
+2024-12-16 15:36:17.927806 [debug]: /buy_tickets
+2024-12-16 15:36:17.927870 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:36:17.928054 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:36:17.928163 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:36:20.598504 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:36:20.598624 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets], [1.1]
+2024-12-16 15:36:20.598632 [debug]: /buy_tickets
+2024-12-16 15:36:20.598681 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:36:20.598708 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:36:20.598725 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:36:29.259602 [info] : Client[23] quit!
+2024-12-16 15:36:29.259779 [info] : Client[23](127.0.0.1:52899) quit, UserCount:1
+2024-12-16 15:36:29.260423 [info] : Client[18] quit!
+2024-12-16 15:36:29.260573 [info] : Client[18](127.0.0.1:50339) quit, UserCount:0
+2024-12-16 15:37:06.376269 [info] : Client[18](127.0.0.1:24211) in, userCount:1
+2024-12-16 15:37:06.376506 [info] : Client[18] in!
+2024-12-16 15:37:06.381898 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:37:06.382158 [debug]: [POST], [/buy_tickets?_=1734334627445], [1.1]
+2024-12-16 15:37:06.382303 [debug]: /buy_tickets?_=1734334627445
+2024-12-16 15:37:06.382471 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:37:06.382601 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:37:06.382942 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:37:11.479290 [debug]: Body:{"tickets":"13,14"}, len:19
+2024-12-16 15:37:11.479395 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets?_=1734334634436], [1.1]
+2024-12-16 15:37:11.479401 [debug]: /buy_tickets?_=1734334634436
+2024-12-16 15:37:11.479452 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:37:11.479457 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:37:11.479473 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:37:13.394443 [info] : Client[23] quit!
+2024-12-16 15:37:17.600435 [info] : Client[23](127.0.0.1:11446) in, userCount:2
+2024-12-16 15:37:17.600699 [info] : Client[23] in!
+2024-12-16 15:37:17.607306 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 15:37:17.607542 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:37:17.611853 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 15:37:17.613088 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 15:37:17.620576 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:37:17.620686 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:37:17.620704 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:37:17.620709 [debug]: /index.html
+2024-12-16 15:37:17.620730 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:37:17.620734 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:37:17.620752 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:37:17.885021 [info] : Client[24](127.0.0.1:15542) in, userCount:3
+2024-12-16 15:37:17.885148 [info] : Client[24] in!
+2024-12-16 15:37:20.633266 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:37:20.633371 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets], [1.1]
+2024-12-16 15:37:20.633379 [debug]: /buy_tickets
+2024-12-16 15:37:20.633430 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:37:20.633434 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:37:20.633450 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:37:40.489361 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:37:40.489471 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets], [1.1]
+2024-12-16 15:37:40.489480 [debug]: /buy_tickets
+2024-12-16 15:37:40.489528 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:37:40.489533 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:37:40.489548 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:37:46.144159 [debug]: [{"tickets":"1,2"}GET], [/css/shoupiao.css], [1.1]
+2024-12-16 15:37:46.144276 [debug]: /css/shoupiao.css
+2024-12-16 15:37:46.144345 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:37:46.144376 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 15:37:46.144396 [debug]: filesize:6662, 2  to 6836
+2024-12-16 15:38:11.510804 [info] : Client[18] quit!
+2024-12-16 15:38:11.511279 [info] : Client[18](127.0.0.1:24211) quit, UserCount:2
+2024-12-16 15:38:17.892181 [info] : Client[24] quit!
+2024-12-16 15:38:17.892366 [info] : Client[24](127.0.0.1:15542) quit, UserCount:1
+2024-12-16 15:38:46.149163 [info] : Client[23] quit!
+2024-12-16 15:38:46.149368 [info] : Client[23](127.0.0.1:11446) quit, UserCount:0
+2024-12-16 15:39:05.441738 [info] : Client[18](127.0.0.1:2270) in, userCount:1
+2024-12-16 15:39:05.441945 [info] : Client[18] in!
+2024-12-16 15:39:05.445706 [debug]: Body:{"tickets":"13,14"}, len:19
+2024-12-16 15:39:05.445776 [debug]: [POST], [/buy_tickets?_=1734334746533], [1.1]
+2024-12-16 15:39:05.445783 [debug]: /buy_tickets?_=1734334746533
+2024-12-16 15:39:05.445815 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:39:05.445819 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:39:05.445833 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:39:11.449631 [info] : Client[23](127.0.0.1:24779) in, userCount:2
+2024-12-16 15:39:11.450033 [info] : Client[23] in!
+2024-12-16 15:39:11.458476 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-16 15:39:11.458589 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-16 15:39:11.468413 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-16 15:39:11.469141 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-16 15:39:11.495977 [error]: Query failed: Table 'tinyserver.booking_records' doesn't exist
+2024-12-16 15:39:11.496127 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:39:11.496168 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 15:39:11.496174 [debug]: /index.html
+2024-12-16 15:39:11.496198 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:39:11.496219 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 15:39:11.496235 [debug]: filesize:6574, 2  to 6748
+2024-12-16 15:39:11.732151 [info] : Client[24](127.0.0.1:26827) in, userCount:3
+2024-12-16 15:39:11.732287 [info] : Client[24] in!
+2024-12-16 15:39:18.945729 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:39:18.945956 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets], [1.1]
+2024-12-16 15:39:18.946064 [debug]: /buy_tickets
+2024-12-16 15:39:18.946115 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:39:18.946201 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:39:18.946285 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:39:29.154284 [debug]: Body:{"tickets":"1,2"}, len:17
+2024-12-16 15:39:29.154414 [debug]: [{"tickets":"1,2"}POST], [/buy_tickets], [1.1]
+2024-12-16 15:39:29.154422 [debug]: /buy_tickets
+2024-12-16 15:39:29.154471 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:39:29.154475 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 15:39:29.154490 [debug]: filesize:2985, 2  to 3166
+2024-12-16 15:40:05.452050 [info] : Client[18] quit!
+2024-12-16 15:40:05.452368 [info] : Client[18](127.0.0.1:2270) quit, UserCount:2
+2024-12-16 15:40:11.732744 [info] : Client[24] quit!
+2024-12-16 15:40:11.733272 [info] : Client[24](127.0.0.1:26827) quit, UserCount:1
+2024-12-16 15:40:29.155393 [info] : Client[23] quit!
+2024-12-16 16:20:31.036091 [info] : ========== Server init ==========
+2024-12-16 16:20:31.036128 [info] : Port:8000, OpenLinger: false
+2024-12-16 16:20:31.036133 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 16:20:31.036136 [info] : LogSys level: 0
+2024-12-16 16:20:31.036140 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 16:20:31.036143 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 16:20:31.036146 [info] : ========== Server start ==========
+2024-12-16 16:20:35.117486 [info] : Client[18](127.0.0.1:26266) in, userCount:1
+2024-12-16 16:20:35.118336 [info] : Client[18] in!
+2024-12-16 16:20:35.120587 [info] : Client[23](127.0.0.1:30362) in, userCount:2
+2024-12-16 16:20:35.120691 [info] : Client[23] in!
+2024-12-16 16:20:35.120957 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 16:20:35.121106 [debug]: /index.html
+2024-12-16 16:20:35.121207 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:20:35.121264 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:20:35.121300 [debug]: filesize:6026, 2  to 6200
+2024-12-16 16:20:35.197121 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 16:20:35.197279 [debug]: /css/shoupiao.css
+2024-12-16 16:20:35.197373 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 16:20:35.197475 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 16:20:35.197565 [debug]: filesize:6867, 2  to 7041
+2024-12-16 16:20:35.201416 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 16:20:35.201608 [debug]: /js/shoupiao.js
+2024-12-16 16:20:35.201737 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 16:20:35.201810 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 16:20:35.201853 [debug]: filesize:5862, 2  to 6043
+2024-12-16 16:20:35.240043 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 16:20:35.240305 [debug]: /images/haiou.jpg
+2024-12-16 16:20:35.240531 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 16:20:35.240594 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 16:20:35.241638 [debug]: filesize:253755, 2  to 253932
+2024-12-16 16:20:35.310742 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 16:20:35.310943 [debug]: /fonts/lingli.ttf
+2024-12-16 16:20:35.311093 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 16:20:35.311140 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 16:20:35.311709 [debug]: filesize:2629764, 2  to 2629942
+2024-12-16 16:20:35.311824 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 16:20:35.311925 [debug]: /fonts/houbiwen.otf
+2024-12-16 16:20:35.312006 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 16:20:35.312136 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 16:20:35.312837 [debug]: filesize:53586408, 2  to 53586587
+2024-12-16 16:20:36.559966 [debug]: [GET], [/favicon.ico], [1.1]
+2024-12-16 16:20:36.560143 [debug]: /favicon.ico
+2024-12-16 16:20:36.561972 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:20:36.562106 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:20:36.562567 [debug]: filesize:2985, 2  to 3166
+2024-12-16 16:20:49.463390 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 16:20:49.463470 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 16:20:49.463476 [debug]: /index.html
+2024-12-16 16:20:49.463571 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:20:49.463604 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:20:49.463631 [debug]: filesize:6026, 2  to 6200
+2024-12-16 16:20:52.165865 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 16:20:52.165974 [debug]: [{"tickets":["1","2"]}POST], [/buy_tickets], [1.1]
+2024-12-16 16:20:52.165991 [debug]: /buy_tickets
+2024-12-16 16:20:52.166040 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:20:52.166054 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:20:52.166096 [debug]: filesize:2985, 2  to 3166
+2024-12-16 16:21:30.247837 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 16:21:30.248008 [debug]: [{"tickets":["1","2"]}POST], [/buy_tickets], [1.1]
+2024-12-16 16:21:30.248020 [debug]: /buy_tickets
+2024-12-16 16:21:30.248079 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:21:30.248116 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:21:30.248134 [debug]: filesize:2985, 2  to 3166
+2024-12-16 16:21:35.318189 [info] : Client[23] quit!
+2024-12-16 16:21:35.318543 [info] : Client[23](127.0.0.1:30362) quit, UserCount:1
+2024-12-16 16:21:51.514161 [info] : Client[18] quit!
+2024-12-16 16:42:38.232976 [info] : ========== Server init ==========
+2024-12-16 16:42:38.233054 [info] : Port:8000, OpenLinger: false
+2024-12-16 16:42:38.233099 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 16:42:38.233102 [info] : LogSys level: 0
+2024-12-16 16:42:38.233114 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 16:42:38.233117 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 16:42:38.233128 [info] : ========== Server start ==========
+2024-12-16 16:43:41.378399 [info] : Client[18](127.0.0.1:17103) in, userCount:1
+2024-12-16 16:43:41.379051 [info] : Client[18] in!
+2024-12-16 16:43:41.379416 [info] : Client[22](127.0.0.1:20175) in, userCount:2
+2024-12-16 16:43:41.379492 [info] : Client[22] in!
+2024-12-16 16:43:41.381276 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 16:43:41.381327 [debug]: /index.html
+2024-12-16 16:43:41.381457 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:43:41.381494 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:43:41.381841 [debug]: filesize:6026, 2  to 6200
+2024-12-16 16:43:41.462659 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 16:43:41.462762 [debug]: /css/shoupiao.css
+2024-12-16 16:43:41.462813 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 16:43:41.462846 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 16:43:41.463245 [debug]: filesize:6867, 2  to 7041
+2024-12-16 16:43:41.466972 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 16:43:41.467046 [debug]: /js/shoupiao.js
+2024-12-16 16:43:41.467065 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 16:43:41.467067 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 16:43:41.467479 [debug]: filesize:5862, 2  to 6043
+2024-12-16 16:43:41.474549 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 16:43:41.474820 [debug]: /images/haiou.jpg
+2024-12-16 16:43:41.474980 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 16:43:41.474991 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 16:43:41.475550 [debug]: filesize:253755, 2  to 253932
+2024-12-16 16:43:41.501083 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 16:43:41.501227 [debug]: /fonts/lingli.ttf
+2024-12-16 16:43:41.501324 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 16:43:41.501343 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 16:43:41.501617 [info] : Client[24](127.0.0.1:20687) in, userCount:3
+2024-12-16 16:43:41.501665 [info] : Client[24] in!
+2024-12-16 16:43:41.501832 [debug]: filesize:2629764, 2  to 2629942
+2024-12-16 16:43:41.503328 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 16:43:41.503388 [debug]: /fonts/houbiwen.otf
+2024-12-16 16:43:41.503407 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 16:43:41.503420 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 16:43:41.503934 [debug]: filesize:53586408, 2  to 53586587
+2024-12-16 16:43:42.486298 [debug]: [GET], [/favicon.ico], [1.1]
+2024-12-16 16:43:42.486540 [debug]: /favicon.ico
+2024-12-16 16:43:42.487200 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:43:42.487243 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:43:42.495920 [debug]: filesize:2985, 2  to 3166
+2024-12-16 16:43:59.284861 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 16:43:59.284977 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 16:43:59.284984 [debug]: /index.html
+2024-12-16 16:43:59.285031 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:43:59.285059 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:43:59.285076 [debug]: filesize:6026, 2  to 6200
+2024-12-16 16:44:05.887017 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 16:44:05.887117 [debug]: [{"tickets":["1","2"]}POST], [/buy_tickets], [1.1]
+2024-12-16 16:44:05.887124 [debug]: /buy_tickets
+2024-12-16 16:44:05.887208 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:44:05.887257 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:44:05.887271 [debug]: filesize:2985, 2  to 3166
+2024-12-16 16:44:15.141275 [debug]: [{"tickets":["2","3"]}GET], [/css/shoupiao.css], [1.1]
+2024-12-16 16:44:15.141442 [debug]: /css/shoupiao.css
+2024-12-16 16:44:15.141529 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 16:44:15.141552 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 16:44:15.141567 [debug]: filesize:6867, 2  to 7041
+2024-12-16 16:44:17.099018 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 16:44:17.099111 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 16:44:17.099117 [debug]: /index.html
+2024-12-16 16:44:17.099158 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:44:17.099183 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:44:17.099198 [debug]: filesize:6026, 2  to 6200
+2024-12-16 16:44:20.091899 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 16:44:20.092223 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 16:44:20.092351 [debug]: /buy_tickets
+2024-12-16 16:44:20.092422 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:44:20.092428 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:44:20.092443 [debug]: filesize:2985, 2  to 3166
+2024-12-16 16:44:41.487271 [info] : Client[18] quit!
+2024-12-16 16:44:41.487585 [info] : Client[18](127.0.0.1:17103) quit, UserCount:2
+2024-12-16 16:44:41.502385 [info] : Client[22] quit!
+2024-12-16 16:44:41.502837 [info] : Client[22](127.0.0.1:20175) quit, UserCount:1
+2024-12-16 16:45:20.095374 [info] : Client[24] quit!
+2024-12-16 16:45:20.095594 [info] : Client[24](127.0.0.1:20687) quit, UserCount:0
+2024-12-16 16:47:12.051821 [info] : Client[18](127.0.0.1:19169) in, userCount:1
+2024-12-16 16:47:12.051978 [info] : Client[18] in!
+2024-12-16 16:47:12.054777 [debug]: Body:{"tickets":["2","3","4"]}, len:25
+2024-12-16 16:47:12.054828 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 16:47:12.054832 [debug]: /index.html
+2024-12-16 16:47:12.054847 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:47:12.054930 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:47:12.054944 [debug]: filesize:6026, 2  to 6200
+2024-12-16 16:47:17.349827 [debug]: Body:{"tickets":["2","3","4","18"]}, len:30
+2024-12-16 16:47:17.350033 [debug]: [{"tickets":["2","3","4"]}POST], [/buy_tickets], [1.1]
+2024-12-16 16:47:17.350142 [debug]: /buy_tickets
+2024-12-16 16:47:17.350212 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:47:17.350244 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:47:17.350261 [debug]: filesize:2985, 2  to 3166
+2024-12-16 16:47:30.055202 [debug]: Body:{"tickets":["2","3","4","18"]}, len:30
+2024-12-16 16:47:30.055393 [debug]: [{"tickets":["2","3","4","18"]}POST], [/buy_tickets], [1.1]
+2024-12-16 16:47:30.055423 [debug]: /buy_tickets
+2024-12-16 16:47:30.055500 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:47:30.055678 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:47:30.055750 [debug]: filesize:2985, 2  to 3166
+2024-12-16 16:48:30.062835 [info] : Client[18] quit!
+2024-12-16 16:48:30.063333 [info] : Client[18](127.0.0.1:19169) quit, UserCount:0
+2024-12-16 16:51:32.047462 [info] : Client[18](127.0.0.1:52412) in, userCount:1
+2024-12-16 16:51:32.049557 [info] : Client[18] in!
+2024-12-16 16:51:32.053378 [debug]: Body:{"tickets":["2","3","4","18"]}, len:30
+2024-12-16 16:51:32.053432 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 16:51:32.053436 [debug]: /index.html
+2024-12-16 16:51:32.053451 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:51:32.053453 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:51:32.053705 [debug]: filesize:6026, 2  to 6200
+2024-12-16 16:51:35.620251 [debug]: Body:{"tickets":["2","3","4","18"]}, len:30
+2024-12-16 16:51:35.620405 [debug]: [{"tickets":["2","3","4","18"]}POST], [/buy_tickets], [1.1]
+2024-12-16 16:51:35.620435 [debug]: /buy_tickets
+2024-12-16 16:51:35.620495 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:51:35.620545 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:51:35.625099 [debug]: filesize:2985, 2  to 3166
+2024-12-16 16:52:35.637226 [info] : Client[18] quit!
+2024-12-16 16:52:35.637739 [info] : Client[18](127.0.0.1:52412) quit, UserCount:0
+2024-12-16 16:53:26.199949 [info] : Client[18](127.0.0.1:4838) in, userCount:1
+2024-12-16 16:53:26.201479 [info] : Client[18] in!
+2024-12-16 16:53:26.203449 [debug]: Body:{"tickets":["2","3","4","18"]}, len:30
+2024-12-16 16:53:26.203482 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 16:53:26.203486 [debug]: /index.html
+2024-12-16 16:53:26.203501 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:53:26.203503 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:53:26.203935 [debug]: filesize:6026, 2  to 6200
+2024-12-16 16:53:45.249887 [debug]: Body:{"tickets":["2","3","4","18"]}, len:30
+2024-12-16 16:53:45.250119 [debug]: [{"tickets":["2","3","4","18"]}POST], [/buy_tickets], [1.1]
+2024-12-16 16:53:45.250240 [debug]: /buy_tickets
+2024-12-16 16:53:45.250359 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:53:45.250390 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:53:59.644649 [info] : ========== Server init ==========
+2024-12-16 16:53:59.644709 [info] : Port:8000, OpenLinger: false
+2024-12-16 16:53:59.644756 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 16:53:59.644760 [info] : LogSys level: 0
+2024-12-16 16:53:59.644771 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 16:53:59.644774 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 16:53:59.644835 [info] : ========== Server start ==========
+2024-12-16 16:54:06.512207 [info] : Client[18](127.0.0.1:63206) in, userCount:1
+2024-12-16 16:54:06.512353 [info] : Client[18] in!
+2024-12-16 16:54:06.512794 [info] : Client[22](127.0.0.1:64742) in, userCount:2
+2024-12-16 16:54:06.512952 [info] : Client[22] in!
+2024-12-16 16:54:06.514234 [debug]: [GET], [/index.html], [1.1]
+2024-12-16 16:54:06.516299 [debug]: /index.html
+2024-12-16 16:54:06.516494 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:54:06.516510 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:54:06.516521 [debug]: filesize:6026, 2  to 6200
+2024-12-16 16:54:06.533408 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 16:54:06.533687 [debug]: /css/shoupiao.css
+2024-12-16 16:54:06.533775 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 16:54:06.533794 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 16:54:06.534187 [debug]: filesize:6867, 2  to 7041
+2024-12-16 16:54:06.534797 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 16:54:06.534862 [debug]: /js/shoupiao.js
+2024-12-16 16:54:06.534886 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 16:54:06.534986 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 16:54:06.535652 [debug]: filesize:5862, 2  to 6043
+2024-12-16 16:54:06.776792 [info] : Client[23](127.0.0.1:1255) in, userCount:3
+2024-12-16 16:54:06.776860 [info] : Client[23] in!
+2024-12-16 16:54:06.939806 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 16:54:06.940089 [debug]: /images/haiou.jpg
+2024-12-16 16:54:06.940217 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 16:54:06.940284 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 16:54:06.940679 [debug]: filesize:253755, 2  to 253932
+2024-12-16 16:54:06.962198 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 16:54:06.962267 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 16:54:06.962308 [debug]: /fonts/lingli.ttf
+2024-12-16 16:54:06.962317 [debug]: /fonts/houbiwen.otf
+2024-12-16 16:54:06.962375 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 16:54:06.962383 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 16:54:06.962388 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 16:54:06.962417 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 16:54:06.962959 [debug]: filesize:2629764, 2  to 2629942
+2024-12-16 16:54:06.962966 [debug]: filesize:53586408, 2  to 53586587
+2024-12-16 16:54:07.737800 [debug]: [GET], [/favicon.ico], [1.1]
+2024-12-16 16:54:07.737970 [debug]: /favicon.ico
+2024-12-16 16:54:07.738825 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:54:07.738985 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:54:07.739189 [debug]: filesize:2985, 2  to 3166
+2024-12-16 16:54:27.278834 [debug]: Body:{"tickets":["17"]}, len:18
+2024-12-16 16:54:27.278936 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 16:54:27.278944 [debug]: /index.html
+2024-12-16 16:54:27.278993 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:54:27.279022 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:54:27.279039 [debug]: filesize:6026, 2  to 6200
+2024-12-16 16:55:06.787514 [info] : Client[23] quit!
+2024-12-16 16:55:06.788184 [info] : Client[23](127.0.0.1:1255) quit, UserCount:2
+2024-12-16 16:55:06.966563 [info] : Client[22] quit!
+2024-12-16 16:55:06.966953 [info] : Client[22](127.0.0.1:64742) quit, UserCount:1
+2024-12-16 16:55:09.201823 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 16:55:09.201945 [debug]: [{"tickets":["17"]}POST], [/buy_tickets], [1.1]
+2024-12-16 16:55:09.201953 [debug]: /buy_tickets
+2024-12-16 16:55:09.202010 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:55:09.202040 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 16:55:09.206869 [debug]: filesize:2985, 2  to 3166
+2024-12-16 16:55:26.679340 [info] : Client[22](127.0.0.1:12003) in, userCount:2
+2024-12-16 16:55:26.679538 [info] : Client[22] in!
+2024-12-16 16:55:26.682695 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 16:55:26.682737 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 16:55:26.682741 [debug]: /index.html
+2024-12-16 16:55:26.682755 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:55:26.682761 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 16:55:26.682772 [debug]: filesize:6026, 2  to 6200
+2024-12-16 16:56:09.209797 [info] : Client[18] quit!
+2024-12-16 16:56:09.210064 [info] : Client[18](127.0.0.1:63206) quit, UserCount:1
+2024-12-16 16:56:26.690445 [info] : Client[22] quit!
+2024-12-16 16:56:42.375525 [info] : ========== Server init ==========
+2024-12-16 16:56:42.375634 [info] : Port:8000, OpenLinger: false
+2024-12-16 16:56:42.375714 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 16:56:42.375728 [info] : LogSys level: 0
+2024-12-16 16:56:42.375731 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 16:56:42.375743 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 16:56:42.375746 [info] : ========== Server start ==========
+2024-12-16 16:56:52.256816 [info] : Client[18](127.0.0.1:40133) in, userCount:1
+2024-12-16 16:57:26.550269 [info] : ========== Server init ==========
+2024-12-16 16:57:26.550288 [info] : Port:8000, OpenLinger: false
+2024-12-16 16:57:26.550291 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 16:57:26.550338 [info] : LogSys level: 0
+2024-12-16 16:57:26.550426 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 16:57:26.550442 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 16:57:26.550446 [info] : ========== Server start ==========
+2024-12-16 16:57:37.322263 [info] : Client[18](127.0.0.1:3763) in, userCount:1
+2024-12-16 16:58:08.176965 [info] : ========== Server init ==========
+2024-12-16 16:58:08.177037 [info] : Port:8000, OpenLinger: false
+2024-12-16 16:58:08.177077 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 16:58:08.177087 [info] : LogSys level: 0
+2024-12-16 16:58:08.177089 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 16:58:08.177090 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 16:58:08.177092 [info] : ========== Server start ==========
+2024-12-16 16:58:13.772030 [info] : Client[18](127.0.0.1:60568) in, userCount:1
+2024-12-16 16:58:13.772137 [info] : Client[18] in!
+2024-12-16 16:58:21.771322 [info] : Client[22](127.0.0.1:63128) in, userCount:2
+2024-12-16 17:00:11.083680 [info] : ========== Server init ==========
+2024-12-16 17:00:11.083725 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:00:11.083770 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:00:11.084864 [info] : LogSys level: 0
+2024-12-16 17:00:11.084977 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:00:11.085091 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:00:11.085141 [info] : ========== Server start ==========
+2024-12-16 17:00:11.392410 [info] : Client[18](127.0.0.1:61588) in, userCount:1
+2024-12-16 17:00:11.392561 [info] : Client[18] in!
+2024-12-16 17:02:19.685091 [info] : ========== Server init ==========
+2024-12-16 17:02:19.685111 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:02:19.685114 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:02:19.685116 [info] : LogSys level: 0
+2024-12-16 17:02:19.685159 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:02:19.685162 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:02:19.685165 [info] : ========== Server start ==========
+2024-12-16 17:02:20.798720 [info] : Client[18](127.0.0.1:44745) in, userCount:1
+2024-12-16 17:02:20.799009 [info] : Client[18] in!
+2024-12-16 17:02:26.413755 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 17:02:26.413989 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:02:26.414104 [debug]: /index.html
+2024-12-16 17:02:26.414230 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:02:26.414344 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:02:26.418820 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:02:35.870614 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 17:02:35.870947 [debug]: [{"tickets":["1","2"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:02:35.871183 [debug]: /buy_tickets
+2024-12-16 17:02:35.871251 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:02:35.871310 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:10:08.581131 [info] : ========== Server init ==========
+2024-12-16 17:10:08.581150 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:10:08.581153 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:10:08.581155 [info] : LogSys level: 0
+2024-12-16 17:10:08.581157 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:10:08.581200 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:10:08.581203 [info] : ========== Server start ==========
+2024-12-16 17:10:15.602749 [info] : Client[18](127.0.0.1:41620) in, userCount:1
+2024-12-16 17:10:15.609295 [info] : Client[18] in!
+2024-12-16 17:10:15.614136 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 17:10:15.614288 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:10:15.614373 [debug]: /index.html
+2024-12-16 17:10:15.614435 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:10:15.614441 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:10:15.615071 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:10:15.885726 [info] : Client[22](127.0.0.1:43668) in, userCount:2
+2024-12-16 17:10:15.885815 [info] : Client[22] in!
+2024-12-16 17:10:18.117825 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 17:10:18.117907 [debug]: [{"tickets":["1","2"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:10:18.117912 [debug]: /buy_tickets
+2024-12-16 17:10:18.117941 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:10:18.117958 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:10:18.122422 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:11:15.888828 [info] : Client[22] quit!
+2024-12-16 17:11:15.894400 [info] : Client[22](127.0.0.1:43668) quit, UserCount:1
+2024-12-16 17:11:18.126569 [info] : Client[18] quit!
+2024-12-16 17:11:18.127051 [info] : Client[18](127.0.0.1:41620) quit, UserCount:0
+2024-12-16 17:13:12.794621 [info] : Client[18](127.0.0.1:40076) in, userCount:1
+2024-12-16 17:13:12.794720 [info] : Client[18] in!
+2024-12-16 17:13:12.796768 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 17:13:12.796900 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:13:12.796910 [debug]: /index.html
+2024-12-16 17:13:12.796961 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:13:12.796977 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:13:12.797269 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:13:13.181988 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 17:13:13.182198 [debug]: [{"tickets":["1","2"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:13:13.182261 [debug]: /buy_tickets
+2024-12-16 17:13:13.182319 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:13:13.182349 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:13:13.182366 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:13:16.124299 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 17:13:16.124480 [debug]: [{"tickets":["1","2"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:13:16.124514 [debug]: /buy_tickets
+2024-12-16 17:13:16.124590 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:13:16.124654 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:13:16.124803 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:13:27.903198 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-16 17:13:27.903411 [debug]: [{"tickets":["1","2"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:13:27.908227 [debug]: /buy_tickets
+2024-12-16 17:13:27.908336 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:13:27.908500 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:13:27.908694 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:13:34.055079 [debug]: [{"tickets":["1","2"]}GET], [/index.html], [1.1]
+2024-12-16 17:13:34.055219 [debug]: /index.html
+2024-12-16 17:13:34.055258 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:13:34.055276 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:13:34.055287 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:13:34.056143 [info] : Client[22](127.0.0.1:48851) in, userCount:2
+2024-12-16 17:13:34.056238 [info] : Client[22] in!
+2024-12-16 17:13:34.089039 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 17:13:34.089246 [debug]: /css/shoupiao.css
+2024-12-16 17:13:34.089339 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 17:13:34.089358 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 17:13:34.092923 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 17:13:34.093006 [debug]: /js/shoupiao.js
+2024-12-16 17:13:34.093119 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 17:13:34.093284 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 17:13:34.093501 [debug]: filesize:5768, 2  to 5949
+2024-12-16 17:13:34.094120 [debug]: filesize:6867, 2  to 7041
+2024-12-16 17:13:34.101477 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-16 17:13:34.101576 [debug]: /images/haiou.jpg
+2024-12-16 17:13:34.101623 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 17:13:34.101641 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-16 17:13:34.102180 [debug]: filesize:253755, 2  to 253932
+2024-12-16 17:13:34.127220 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-16 17:13:34.127333 [info] : Client[23](127.0.0.1:50899) in, userCount:3
+2024-12-16 17:13:34.127401 [info] : Client[23] in!
+2024-12-16 17:13:34.127473 [debug]: /fonts/lingli.ttf
+2024-12-16 17:13:34.127615 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 17:13:34.127737 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-16 17:13:34.128343 [debug]: filesize:2629764, 2  to 2629942
+2024-12-16 17:13:34.129004 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-16 17:13:34.129040 [debug]: /fonts/houbiwen.otf
+2024-12-16 17:13:34.129113 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 17:13:34.129178 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-16 17:13:34.129757 [debug]: filesize:53586408, 2  to 53586587
+2024-12-16 17:13:51.802437 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:13:51.802534 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:13:51.802542 [debug]: /index.html
+2024-12-16 17:13:51.803583 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:13:51.803649 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:13:51.803667 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:13:56.204523 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:13:56.204839 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:13:56.204947 [debug]: /buy_tickets
+2024-12-16 17:13:56.205021 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:13:56.205049 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:13:56.205067 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:14:34.105864 [info] : Client[18] quit!
+2024-12-16 17:14:34.106232 [info] : Client[18](127.0.0.1:40076) quit, UserCount:2
+2024-12-16 17:14:34.129243 [info] : Client[22] quit!
+2024-12-16 17:14:34.129633 [info] : Client[22](127.0.0.1:48851) quit, UserCount:1
+2024-12-16 17:14:56.213789 [info] : Client[23] quit!
+2024-12-16 17:20:05.530416 [info] : ========== Server init ==========
+2024-12-16 17:20:05.530434 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:20:05.530437 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:20:05.530438 [info] : LogSys level: 0
+2024-12-16 17:20:05.530440 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:20:05.530509 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:20:05.530513 [info] : ========== Server start ==========
+2024-12-16 17:20:11.486976 [info] : Client[18](127.0.0.1:49821) in, userCount:1
+2024-12-16 17:21:47.700335 [info] : ========== Server init ==========
+2024-12-16 17:21:47.700355 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:21:47.700358 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:21:47.700400 [info] : LogSys level: 0
+2024-12-16 17:21:47.700403 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:21:47.700414 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:21:47.700417 [info] : ========== Server start ==========
+2024-12-16 17:21:50.349079 [info] : Client[18](127.0.0.1:21720) in, userCount:1
+2024-12-16 17:21:50.350171 [info] : Client[18] in!
+2024-12-16 17:22:51.102598 [info] : Client[18] quit!
+2024-12-16 17:24:46.751754 [info] : ========== Server init ==========
+2024-12-16 17:24:46.751774 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:24:46.751777 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:24:46.751779 [info] : LogSys level: 0
+2024-12-16 17:24:46.751780 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:24:46.751829 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:24:46.752544 [info] : ========== Server start ==========
+2024-12-16 17:24:52.306707 [info] : Client[18](127.0.0.1:40679) in, userCount:1
+2024-12-16 17:24:52.306833 [info] : Client[18] in!
+2024-12-16 17:26:43.612368 [info] : Client[18] quit!
+2024-12-16 17:27:13.763235 [info] : ========== Server init ==========
+2024-12-16 17:27:13.763282 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:27:13.763465 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:27:13.763535 [info] : LogSys level: 0
+2024-12-16 17:27:13.763602 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:27:13.763655 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:27:13.763711 [info] : ========== Server start ==========
+2024-12-16 17:27:20.041141 [info] : Client[18](127.0.0.1:52431) in, userCount:1
+2024-12-16 17:27:20.041332 [info] : Client[18] in!
+2024-12-16 17:27:20.044310 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:27:20.044347 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:27:20.044351 [debug]: /index.html
+2024-12-16 17:27:20.044368 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:27:20.044370 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:27:20.044955 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:27:23.525179 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:27:23.525285 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:27:23.525293 [debug]: /buy_tickets
+2024-12-16 17:27:23.525340 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:27:23.525370 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:27:23.526769 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:27:25.595699 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:27:25.595802 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:27:25.595812 [debug]: /buy_tickets
+2024-12-16 17:27:25.595859 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:27:25.595889 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:27:25.595903 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:28:25.620516 [info] : Client[18] quit!
+2024-12-16 17:30:59.562796 [info] : ========== Server init ==========
+2024-12-16 17:30:59.562840 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:30:59.562852 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:30:59.562898 [info] : LogSys level: 0
+2024-12-16 17:30:59.563061 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:30:59.563175 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:30:59.563235 [info] : ========== Server start ==========
+2024-12-16 17:31:18.400123 [info] : Client[18](127.0.0.1:50373) in, userCount:1
+2024-12-16 17:31:18.400256 [info] : Client[18] in!
+2024-12-16 17:32:11.616375 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:32:17.109941 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:32:18.923730 [info] : Client[18] quit!
+2024-12-16 17:32:18.923874 [info] : Client[18](127.0.0.1:50373) quit, UserCount:0
+2024-12-16 17:32:23.676130 [debug]: /index.html
+2024-12-16 17:32:26.952793 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:32:26.952850 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:32:32.104637 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:33:37.586488 [info] : ========== Server init ==========
+2024-12-16 17:33:37.586532 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:33:37.586577 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:33:37.586585 [info] : LogSys level: 0
+2024-12-16 17:33:37.586587 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:33:37.586589 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:33:37.586590 [info] : ========== Server start ==========
+2024-12-16 17:33:39.530135 [info] : Client[18](127.0.0.1:45213) in, userCount:1
+2024-12-16 17:33:39.530222 [info] : Client[18] in!
+2024-12-16 17:33:42.780749 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:33:42.780858 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:33:42.780868 [debug]: /index.html
+2024-12-16 17:33:42.780912 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:33:42.780944 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:33:42.780965 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:33:46.005658 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:33:46.005745 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:33:46.005750 [debug]: /buy_tickets
+2024-12-16 17:33:46.005785 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:34:06.759802 [info] : ========== Server init ==========
+2024-12-16 17:34:06.759825 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:34:06.759829 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:34:06.759830 [info] : LogSys level: 0
+2024-12-16 17:34:06.759832 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:34:06.759883 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:34:06.759980 [info] : ========== Server start ==========
+2024-12-16 17:34:15.702061 [info] : Client[18](127.0.0.1:38118) in, userCount:1
+2024-12-16 17:34:15.702141 [info] : Client[18] in!
+2024-12-16 17:38:54.871043 [info] : ========== Server init ==========
+2024-12-16 17:38:54.871052 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:38:54.871092 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:38:54.871095 [info] : LogSys level: 0
+2024-12-16 17:38:54.871097 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:38:54.871099 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:38:54.871111 [info] : ========== Server start ==========
+2024-12-16 17:38:59.293379 [info] : Client[18](127.0.0.1:18591) in, userCount:1
+2024-12-16 17:38:59.293641 [info] : Client[18] in!
+2024-12-16 17:39:13.572630 [info] : ========== Server init ==========
+2024-12-16 17:39:13.572648 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:39:13.572651 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:39:13.572653 [info] : LogSys level: 0
+2024-12-16 17:39:13.572655 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:39:13.572704 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:39:13.572723 [info] : ========== Server start ==========
+2024-12-16 17:39:18.139992 [info] : Client[18](127.0.0.1:47330) in, userCount:1
+2024-12-16 17:39:18.140245 [info] : Client[18] in!
+2024-12-16 17:39:34.163612 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:39:34.163713 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:39:34.163724 [debug]: /index.html
+2024-12-16 17:39:34.163770 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:39:34.163775 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:39:34.163794 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:40:43.073012 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:40:43.073100 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:40:43.073127 [debug]: /buy_tickets
+2024-12-16 17:41:20.302683 [info] : ========== Server init ==========
+2024-12-16 17:41:20.302733 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:41:20.302779 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:41:20.302799 [info] : LogSys level: 0
+2024-12-16 17:41:20.302802 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:41:20.302806 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:41:20.302840 [info] : ========== Server start ==========
+2024-12-16 17:41:26.255535 [info] : Client[18](127.0.0.1:27778) in, userCount:1
+2024-12-16 17:41:26.255580 [info] : Client[18] in!
+2024-12-16 17:41:29.867828 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:41:29.868001 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:41:29.868082 [debug]: /index.html
+2024-12-16 17:41:29.868149 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:41:29.868305 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:41:29.868359 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:41:39.976891 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:41:39.977126 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:41:39.977175 [debug]: /buy_tickets
+2024-12-16 17:41:39.977248 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:41:39.977306 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:41:39.977354 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:41:49.758824 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:41:49.758927 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:41:49.758936 [debug]: /buy_tickets
+2024-12-16 17:41:49.758986 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:41:49.759018 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:41:49.759035 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:42:24.862542 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:42:24.862849 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:42:24.863027 [debug]: /buy_tickets
+2024-12-16 17:42:24.863107 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:42:53.466140 [info] : ========== Server init ==========
+2024-12-16 17:42:53.466159 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:42:53.466162 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:42:53.466164 [info] : LogSys level: 0
+2024-12-16 17:42:53.466165 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:42:53.466212 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:42:53.466215 [info] : ========== Server start ==========
+2024-12-16 17:43:15.817232 [info] : Client[18](127.0.0.1:42192) in, userCount:1
+2024-12-16 17:43:15.817287 [info] : Client[18] in!
+2024-12-16 17:43:21.246269 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:43:21.246338 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:43:21.246344 [debug]: /index.html
+2024-12-16 17:43:21.246421 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:43:21.246448 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:43:21.246464 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:43:38.438134 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:43:38.438240 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:43:38.438249 [debug]: /buy_tickets
+2024-12-16 17:43:38.438291 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:43:38.438320 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:43:38.438333 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:45:00.032963 [info] : Client[22](127.0.0.1:40158) in, userCount:2
+2024-12-16 17:45:00.033077 [info] : Client[22] in!
+2024-12-16 17:45:01.099766 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:45:01.099881 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:45:01.099970 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:45:01.100041 [debug]: /index.html
+2024-12-16 17:45:01.100078 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:45:01.100114 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:45:01.100131 [debug]: /buy_tickets
+2024-12-16 17:45:01.100158 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:45:01.100170 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:45:01.100189 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:45:01.100203 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:45:01.100211 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:45:12.949318 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:45:12.949416 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:45:12.949423 [debug]: /buy_tickets
+2024-12-16 17:45:12.949473 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:45:12.949501 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:45:46.322797 [info] : ========== Server init ==========
+2024-12-16 17:45:46.322841 [info] : Port:8000, OpenLinger: false
+2024-12-16 17:45:46.322889 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-16 17:45:46.323079 [info] : LogSys level: 0
+2024-12-16 17:45:46.323175 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-16 17:45:46.323266 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-16 17:45:46.323338 [info] : ========== Server start ==========
+2024-12-16 17:45:50.512192 [info] : Client[18](127.0.0.1:25273) in, userCount:1
+2024-12-16 17:45:50.512408 [info] : Client[18] in!
+2024-12-16 17:45:51.310341 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:45:51.310423 [debug]: [POST], [/index.html], [1.1]
+2024-12-16 17:45:51.310430 [debug]: /index.html
+2024-12-16 17:45:51.310457 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:45:51.310482 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:45:51.310498 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:45:59.523319 [debug]: Body:{"tickets":["2","3"]}, len:21
+2024-12-16 17:45:59.523382 [debug]: [{"tickets":["2","3"]}POST], [/buy_tickets], [1.1]
+2024-12-16 17:45:59.523387 [debug]: /buy_tickets
+2024-12-16 17:45:59.523414 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:45:59.523430 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-16 17:45:59.523440 [debug]: filesize:2985, 2  to 3166
+2024-12-16 17:46:27.074504 [info] : Client[22](127.0.0.1:49875) in, userCount:2
+2024-12-16 17:46:27.074818 [info] : Client[22] in!
+2024-12-16 17:46:27.077070 [debug]: [{"tickets":["2","3"]}GET], [/index.html], [1.1]
+2024-12-16 17:46:27.077207 [debug]: /index.html
+2024-12-16 17:46:27.077365 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:46:27.077415 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-16 17:46:27.077433 [debug]: filesize:6026, 2  to 6200
+2024-12-16 17:46:28.407971 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-16 17:46:28.408103 [debug]: /css/shoupiao.css
+2024-12-16 17:46:28.408186 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 17:46:28.408285 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-16 17:46:28.408502 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-16 17:46:28.408626 [debug]: /js/shoupiao.js
+2024-12-16 17:46:28.408742 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-16 17:46:28.408851 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js

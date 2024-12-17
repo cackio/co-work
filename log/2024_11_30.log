@@ -1,0 +1,2215 @@
+2024-11-30 20:23:25.574159 [info] : ========== Server init ==========
+2024-11-30 20:23:25.574264 [info] : Port:80, OpenLinger: false
+2024-11-30 20:23:25.574273 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-30 20:23:25.574277 [info] : LogSys level: 1
+2024-11-30 20:23:25.574280 [info] : srcDir: /root/ticketsserver/task3-tinyserver/tiny_webserver/resources/
+2024-11-30 20:23:25.574284 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-11-30 20:23:25.574293 [info] : ========== Server start ==========
+2024-11-30 20:23:50.343795 [info] : Client[6](113.54.243.158:23014) in, userCount:1
+2024-11-30 20:23:50.343938 [info] : Client[6] in!
+2024-11-30 20:23:50.347679 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//index.html
+2024-11-30 20:23:50.348536 [info] : Client[6] quit!
+2024-11-30 20:23:50.348685 [info] : Client[6](113.54.243.158:23014) quit, UserCount:0
+2024-11-30 20:23:50.531467 [info] : Client[6](113.54.243.158:23270) in, userCount:1
+2024-11-30 20:23:50.531561 [info] : Client[6] in!
+2024-11-30 20:23:50.533730 [info] : Client[7](113.54.243.158:24806) in, userCount:2
+2024-11-30 20:23:50.533851 [info] : Client[7] in!
+2024-11-30 20:23:50.533948 [info] : Client[8](113.54.243.158:25062) in, userCount:3
+2024-11-30 20:23:50.533990 [info] : Client[8] in!
+2024-11-30 20:23:50.534002 [info] : Client[9](113.54.243.158:25830) in, userCount:4
+2024-11-30 20:23:50.534010 [info] : Client[9] in!
+2024-11-30 20:23:50.534018 [info] : Client[10](113.54.243.158:25318) in, userCount:5
+2024-11-30 20:23:50.534036 [info] : Client[10] in!
+2024-11-30 20:23:50.534052 [info] : Client[11](113.54.243.158:25574) in, userCount:6
+2024-11-30 20:23:50.534070 [info] : Client[11] in!
+2024-11-30 20:23:50.537984 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:23:50.538190 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:23:50.537943 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:23:50.538544 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:23:50.538712 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:23:50.539253 [info] : Client[9] quit!
+2024-11-30 20:23:50.539343 [info] : Client[8] quit!
+2024-11-30 20:23:50.539389 [info] : Client[9](113.54.243.158:25830) quit, UserCount:5
+2024-11-30 20:23:50.539407 [info] : Client[8](113.54.243.158:25062) quit, UserCount:4
+2024-11-30 20:23:50.539739 [info] : Client[6] quit!
+2024-11-30 20:23:50.539815 [info] : Client[6](113.54.243.158:23270) quit, UserCount:3
+2024-11-30 20:23:50.539887 [info] : Client[11] quit!
+2024-11-30 20:23:50.539915 [info] : Client[11](113.54.243.158:25574) quit, UserCount:2
+2024-11-30 20:23:50.540160 [info] : Client[7] quit!
+2024-11-30 20:23:50.540218 [info] : Client[7](113.54.243.158:24806) quit, UserCount:1
+2024-11-30 20:23:50.540637 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:23:50.541895 [info] : Client[10] quit!
+2024-11-30 20:23:50.542002 [info] : Client[10](113.54.243.158:25318) quit, UserCount:0
+2024-11-30 20:23:51.409506 [info] : Client[6](113.54.243.158:27366) in, userCount:1
+2024-11-30 20:23:51.409598 [info] : Client[6] in!
+2024-11-30 20:23:51.412518 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:23:51.418726 [info] : Client[7](113.54.243.158:28134) in, userCount:2
+2024-11-30 20:23:51.418843 [info] : Client[7] in!
+2024-11-30 20:23:51.418885 [info] : Client[8](113.54.243.158:28646) in, userCount:3
+2024-11-30 20:23:51.418902 [info] : Client[8] in!
+2024-11-30 20:23:51.418911 [info] : Client[9](113.54.243.158:28902) in, userCount:4
+2024-11-30 20:23:51.418919 [info] : Client[9] in!
+2024-11-30 20:23:51.418928 [info] : Client[10](113.54.243.158:27878) in, userCount:5
+2024-11-30 20:23:51.418960 [info] : Client[10] in!
+2024-11-30 20:23:51.420898 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:23:51.421056 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:23:51.422999 [info] : Client[7] quit!
+2024-11-30 20:23:51.423065 [info] : Client[7](113.54.243.158:28134) quit, UserCount:4
+2024-11-30 20:23:51.423087 [info] : Client[8] quit!
+2024-11-30 20:23:51.423111 [info] : Client[8](113.54.243.158:28646) quit, UserCount:3
+2024-11-30 20:23:51.423264 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:23:51.423301 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:23:51.424133 [info] : Client[9] quit!
+2024-11-30 20:23:51.424208 [info] : Client[9](113.54.243.158:28902) quit, UserCount:2
+2024-11-30 20:23:51.424380 [info] : Client[10] quit!
+2024-11-30 20:23:51.424430 [info] : Client[10](113.54.243.158:27878) quit, UserCount:1
+2024-11-30 20:23:51.574662 [info] : Client[7](113.54.243.158:29414) in, userCount:2
+2024-11-30 20:23:51.574739 [info] : Client[7] in!
+2024-11-30 20:23:51.576482 [info] : Client[8](113.54.243.158:29158) in, userCount:3
+2024-11-30 20:23:51.576588 [info] : Client[8] in!
+2024-11-30 20:23:51.578541 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:23:51.578732 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:23:51.579396 [info] : Client[7] quit!
+2024-11-30 20:23:51.579449 [info] : Client[7](113.54.243.158:29414) quit, UserCount:2
+2024-11-30 20:23:51.579626 [info] : Client[8] quit!
+2024-11-30 20:23:51.579688 [info] : Client[8](113.54.243.158:29158) quit, UserCount:1
+2024-11-30 20:23:59.244336 [info] : Client[6] quit!
+2024-11-30 20:23:59.244518 [info] : Client[6](113.54.243.158:27366) quit, UserCount:0
+2024-11-30 20:24:00.579700 [info] : Client[6](113.54.243.158:31206) in, userCount:1
+2024-11-30 20:24:00.579777 [info] : Client[6] in!
+2024-11-30 20:24:00.583932 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/favicon.ico
+2024-11-30 20:24:00.585204 [info] : Client[6] quit!
+2024-11-30 20:24:00.585302 [info] : Client[6](113.54.243.158:31206) quit, UserCount:0
+2024-11-30 20:24:03.199018 [info] : Client[6](113.54.243.158:31974) in, userCount:1
+2024-11-30 20:24:03.199160 [info] : Client[6] in!
+2024-11-30 20:24:03.201386 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//picture.html
+2024-11-30 20:24:03.202291 [info] : Client[6] quit!
+2024-11-30 20:24:03.202363 [info] : Client[6](113.54.243.158:31974) quit, UserCount:0
+2024-11-30 20:24:03.379977 [info] : Client[6](113.54.243.158:32230) in, userCount:1
+2024-11-30 20:24:03.380073 [info] : Client[6] in!
+2024-11-30 20:24:03.382477 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:24:03.382737 [info] : Client[6] quit!
+2024-11-30 20:24:03.382830 [info] : Client[6](113.54.243.158:32230) quit, UserCount:0
+2024-11-30 20:24:03.392374 [info] : Client[6](113.54.243.158:33510) in, userCount:1
+2024-11-30 20:24:03.392474 [info] : Client[6] in!
+2024-11-30 20:24:03.392502 [info] : Client[7](113.54.243.158:32742) in, userCount:2
+2024-11-30 20:24:03.392529 [info] : Client[7] in!
+2024-11-30 20:24:03.392544 [info] : Client[8](113.54.243.158:33766) in, userCount:3
+2024-11-30 20:24:03.392553 [info] : Client[8] in!
+2024-11-30 20:24:03.392563 [info] : Client[9](113.54.243.158:32486) in, userCount:4
+2024-11-30 20:24:03.392571 [info] : Client[9] in!
+2024-11-30 20:24:03.392578 [info] : Client[10](113.54.243.158:32998) in, userCount:5
+2024-11-30 20:24:03.392585 [info] : Client[10] in!
+2024-11-30 20:24:03.394471 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:24:03.396547 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image1.png
+2024-11-30 20:24:03.396779 [info] : Client[7] quit!
+2024-11-30 20:24:03.396913 [info] : Client[7](113.54.243.158:32742) quit, UserCount:4
+2024-11-30 20:24:03.397622 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image3.png
+2024-11-30 20:24:03.398055 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:24:03.398176 [info] : Client[9] quit!
+2024-11-30 20:24:03.398303 [info] : Client[8] quit!
+2024-11-30 20:24:03.398413 [info] : Client[8](113.54.243.158:33766) quit, UserCount:2
+2024-11-30 20:24:03.398307 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image2.png
+2024-11-30 20:24:03.398494 [info] : Client[9](113.54.243.158:32486) quit, UserCount:2
+2024-11-30 20:24:03.399564 [info] : Client[10] quit!
+2024-11-30 20:24:03.399618 [info] : Client[10](113.54.243.158:32998) quit, UserCount:1
+2024-11-30 20:24:03.656911 [info] : Client[6] quit!
+2024-11-30 20:24:03.657087 [info] : Client[6](113.54.243.158:33510) quit, UserCount:0
+2024-11-30 20:24:04.633665 [info] : Client[6](113.54.243.158:34022) in, userCount:1
+2024-11-30 20:24:04.633852 [info] : Client[6] in!
+2024-11-30 20:24:04.635760 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:24:04.635968 [info] : Client[6] quit!
+2024-11-30 20:24:04.636033 [info] : Client[6](113.54.243.158:34022) quit, UserCount:0
+2024-11-30 20:24:05.212336 [info] : Client[6](113.54.243.158:34790) in, userCount:1
+2024-11-30 20:24:05.212467 [info] : Client[6] in!
+2024-11-30 20:24:05.216309 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:24:05.216507 [info] : Client[6] quit!
+2024-11-30 20:24:05.216593 [info] : Client[6](113.54.243.158:34790) quit, UserCount:0
+2024-11-30 20:24:05.339081 [info] : Client[6](113.54.243.158:35046) in, userCount:1
+2024-11-30 20:24:05.339175 [info] : Client[6] in!
+2024-11-30 20:24:05.341033 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image4.png
+2024-11-30 20:24:05.342402 [info] : Client[6] quit!
+2024-11-30 20:24:05.342473 [info] : Client[6](113.54.243.158:35046) quit, UserCount:0
+2024-11-30 20:24:05.578443 [info] : Client[6](113.54.243.158:35558) in, userCount:1
+2024-11-30 20:24:05.578565 [info] : Client[6] in!
+2024-11-30 20:24:05.580625 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image5.png
+2024-11-30 20:24:06.101445 [info] : Client[7](113.54.243.158:35814) in, userCount:2
+2024-11-30 20:24:06.101543 [info] : Client[7] in!
+2024-11-30 20:24:06.103443 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:24:07.480039 [info] : Client[8](113.54.243.158:36070) in, userCount:3
+2024-11-30 20:24:07.480134 [info] : Client[8] in!
+2024-11-30 20:24:07.482870 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:24:07.483097 [info] : Client[8] quit!
+2024-11-30 20:24:07.483161 [info] : Client[8](113.54.243.158:36070) quit, UserCount:2
+2024-11-30 20:24:10.370015 [info] : Client[8](113.54.243.158:36838) in, userCount:3
+2024-11-30 20:24:10.370110 [info] : Client[8] in!
+2024-11-30 20:24:10.370995 [info] : Client[9](113.54.243.158:36582) in, userCount:4
+2024-11-30 20:24:10.371078 [info] : Client[9] in!
+2024-11-30 20:24:10.373147 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:24:10.373241 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:24:10.373302 [info] : Client[8] quit!
+2024-11-30 20:24:10.373367 [info] : Client[8](113.54.243.158:36838) quit, UserCount:3
+2024-11-30 20:24:10.373449 [info] : Client[9] quit!
+2024-11-30 20:24:10.373556 [info] : Client[9](113.54.243.158:36582) quit, UserCount:2
+2024-11-30 20:24:11.174749 [info] : Client[8](113.54.243.158:37606) in, userCount:3
+2024-11-30 20:24:11.174837 [info] : Client[8] in!
+2024-11-30 20:24:11.176191 [info] : Client[9](113.54.243.158:37350) in, userCount:4
+2024-11-30 20:24:11.176273 [info] : Client[9] in!
+2024-11-30 20:24:11.178349 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:24:11.178554 [info] : Client[9] quit!
+2024-11-30 20:24:11.178595 [info] : Client[9](113.54.243.158:37350) quit, UserCount:3
+2024-11-30 20:24:11.178622 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:24:11.178743 [info] : Client[8] quit!
+2024-11-30 20:24:11.178818 [info] : Client[8](113.54.243.158:37606) quit, UserCount:2
+2024-11-30 20:24:12.117099 [info] : Client[8](113.54.243.158:38118) in, userCount:3
+2024-11-30 20:24:12.117208 [info] : Client[8] in!
+2024-11-30 20:24:12.117234 [info] : Client[9](113.54.243.158:37862) in, userCount:4
+2024-11-30 20:24:12.117246 [info] : Client[9] in!
+2024-11-30 20:24:12.119498 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:24:12.119676 [info] : Client[9] quit!
+2024-11-30 20:24:12.119740 [info] : Client[9](113.54.243.158:37862) quit, UserCount:3
+2024-11-30 20:24:12.120012 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:24:12.120167 [info] : Client[8] quit!
+2024-11-30 20:24:12.120227 [info] : Client[8](113.54.243.158:38118) quit, UserCount:2
+2024-11-30 20:24:20.937638 [info] : Client[7] quit!
+2024-11-30 20:24:20.937809 [info] : Client[7](113.54.243.158:35814) quit, UserCount:1
+2024-11-30 20:24:24.749766 [info] : Client[6] quit!
+2024-11-30 20:24:24.891345 [info] : Client[6](113.54.243.158:35558) quit, UserCount:0
+2024-11-30 20:24:49.186008 [info] : Client[6](113.54.243.158:49638) in, userCount:1
+2024-11-30 20:24:49.186834 [info] : Client[6] in!
+2024-11-30 20:24:49.190223 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//video.html
+2024-11-30 20:24:49.191111 [info] : Client[6] quit!
+2024-11-30 20:24:49.191214 [info] : Client[6](113.54.243.158:49638) quit, UserCount:0
+2024-11-30 20:24:49.364336 [info] : Client[6](113.54.243.158:50406) in, userCount:1
+2024-11-30 20:24:49.364394 [info] : Client[6] in!
+2024-11-30 20:24:49.366762 [info] : Client[7](113.54.243.158:50150) in, userCount:2
+2024-11-30 20:24:49.366823 [info] : Client[7] in!
+2024-11-30 20:24:49.366910 [info] : Client[8](113.54.243.158:50662) in, userCount:3
+2024-11-30 20:24:49.366924 [info] : Client[8] in!
+2024-11-30 20:24:49.366933 [info] : Client[9](113.54.243.158:49894) in, userCount:4
+2024-11-30 20:24:49.366941 [info] : Client[9] in!
+2024-11-30 20:24:49.370474 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:24:49.371433 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:24:49.371615 [info] : Client[8] quit!
+2024-11-30 20:24:49.371792 [info] : Client[7] quit!
+2024-11-30 20:24:49.371998 [info] : Client[7](113.54.243.158:50150) quit, UserCount:2
+2024-11-30 20:24:49.372033 [info] : Client[8](113.54.243.158:50662) quit, UserCount:2
+2024-11-30 20:24:49.371437 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:24:49.372076 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:24:49.372180 [info] : Client[6] quit!
+2024-11-30 20:24:49.372252 [info] : Client[6](113.54.243.158:50406) quit, UserCount:1
+2024-11-30 20:24:49.372257 [info] : Client[9] quit!
+2024-11-30 20:24:49.372341 [info] : Client[9](113.54.243.158:49894) quit, UserCount:0
+2024-11-30 20:24:49.394207 [info] : Client[6](113.54.243.158:51174) in, userCount:1
+2024-11-30 20:24:49.394329 [info] : Client[6] in!
+2024-11-30 20:24:49.394361 [info] : Client[7](113.54.243.158:50918) in, userCount:2
+2024-11-30 20:24:49.394373 [info] : Client[7] in!
+2024-11-30 20:24:49.396431 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:24:49.396586 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:24:49.396626 [info] : Client[7] quit!
+2024-11-30 20:24:49.396788 [info] : Client[7](113.54.243.158:50918) quit, UserCount:1
+2024-11-30 20:24:49.519005 [info] : Client[7](113.54.243.158:51430) in, userCount:2
+2024-11-30 20:24:49.519099 [info] : Client[7] in!
+2024-11-30 20:24:49.521154 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:24:49.521329 [info] : Client[7] quit!
+2024-11-30 20:24:49.521379 [info] : Client[7](113.54.243.158:51430) quit, UserCount:1
+2024-11-30 20:24:50.540011 [info] : Client[11] quit!
+2024-11-30 20:24:52.248019 [info] : Client[7](113.54.243.158:51686) in, userCount:2
+2024-11-30 20:24:52.248100 [info] : Client[7] in!
+2024-11-30 20:24:52.248410 [info] : Client[8](113.54.243.158:51942) in, userCount:3
+2024-11-30 20:24:52.248507 [info] : Client[8] in!
+2024-11-30 20:24:52.250599 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:24:52.250703 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:24:52.250830 [info] : Client[8] quit!
+2024-11-30 20:24:52.250907 [info] : Client[7] quit!
+2024-11-30 20:24:52.250928 [info] : Client[8](113.54.243.158:51942) quit, UserCount:2
+2024-11-30 20:24:52.250978 [info] : Client[7](113.54.243.158:51686) quit, UserCount:1
+2024-11-30 20:24:52.258547 [info] : Client[7](113.54.243.158:52454) in, userCount:2
+2024-11-30 20:24:52.258621 [info] : Client[7] in!
+2024-11-30 20:24:52.258635 [info] : Client[8](113.54.243.158:52710) in, userCount:3
+2024-11-30 20:24:52.258653 [info] : Client[8] in!
+2024-11-30 20:24:52.258672 [info] : Client[9](113.54.243.158:52198) in, userCount:4
+2024-11-30 20:24:52.258682 [info] : Client[9] in!
+2024-11-30 20:24:52.260705 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:24:52.260881 [info] : Client[9] quit!
+2024-11-30 20:24:52.260925 [info] : Client[9](113.54.243.158:52198) quit, UserCount:3
+2024-11-30 20:24:52.263515 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:24:52.263628 [info] : Client[7] quit!
+2024-11-30 20:24:52.263676 [info] : Client[7](113.54.243.158:52454) quit, UserCount:2
+2024-11-30 20:24:52.263747 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:24:52.263848 [info] : Client[8] quit!
+2024-11-30 20:24:52.263911 [info] : Client[8](113.54.243.158:52710) quit, UserCount:1
+2024-11-30 20:24:52.735089 [info] : Client[7](113.54.243.158:52966) in, userCount:2
+2024-11-30 20:24:52.735167 [info] : Client[7] in!
+2024-11-30 20:24:52.736992 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:24:52.737102 [info] : Client[7] quit!
+2024-11-30 20:24:52.737143 [info] : Client[7](113.54.243.158:52966) quit, UserCount:1
+2024-11-30 20:24:52.774798 [info] : Client[7](113.54.243.158:53222) in, userCount:2
+2024-11-30 20:24:52.774879 [info] : Client[7] in!
+2024-11-30 20:24:52.777912 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//video/xxx.mp4
+2024-11-30 20:25:03.399013 [info] : Client[10] quit!
+2024-11-30 20:25:04.985752 [info] : Client[6] quit!
+2024-11-30 20:25:04.985869 [info] : Client[6](113.54.243.158:51174) quit, UserCount:1
+2024-11-30 20:25:13.867072 [info] : Client[7] quit!
+2024-11-30 20:25:13.867348 [info] : Client[7](113.54.243.158:53222) quit, UserCount:0
+2024-11-30 20:25:23.086722 [info] : Client[6](113.54.243.158:61158) in, userCount:1
+2024-11-30 20:25:23.086814 [info] : Client[6] in!
+2024-11-30 20:29:10.918813 [info] : ========== Server init ==========
+2024-11-30 20:29:10.918849 [info] : Port:80, OpenLinger: false
+2024-11-30 20:29:10.918855 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-30 20:29:10.918859 [info] : LogSys level: 1
+2024-11-30 20:29:10.918864 [info] : srcDir: /root/ticketsserver/task3-tinyserver/tiny_webserver/resources/
+2024-11-30 20:29:10.918868 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-11-30 20:29:10.918872 [info] : ========== Server start ==========
+2024-11-30 20:29:18.432459 [info] : Client[6](113.54.243.158:51175) in, userCount:1
+2024-11-30 20:29:18.433414 [info] : Client[6] in!
+2024-11-30 20:29:18.436212 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//index.html
+2024-11-30 20:29:18.437203 [info] : Client[6] quit!
+2024-11-30 20:29:18.437383 [info] : Client[6](113.54.243.158:51175) quit, UserCount:0
+2024-11-30 20:29:18.616474 [info] : Client[6](113.54.243.158:51431) in, userCount:1
+2024-11-30 20:29:18.616552 [info] : Client[6] in!
+2024-11-30 20:29:18.616574 [info] : Client[7](113.54.243.158:52199) in, userCount:2
+2024-11-30 20:29:18.616587 [info] : Client[7] in!
+2024-11-30 20:29:18.616597 [info] : Client[8](113.54.243.158:53223) in, userCount:3
+2024-11-30 20:29:18.616604 [info] : Client[8] in!
+2024-11-30 20:29:18.616613 [info] : Client[9](113.54.243.158:52967) in, userCount:4
+2024-11-30 20:29:18.616621 [info] : Client[9] in!
+2024-11-30 20:29:18.616629 [info] : Client[10](113.54.243.158:53479) in, userCount:5
+2024-11-30 20:29:18.616636 [info] : Client[10] in!
+2024-11-30 20:29:18.616644 [info] : Client[11](113.54.243.158:53735) in, userCount:6
+2024-11-30 20:29:18.616652 [info] : Client[11] in!
+2024-11-30 20:29:18.619931 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:29:18.620297 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:29:18.621859 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:29:18.622446 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:29:18.623973 [info] : Client[7] quit!
+2024-11-30 20:29:18.624039 [info] : Client[7](113.54.243.158:52199) quit, UserCount:5
+2024-11-30 20:29:18.624065 [info] : Client[9] quit!
+2024-11-30 20:29:18.624097 [info] : Client[9](113.54.243.158:52967) quit, UserCount:4
+2024-11-30 20:29:18.624131 [info] : Client[8] quit!
+2024-11-30 20:29:18.624170 [info] : Client[8](113.54.243.158:53223) quit, UserCount:3
+2024-11-30 20:29:18.624232 [info] : Client[6] quit!
+2024-11-30 20:29:18.624269 [info] : Client[6](113.54.243.158:51431) quit, UserCount:2
+2024-11-30 20:29:18.624424 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:29:18.624650 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:29:18.625512 [info] : Client[10] quit!
+2024-11-30 20:29:18.625581 [info] : Client[10](113.54.243.158:53479) quit, UserCount:1
+2024-11-30 20:29:18.625661 [info] : Client[11] quit!
+2024-11-30 20:29:18.625697 [info] : Client[11](113.54.243.158:53735) quit, UserCount:0
+2024-11-30 20:29:18.872176 [info] : Client[6](113.54.243.158:54247) in, userCount:1
+2024-11-30 20:29:18.872339 [info] : Client[6] in!
+2024-11-30 20:29:18.874354 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:29:18.875440 [info] : Client[6] quit!
+2024-11-30 20:29:18.875557 [info] : Client[6](113.54.243.158:54247) quit, UserCount:0
+2024-11-30 20:29:19.864082 [info] : Client[6](113.54.243.158:53991) in, userCount:1
+2024-11-30 20:29:19.864155 [info] : Client[6] in!
+2024-11-30 20:29:19.876126 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:29:19.932771 [info] : Client[7](113.54.243.158:54503) in, userCount:2
+2024-11-30 20:29:19.932881 [info] : Client[7] in!
+2024-11-30 20:29:19.932922 [info] : Client[8](113.54.243.158:54759) in, userCount:3
+2024-11-30 20:29:19.932936 [info] : Client[8] in!
+2024-11-30 20:29:19.935170 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:29:19.936139 [info] : Client[7] quit!
+2024-11-30 20:29:19.936183 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:29:19.936268 [info] : Client[7](113.54.243.158:54503) quit, UserCount:2
+2024-11-30 20:29:19.937177 [info] : Client[8] quit!
+2024-11-30 20:29:19.937239 [info] : Client[8](113.54.243.158:54759) quit, UserCount:1
+2024-11-30 20:29:20.060000 [info] : Client[7](113.54.243.158:55015) in, userCount:2
+2024-11-30 20:29:20.060083 [info] : Client[7] in!
+2024-11-30 20:29:20.063678 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:29:20.064799 [info] : Client[7] quit!
+2024-11-30 20:29:20.064905 [info] : Client[7](113.54.243.158:55015) quit, UserCount:1
+2024-11-30 20:29:20.181111 [info] : Client[7](113.54.243.158:55271) in, userCount:2
+2024-11-30 20:29:20.181256 [info] : Client[7] in!
+2024-11-30 20:29:20.183564 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:29:20.184501 [info] : Client[7] quit!
+2024-11-30 20:29:20.184625 [info] : Client[7](113.54.243.158:55271) quit, UserCount:1
+2024-11-30 20:29:20.448184 [info] : Client[7](113.54.243.158:55527) in, userCount:2
+2024-11-30 20:29:20.448261 [info] : Client[7] in!
+2024-11-30 20:29:20.450488 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:29:20.451394 [info] : Client[7] quit!
+2024-11-30 20:29:20.451483 [info] : Client[7](113.54.243.158:55527) quit, UserCount:1
+2024-11-30 20:29:27.494843 [info] : Client[6] quit!
+2024-11-30 20:29:27.495017 [info] : Client[6](113.54.243.158:53991) quit, UserCount:0
+2024-11-30 20:29:31.455502 [info] : Client[6](113.54.243.158:57063) in, userCount:1
+2024-11-30 20:29:31.455574 [info] : Client[6] in!
+2024-11-30 20:29:31.457720 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//picture.html
+2024-11-30 20:29:31.458595 [info] : Client[6] quit!
+2024-11-30 20:29:31.458659 [info] : Client[6](113.54.243.158:57063) quit, UserCount:0
+2024-11-30 20:29:31.612532 [info] : Client[6](113.54.243.158:57319) in, userCount:1
+2024-11-30 20:29:31.612618 [info] : Client[6] in!
+2024-11-30 20:29:31.614539 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:29:31.614736 [info] : Client[6] quit!
+2024-11-30 20:29:31.614795 [info] : Client[6](113.54.243.158:57319) quit, UserCount:0
+2024-11-30 20:29:31.617295 [info] : Client[6](113.54.243.158:57831) in, userCount:1
+2024-11-30 20:29:31.617385 [info] : Client[6] in!
+2024-11-30 20:29:31.623052 [info] : Client[7](113.54.243.158:58343) in, userCount:2
+2024-11-30 20:29:31.623114 [info] : Client[7] in!
+2024-11-30 20:29:31.624997 [info] : Client[8](113.54.243.158:58599) in, userCount:3
+2024-11-30 20:29:31.625036 [info] : Client[8] in!
+2024-11-30 20:29:31.625051 [info] : Client[9](113.54.243.158:57575) in, userCount:4
+2024-11-30 20:29:31.625061 [info] : Client[9] in!
+2024-11-30 20:29:31.625071 [info] : Client[10](113.54.243.158:58087) in, userCount:5
+2024-11-30 20:29:31.625079 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:29:31.625083 [info] : Client[10] in!
+2024-11-30 20:29:31.626654 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:29:31.626756 [info] : Client[7] quit!
+2024-11-30 20:29:31.626794 [info] : Client[7](113.54.243.158:58343) quit, UserCount:4
+2024-11-30 20:29:31.626865 [info] : Client[6] quit!
+2024-11-30 20:29:31.626890 [info] : Client[6](113.54.243.158:57831) quit, UserCount:3
+2024-11-30 20:29:31.627307 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:29:31.627418 [info] : Client[8] quit!
+2024-11-30 20:29:31.627449 [info] : Client[8](113.54.243.158:58599) quit, UserCount:2
+2024-11-30 20:29:31.627815 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:29:31.627927 [info] : Client[10] quit!
+2024-11-30 20:29:31.628054 [info] : Client[10](113.54.243.158:58087) quit, UserCount:1
+2024-11-30 20:29:31.628606 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:29:31.628676 [info] : Client[9] quit!
+2024-11-30 20:29:31.628702 [info] : Client[9](113.54.243.158:57575) quit, UserCount:0
+2024-11-30 20:29:32.313981 [info] : Client[6](113.54.243.158:58855) in, userCount:1
+2024-11-30 20:29:32.314105 [info] : Client[6] in!
+2024-11-30 20:29:32.317034 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:29:32.773694 [info] : Client[7](113.54.243.158:59367) in, userCount:2
+2024-11-30 20:29:32.773779 [info] : Client[7] in!
+2024-11-30 20:29:32.773806 [info] : Client[8](113.54.243.158:59111) in, userCount:3
+2024-11-30 20:29:32.773828 [info] : Client[8] in!
+2024-11-30 20:29:32.780731 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image2.png
+2024-11-30 20:29:32.780732 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image1.png
+2024-11-30 20:29:32.781977 [info] : Client[7] quit!
+2024-11-30 20:29:32.782051 [info] : Client[7](113.54.243.158:59367) quit, UserCount:2
+2024-11-30 20:29:32.782267 [info] : Client[8] quit!
+2024-11-30 20:29:32.782311 [info] : Client[8](113.54.243.158:59111) quit, UserCount:1
+2024-11-30 20:29:33.527737 [info] : Client[7](113.54.243.158:59623) in, userCount:2
+2024-11-30 20:29:33.527938 [info] : Client[7] in!
+2024-11-30 20:29:33.532008 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image3.png
+2024-11-30 20:29:33.818379 [info] : Client[7] quit!
+2024-11-30 20:29:33.818502 [info] : Client[7](113.54.243.158:59623) quit, UserCount:1
+2024-11-30 20:29:35.151874 [info] : Client[7](113.54.243.158:60135) in, userCount:2
+2024-11-30 20:29:35.152032 [info] : Client[7] in!
+2024-11-30 20:29:35.155988 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image4.png
+2024-11-30 20:29:35.157430 [info] : Client[7] quit!
+2024-11-30 20:29:35.157539 [info] : Client[7](113.54.243.158:60135) quit, UserCount:1
+2024-11-30 20:29:37.167680 [info] : Client[7](113.54.243.158:60391) in, userCount:2
+2024-11-30 20:29:37.167750 [info] : Client[7] in!
+2024-11-30 20:29:37.167762 [info] : Client[8](113.54.243.158:60903) in, userCount:3
+2024-11-30 20:29:37.167770 [info] : Client[8] in!
+2024-11-30 20:29:37.167781 [info] : Client[9](113.54.243.158:60647) in, userCount:4
+2024-11-30 20:29:37.167790 [info] : Client[9] in!
+2024-11-30 20:29:37.169704 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:29:37.174498 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:29:37.174761 [info] : Client[8] quit!
+2024-11-30 20:29:37.175200 [info] : Client[8](113.54.243.158:60903) quit, UserCount:3
+2024-11-30 20:29:37.174766 [info] : Client[9] quit!
+2024-11-30 20:29:37.175351 [info] : Client[9](113.54.243.158:60647) quit, UserCount:2
+2024-11-30 20:29:37.174784 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:29:37.175752 [info] : Client[7] quit!
+2024-11-30 20:29:37.175821 [info] : Client[7](113.54.243.158:60391) quit, UserCount:1
+2024-11-30 20:29:38.004529 [info] : Client[7](113.54.243.158:61159) in, userCount:2
+2024-11-30 20:29:38.004596 [info] : Client[7] in!
+2024-11-30 20:29:38.006736 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:29:38.006937 [info] : Client[7] quit!
+2024-11-30 20:29:38.007041 [info] : Client[7](113.54.243.158:61159) quit, UserCount:1
+2024-11-30 20:29:38.120582 [info] : Client[7](113.54.243.158:61671) in, userCount:2
+2024-11-30 20:29:38.120709 [info] : Client[7] in!
+2024-11-30 20:29:38.122790 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:29:38.122980 [info] : Client[7] quit!
+2024-11-30 20:29:38.123044 [info] : Client[7](113.54.243.158:61671) quit, UserCount:1
+2024-11-30 20:29:38.251880 [info] : Client[7](113.54.243.158:62183) in, userCount:2
+2024-11-30 20:29:38.251973 [info] : Client[7] in!
+2024-11-30 20:29:38.256935 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:29:38.257164 [info] : Client[7] quit!
+2024-11-30 20:29:38.257252 [info] : Client[7](113.54.243.158:62183) quit, UserCount:1
+2024-11-30 20:29:38.277152 [info] : Client[7](113.54.243.158:62439) in, userCount:2
+2024-11-30 20:29:38.277254 [info] : Client[7] in!
+2024-11-30 20:29:38.281406 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image5.png
+2024-11-30 20:29:49.043334 [info] : Client[6] quit!
+2024-11-30 20:29:49.043597 [info] : Client[6](113.54.243.158:58855) quit, UserCount:1
+2024-11-30 20:29:53.152582 [info] : Client[7] quit!
+2024-11-30 20:29:53.152734 [info] : Client[7](113.54.243.158:62439) quit, UserCount:0
+2024-11-30 20:30:38.420331 [info] : ========== Server init ==========
+2024-11-30 20:30:38.420386 [info] : Port:80, OpenLinger: false
+2024-11-30 20:30:38.420390 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-30 20:30:38.420448 [info] : LogSys level: 1
+2024-11-30 20:30:38.420452 [info] : srcDir: /root/ticketsserver/task3-tinyserver/tiny_webserver/resources/
+2024-11-30 20:30:38.420456 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-11-30 20:30:38.420531 [info] : ========== Server start ==========
+2024-11-30 20:30:42.193997 [info] : Client[6](113.54.243.158:6888) in, userCount:1
+2024-11-30 20:30:42.194091 [info] : Client[6] in!
+2024-11-30 20:30:42.196490 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//picture.html
+2024-11-30 20:30:42.196635 [info] : Client[6] quit!
+2024-11-30 20:30:42.196711 [info] : Client[6](113.54.243.158:6888) quit, UserCount:0
+2024-11-30 20:30:42.344484 [info] : Client[6](113.54.243.158:7400) in, userCount:1
+2024-11-30 20:30:42.344564 [info] : Client[6] in!
+2024-11-30 20:30:42.344587 [info] : Client[7](113.54.243.158:7912) in, userCount:2
+2024-11-30 20:30:42.344601 [info] : Client[7] in!
+2024-11-30 20:30:42.348792 [info] : Client[8](113.54.243.158:9448) in, userCount:3
+2024-11-30 20:30:42.348871 [info] : Client[8] in!
+2024-11-30 20:30:42.348885 [info] : Client[9](113.54.243.158:8680) in, userCount:4
+2024-11-30 20:30:42.348893 [info] : Client[9] in!
+2024-11-30 20:30:42.348901 [info] : Client[10](113.54.243.158:8936) in, userCount:5
+2024-11-30 20:30:42.348909 [info] : Client[10] in!
+2024-11-30 20:30:42.348918 [info] : Client[11](113.54.243.158:9192) in, userCount:6
+2024-11-30 20:30:42.348927 [info] : Client[11] in!
+2024-11-30 20:30:42.351029 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:30:42.352910 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:30:42.353142 [info] : Client[7] quit!
+2024-11-30 20:30:42.353266 [info] : Client[7](113.54.243.158:7912) quit, UserCount:5
+2024-11-30 20:30:42.353381 [info] : Client[9] quit!
+2024-11-30 20:30:42.353471 [info] : Client[9](113.54.243.158:8680) quit, UserCount:4
+2024-11-30 20:30:42.355265 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:30:42.355364 [info] : Client[11] quit!
+2024-11-30 20:30:42.355415 [info] : Client[11](113.54.243.158:9192) quit, UserCount:3
+2024-11-30 20:30:42.355592 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:30:42.355653 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:30:42.355746 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:30:42.355819 [info] : Client[8] quit!
+2024-11-30 20:30:42.355878 [info] : Client[8](113.54.243.158:9448) quit, UserCount:2
+2024-11-30 20:30:42.355947 [info] : Client[10] quit!
+2024-11-30 20:30:42.356016 [info] : Client[10](113.54.243.158:8936) quit, UserCount:1
+2024-11-30 20:30:42.356066 [info] : Client[6] quit!
+2024-11-30 20:30:42.356126 [info] : Client[6](113.54.243.158:7400) quit, UserCount:0
+2024-11-30 20:30:42.469659 [info] : Client[6](113.54.243.158:9960) in, userCount:1
+2024-11-30 20:30:42.469746 [info] : Client[6] in!
+2024-11-30 20:30:42.471748 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image2.png
+2024-11-30 20:30:42.471940 [info] : Client[6] quit!
+2024-11-30 20:30:42.472012 [info] : Client[6](113.54.243.158:9960) quit, UserCount:0
+2024-11-30 20:30:43.497378 [info] : Client[6](113.54.243.158:9704) in, userCount:1
+2024-11-30 20:30:43.497483 [info] : Client[6] in!
+2024-11-30 20:30:43.501133 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:30:43.530642 [info] : Client[7](113.54.243.158:10216) in, userCount:2
+2024-11-30 20:30:43.530786 [info] : Client[7] in!
+2024-11-30 20:30:43.533216 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image1.png
+2024-11-30 20:30:43.533433 [info] : Client[7] quit!
+2024-11-30 20:30:43.533504 [info] : Client[7](113.54.243.158:10216) quit, UserCount:1
+2024-11-30 20:30:43.686878 [info] : Client[7](113.54.243.158:10472) in, userCount:2
+2024-11-30 20:30:43.687000 [info] : Client[7] in!
+2024-11-30 20:30:43.695451 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image3.png
+2024-11-30 20:30:43.763852 [info] : Client[8](113.54.243.158:10728) in, userCount:3
+2024-11-30 20:30:43.763970 [info] : Client[8] in!
+2024-11-30 20:30:43.770432 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image4.png
+2024-11-30 20:30:43.770691 [info] : Client[8] quit!
+2024-11-30 20:30:43.770770 [info] : Client[8](113.54.243.158:10728) quit, UserCount:2
+2024-11-30 20:30:45.239782 [info] : Client[8](113.54.243.158:13800) in, userCount:3
+2024-11-30 20:30:45.239890 [info] : Client[8] in!
+2024-11-30 20:30:45.242803 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image5.png
+2024-11-30 20:30:45.300583 [info] : Client[8] quit!
+2024-11-30 20:30:45.300713 [info] : Client[8](113.54.243.158:13800) quit, UserCount:2
+2024-11-30 20:30:45.537136 [info] : Client[6] quit!
+2024-11-30 20:30:45.537263 [info] : Client[6](113.54.243.158:9704) quit, UserCount:1
+2024-11-30 20:30:46.304320 [info] : Client[7] quit!
+2024-11-30 20:30:46.304480 [info] : Client[7](113.54.243.158:10472) quit, UserCount:0
+2024-11-30 20:30:48.897848 [info] : Client[6](113.54.243.158:23272) in, userCount:1
+2024-11-30 20:30:48.897976 [info] : Client[6] in!
+2024-11-30 20:30:48.901476 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//index.html
+2024-11-30 20:30:48.901645 [info] : Client[6] quit!
+2024-11-30 20:30:48.901750 [info] : Client[6](113.54.243.158:23272) quit, UserCount:0
+2024-11-30 20:30:49.083583 [info] : Client[6](113.54.243.158:24040) in, userCount:1
+2024-11-30 20:30:49.083687 [info] : Client[6] in!
+2024-11-30 20:30:49.085139 [info] : Client[7](113.54.243.158:25576) in, userCount:2
+2024-11-30 20:30:49.085215 [info] : Client[7] in!
+2024-11-30 20:30:49.085282 [info] : Client[8](113.54.243.158:25832) in, userCount:3
+2024-11-30 20:30:49.085306 [info] : Client[8] in!
+2024-11-30 20:30:49.085315 [info] : Client[9](113.54.243.158:23528) in, userCount:4
+2024-11-30 20:30:49.085403 [info] : Client[9] in!
+2024-11-30 20:30:49.085425 [info] : Client[10](113.54.243.158:25320) in, userCount:5
+2024-11-30 20:30:49.085436 [info] : Client[10] in!
+2024-11-30 20:30:49.085446 [info] : Client[11](113.54.243.158:24296) in, userCount:6
+2024-11-30 20:30:49.085454 [info] : Client[11] in!
+2024-11-30 20:30:49.087556 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:30:49.091571 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:30:49.091657 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:30:49.091779 [info] : Client[6] quit!
+2024-11-30 20:30:49.091849 [info] : Client[6](113.54.243.158:24040) quit, UserCount:5
+2024-11-30 20:30:49.091691 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:30:49.091899 [info] : Client[9] quit!
+2024-11-30 20:30:49.091924 [info] : Client[8] quit!
+2024-11-30 20:30:49.091998 [info] : Client[8](113.54.243.158:25832) quit, UserCount:3
+2024-11-30 20:30:49.092024 [info] : Client[9](113.54.243.158:23528) quit, UserCount:3
+2024-11-30 20:30:49.092028 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:30:49.092084 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:30:49.092153 [info] : Client[7] quit!
+2024-11-30 20:30:49.092182 [info] : Client[7](113.54.243.158:25576) quit, UserCount:2
+2024-11-30 20:30:49.092228 [info] : Client[10] quit!
+2024-11-30 20:30:49.092279 [info] : Client[10](113.54.243.158:25320) quit, UserCount:1
+2024-11-30 20:30:49.236770 [info] : Client[6](113.54.243.158:26088) in, userCount:2
+2024-11-30 20:30:49.236862 [info] : Client[6] in!
+2024-11-30 20:30:49.241066 [info] : Client[7](113.54.243.158:26344) in, userCount:3
+2024-11-30 20:30:49.241136 [info] : Client[7] in!
+2024-11-30 20:30:49.243355 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:30:49.243476 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:30:49.243625 [info] : Client[7] quit!
+2024-11-30 20:30:49.243690 [info] : Client[6] quit!
+2024-11-30 20:30:49.243692 [info] : Client[7](113.54.243.158:26344) quit, UserCount:2
+2024-11-30 20:30:49.243750 [info] : Client[6](113.54.243.158:26088) quit, UserCount:1
+2024-11-30 20:30:50.127923 [info] : Client[6](113.54.243.158:27368) in, userCount:2
+2024-11-30 20:30:50.128035 [info] : Client[6] in!
+2024-11-30 20:30:50.135702 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:30:50.135991 [info] : Client[6] quit!
+2024-11-30 20:30:50.136079 [info] : Client[6](113.54.243.158:27368) quit, UserCount:1
+2024-11-30 20:30:50.282388 [info] : Client[6](113.54.243.158:26600) in, userCount:2
+2024-11-30 20:30:50.282466 [info] : Client[6] in!
+2024-11-30 20:30:50.284372 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:30:50.284501 [info] : Client[6] quit!
+2024-11-30 20:30:50.284545 [info] : Client[6](113.54.243.158:26600) quit, UserCount:1
+2024-11-30 20:30:50.406613 [info] : Client[6](113.54.243.158:27624) in, userCount:2
+2024-11-30 20:30:50.406704 [info] : Client[6] in!
+2024-11-30 20:30:50.408712 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:30:50.408871 [info] : Client[6] quit!
+2024-11-30 20:30:50.408914 [info] : Client[6](113.54.243.158:27624) quit, UserCount:1
+2024-11-30 20:30:50.543640 [info] : Client[6](113.54.243.158:27880) in, userCount:2
+2024-11-30 20:30:50.543721 [info] : Client[6] in!
+2024-11-30 20:30:50.546051 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:30:50.546203 [info] : Client[6] quit!
+2024-11-30 20:30:50.546260 [info] : Client[6](113.54.243.158:27880) quit, UserCount:1
+2024-11-30 20:30:50.671934 [info] : Client[6](113.54.243.158:28136) in, userCount:2
+2024-11-30 20:30:50.672031 [info] : Client[6] in!
+2024-11-30 20:30:50.674127 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:30:50.674242 [info] : Client[6] quit!
+2024-11-30 20:30:50.674305 [info] : Client[6](113.54.243.158:28136) quit, UserCount:1
+2024-11-30 20:30:56.483700 [info] : Client[11] quit!
+2024-11-30 20:30:56.483903 [info] : Client[11](113.54.243.158:24296) quit, UserCount:0
+2024-11-30 20:30:59.529527 [info] : Client[6](113.54.243.158:28648) in, userCount:1
+2024-11-30 20:30:59.529671 [info] : Client[6] in!
+2024-11-30 20:30:59.537480 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/favicon.ico
+2024-11-30 20:30:59.538695 [info] : Client[6] quit!
+2024-11-30 20:30:59.538770 [info] : Client[6](113.54.243.158:28648) quit, UserCount:0
+2024-11-30 20:31:01.883305 [info] : Client[6](113.54.243.158:28904) in, userCount:1
+2024-11-30 20:31:01.883441 [info] : Client[6] in!
+2024-11-30 20:31:01.886044 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//video.html
+2024-11-30 20:31:01.886980 [info] : Client[6] quit!
+2024-11-30 20:31:01.887073 [info] : Client[6](113.54.243.158:28904) quit, UserCount:0
+2024-11-30 20:31:02.043299 [info] : Client[6](113.54.243.158:29160) in, userCount:1
+2024-11-30 20:31:02.043421 [info] : Client[6] in!
+2024-11-30 20:31:02.045843 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:31:02.046087 [info] : Client[6] quit!
+2024-11-30 20:31:02.046160 [info] : Client[6](113.54.243.158:29160) quit, UserCount:0
+2024-11-30 20:31:02.062568 [info] : Client[6](113.54.243.158:29416) in, userCount:1
+2024-11-30 20:31:02.062656 [info] : Client[6] in!
+2024-11-30 20:31:02.062856 [info] : Client[7](113.54.243.158:30440) in, userCount:2
+2024-11-30 20:31:02.062903 [info] : Client[7] in!
+2024-11-30 20:31:02.062919 [info] : Client[8](113.54.243.158:29672) in, userCount:3
+2024-11-30 20:31:02.062938 [info] : Client[8] in!
+2024-11-30 20:31:02.062949 [info] : Client[9](113.54.243.158:29928) in, userCount:4
+2024-11-30 20:31:02.062994 [info] : Client[9] in!
+2024-11-30 20:31:02.063004 [info] : Client[10](113.54.243.158:30184) in, userCount:5
+2024-11-30 20:31:02.063014 [info] : Client[10] in!
+2024-11-30 20:31:02.065290 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:31:02.067687 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:31:02.067977 [info] : Client[9] quit!
+2024-11-30 20:31:02.068030 [info] : Client[9](113.54.243.158:29928) quit, UserCount:4
+2024-11-30 20:31:02.069185 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:31:02.069401 [info] : Client[6] quit!
+2024-11-30 20:31:02.069493 [info] : Client[6](113.54.243.158:29416) quit, UserCount:3
+2024-11-30 20:31:02.070471 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:31:02.070581 [info] : Client[8] quit!
+2024-11-30 20:31:02.070629 [info] : Client[8](113.54.243.158:29672) quit, UserCount:2
+2024-11-30 20:31:02.071451 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:31:02.071616 [info] : Client[10] quit!
+2024-11-30 20:31:02.071676 [info] : Client[10](113.54.243.158:30184) quit, UserCount:1
+2024-11-30 20:31:02.195290 [info] : Client[6](113.54.243.158:30952) in, userCount:2
+2024-11-30 20:31:02.195448 [info] : Client[6] in!
+2024-11-30 20:31:02.195473 [info] : Client[8](113.54.243.158:30696) in, userCount:3
+2024-11-30 20:31:02.195483 [info] : Client[8] in!
+2024-11-30 20:31:02.197372 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:31:02.197678 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:31:02.197777 [info] : Client[6] quit!
+2024-11-30 20:31:02.197836 [info] : Client[6](113.54.243.158:30952) quit, UserCount:2
+2024-11-30 20:31:02.197873 [info] : Client[8] quit!
+2024-11-30 20:31:02.197942 [info] : Client[8](113.54.243.158:30696) quit, UserCount:1
+2024-11-30 20:31:02.255848 [info] : Client[6](113.54.243.158:31208) in, userCount:2
+2024-11-30 20:31:02.255940 [info] : Client[6] in!
+2024-11-30 20:31:02.264275 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:31:02.264441 [info] : Client[6] quit!
+2024-11-30 20:31:02.264509 [info] : Client[6](113.54.243.158:31208) quit, UserCount:1
+2024-11-30 20:31:02.394871 [info] : Client[6](113.54.243.158:31464) in, userCount:2
+2024-11-30 20:31:02.394989 [info] : Client[6] in!
+2024-11-30 20:31:02.397067 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:31:02.397261 [info] : Client[6] quit!
+2024-11-30 20:31:02.397316 [info] : Client[6](113.54.243.158:31464) quit, UserCount:1
+2024-11-30 20:31:03.358717 [info] : Client[6](113.54.243.158:31720) in, userCount:2
+2024-11-30 20:31:03.358866 [info] : Client[6] in!
+2024-11-30 20:31:03.361226 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:31:03.361528 [info] : Client[6] quit!
+2024-11-30 20:31:03.361603 [info] : Client[6](113.54.243.158:31720) quit, UserCount:1
+2024-11-30 20:31:03.486834 [info] : Client[6](113.54.243.158:31976) in, userCount:2
+2024-11-30 20:31:03.486978 [info] : Client[6] in!
+2024-11-30 20:31:03.488996 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:31:03.489123 [info] : Client[6] quit!
+2024-11-30 20:31:03.489181 [info] : Client[6](113.54.243.158:31976) quit, UserCount:1
+2024-11-30 20:31:03.607039 [info] : Client[6](113.54.243.158:32232) in, userCount:2
+2024-11-30 20:31:03.607142 [info] : Client[6] in!
+2024-11-30 20:31:03.609135 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:31:03.609262 [info] : Client[6] quit!
+2024-11-30 20:31:03.609319 [info] : Client[6](113.54.243.158:32232) quit, UserCount:1
+2024-11-30 20:31:03.765630 [info] : Client[6](113.54.243.158:32488) in, userCount:2
+2024-11-30 20:31:03.765748 [info] : Client[6] in!
+2024-11-30 20:31:03.768995 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//video/xxx.mp4
+2024-11-30 20:31:15.922894 [info] : Client[7] quit!
+2024-11-30 20:31:15.923111 [info] : Client[7](113.54.243.158:30440) quit, UserCount:1
+2024-11-30 20:31:26.536019 [info] : Client[6] quit!
+2024-11-30 20:31:26.536263 [info] : Client[6](113.54.243.158:32488) quit, UserCount:0
+2024-11-30 20:31:29.371113 [info] : Client[6](113.54.243.158:36584) in, userCount:1
+2024-11-30 20:31:29.371230 [info] : Client[6] in!
+2024-11-30 20:31:29.377536 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//video/xxx.mp4
+2024-11-30 20:31:56.484433 [info] : Client[11] quit!
+2024-11-30 20:32:02.067492 [info] : Client[9] quit!
+2024-11-30 20:32:02.071522 [info] : Client[10] quit!
+2024-11-30 20:32:02.197776 [info] : Client[8] quit!
+2024-11-30 20:32:15.922832 [info] : Client[7] quit!
+2024-11-30 20:33:15.975866 [info] : Client[7](113.54.243.158:52200) in, userCount:2
+2024-11-30 20:33:15.980870 [info] : Client[7] in!
+2024-11-30 20:33:15.990656 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//picture.html
+2024-11-30 20:33:15.991614 [info] : Client[7] quit!
+2024-11-30 20:33:15.991727 [info] : Client[7](113.54.243.158:52200) quit, UserCount:1
+2024-11-30 20:33:16.153416 [info] : Client[7](113.54.243.158:52456) in, userCount:2
+2024-11-30 20:33:16.153534 [info] : Client[7] in!
+2024-11-30 20:33:16.156470 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:33:16.157904 [info] : Client[7] quit!
+2024-11-30 20:33:16.158038 [info] : Client[7](113.54.243.158:52456) quit, UserCount:1
+2024-11-30 20:33:16.159749 [info] : Client[7](113.54.243.158:53736) in, userCount:2
+2024-11-30 20:33:16.159811 [info] : Client[7] in!
+2024-11-30 20:33:16.159823 [info] : Client[8](113.54.243.158:54248) in, userCount:3
+2024-11-30 20:33:16.159831 [info] : Client[8] in!
+2024-11-30 20:33:16.159839 [info] : Client[9](113.54.243.158:54504) in, userCount:4
+2024-11-30 20:33:16.159847 [info] : Client[9] in!
+2024-11-30 20:33:16.159881 [info] : Client[10](113.54.243.158:53992) in, userCount:5
+2024-11-30 20:33:16.159890 [info] : Client[10] in!
+2024-11-30 20:33:16.161941 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:33:16.162240 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:33:16.164109 [info] : Client[8] quit!
+2024-11-30 20:33:16.164229 [info] : Client[8](113.54.243.158:54248) quit, UserCount:4
+2024-11-30 20:33:16.164263 [info] : Client[7] quit!
+2024-11-30 20:33:16.164286 [info] : Client[7](113.54.243.158:53736) quit, UserCount:3
+2024-11-30 20:33:16.164317 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:33:16.164539 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:33:16.165160 [info] : Client[10] quit!
+2024-11-30 20:33:16.165219 [info] : Client[10](113.54.243.158:53992) quit, UserCount:2
+2024-11-30 20:33:16.165684 [info] : Client[9] quit!
+2024-11-30 20:33:16.165738 [info] : Client[9](113.54.243.158:54504) quit, UserCount:1
+2024-11-30 20:33:16.400941 [info] : Client[7](113.54.243.158:55016) in, userCount:2
+2024-11-30 20:33:16.401037 [info] : Client[7] in!
+2024-11-30 20:33:16.403930 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image1.png
+2024-11-30 20:33:16.405336 [info] : Client[7] quit!
+2024-11-30 20:33:16.405500 [info] : Client[7](113.54.243.158:55016) quit, UserCount:1
+2024-11-30 20:33:16.841518 [info] : Client[7](113.54.243.158:56296) in, userCount:2
+2024-11-30 20:33:16.841614 [info] : Client[7] in!
+2024-11-30 20:33:16.845911 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image3.png
+2024-11-30 20:33:16.846399 [info] : Client[9](113.54.243.158:56552) in, userCount:3
+2024-11-30 20:33:16.846456 [info] : Client[9] in!
+2024-11-30 20:33:16.851641 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image4.png
+2024-11-30 20:33:16.852935 [info] : Client[9] quit!
+2024-11-30 20:33:16.853053 [info] : Client[9](113.54.243.158:56552) quit, UserCount:2
+2024-11-30 20:33:17.539796 [info] : Client[6] quit!
+2024-11-30 20:33:17.540403 [info] : Client[6](113.54.243.158:36584) quit, UserCount:1
+2024-11-30 20:33:18.454846 [info] : Client[6](113.54.243.158:57576) in, userCount:2
+2024-11-30 20:33:18.454992 [info] : Client[6] in!
+2024-11-30 20:33:18.457440 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image5.png
+2024-11-30 20:33:18.615832 [info] : Client[8](113.54.243.158:57832) in, userCount:3
+2024-11-30 20:33:18.615966 [info] : Client[8] in!
+2024-11-30 20:33:18.619340 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:33:19.106151 [info] : Client[9](113.54.243.158:58088) in, userCount:4
+2024-11-30 20:33:19.106230 [info] : Client[9] in!
+2024-11-30 20:33:19.108696 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image2.png
+2024-11-30 20:33:19.109946 [info] : Client[9] quit!
+2024-11-30 20:33:19.110050 [info] : Client[9](113.54.243.158:58088) quit, UserCount:3
+2024-11-30 20:33:20.291922 [info] : Client[9](113.54.243.158:58344) in, userCount:4
+2024-11-30 20:33:20.292077 [info] : Client[9] in!
+2024-11-30 20:33:20.295874 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:33:20.297298 [info] : Client[9] quit!
+2024-11-30 20:33:20.297455 [info] : Client[9](113.54.243.158:58344) quit, UserCount:3
+2024-11-30 20:33:20.541431 [info] : Client[9](113.54.243.158:58600) in, userCount:4
+2024-11-30 20:33:20.541536 [info] : Client[9] in!
+2024-11-30 20:33:20.548360 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:33:20.549608 [info] : Client[9] quit!
+2024-11-30 20:33:20.549708 [info] : Client[9](113.54.243.158:58600) quit, UserCount:3
+2024-11-30 20:33:21.020346 [info] : Client[7] quit!
+2024-11-30 20:33:21.020524 [info] : Client[7](113.54.243.158:56296) quit, UserCount:2
+2024-11-30 20:33:21.850739 [info] : Client[7](113.54.243.158:59112) in, userCount:3
+2024-11-30 20:33:21.850817 [info] : Client[7] in!
+2024-11-30 20:33:21.859138 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:33:21.860091 [info] : Client[7] quit!
+2024-11-30 20:33:21.860198 [info] : Client[7](113.54.243.158:59112) quit, UserCount:2
+2024-11-30 20:33:21.969022 [info] : Client[7](113.54.243.158:59368) in, userCount:3
+2024-11-30 20:33:21.969102 [info] : Client[7] in!
+2024-11-30 20:33:21.971142 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:33:21.972139 [info] : Client[7] quit!
+2024-11-30 20:33:21.972202 [info] : Client[7](113.54.243.158:59368) quit, UserCount:2
+2024-11-30 20:33:22.788182 [info] : Client[7](113.54.243.158:59624) in, userCount:3
+2024-11-30 20:33:22.788263 [info] : Client[7] in!
+2024-11-30 20:33:22.790464 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:33:22.791368 [info] : Client[7] quit!
+2024-11-30 20:33:22.791449 [info] : Client[7](113.54.243.158:59624) quit, UserCount:2
+2024-11-30 20:33:22.894336 [info] : Client[7](113.54.243.158:59880) in, userCount:3
+2024-11-30 20:33:22.894578 [info] : Client[7] in!
+2024-11-30 20:33:22.897749 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:33:22.898758 [info] : Client[7] quit!
+2024-11-30 20:33:22.898835 [info] : Client[7](113.54.243.158:59880) quit, UserCount:2
+2024-11-30 20:33:22.989579 [info] : Client[7](113.54.243.158:60136) in, userCount:3
+2024-11-30 20:33:22.989662 [info] : Client[7] in!
+2024-11-30 20:33:22.993262 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:33:22.994175 [info] : Client[7] quit!
+2024-11-30 20:33:22.994288 [info] : Client[7](113.54.243.158:60136) quit, UserCount:2
+2024-11-30 20:33:37.123305 [info] : Client[8] quit!
+2024-11-30 20:33:37.123530 [info] : Client[8](113.54.243.158:57832) quit, UserCount:1
+2024-11-30 20:33:38.367659 [info] : Client[6] quit!
+2024-11-30 20:33:38.367838 [info] : Client[6](113.54.243.158:57576) quit, UserCount:0
+2024-11-30 20:34:16.200986 [info] : Client[10] quit!
+2024-11-30 20:34:20.553499 [info] : Client[9] quit!
+2024-11-30 20:34:22.995765 [info] : Client[7] quit!
+2024-11-30 20:34:37.135602 [info] : Client[8] quit!
+2024-11-30 20:34:38.367987 [info] : Client[6] quit!
+2024-11-30 20:34:38.558574 [info] : Client[6](113.54.243.158:5353) in, userCount:1
+2024-11-30 20:34:38.558677 [info] : Client[6] in!
+2024-11-30 20:34:38.560729 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//login.html
+2024-11-30 20:34:38.561597 [info] : Client[6] quit!
+2024-11-30 20:34:38.561702 [info] : Client[6](113.54.243.158:5353) quit, UserCount:0
+2024-11-30 20:34:38.738141 [info] : Client[6](113.54.243.158:6121) in, userCount:1
+2024-11-30 20:34:38.738248 [info] : Client[6] in!
+2024-11-30 20:34:38.738277 [info] : Client[7](113.54.243.158:5609) in, userCount:2
+2024-11-30 20:34:38.738291 [info] : Client[7] in!
+2024-11-30 20:34:38.741020 [info] : Client[8](113.54.243.158:7657) in, userCount:3
+2024-11-30 20:34:38.741103 [info] : Client[8] in!
+2024-11-30 20:34:38.741136 [info] : Client[9](113.54.243.158:7913) in, userCount:4
+2024-11-30 20:34:38.741148 [info] : Client[9] in!
+2024-11-30 20:34:38.741158 [info] : Client[10](113.54.243.158:7401) in, userCount:5
+2024-11-30 20:34:38.741170 [info] : Client[10] in!
+2024-11-30 20:34:38.741184 [info] : Client[11](113.54.243.158:7145) in, userCount:6
+2024-11-30 20:34:38.741194 [info] : Client[11] in!
+2024-11-30 20:34:38.743750 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:34:38.747348 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:34:38.747510 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:34:38.747588 [info] : Client[11] quit!
+2024-11-30 20:34:38.747622 [info] : Client[11](113.54.243.158:7145) quit, UserCount:5
+2024-11-30 20:34:38.747651 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:34:38.747684 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:34:38.747652 [info] : Client[9] quit!
+2024-11-30 20:34:38.747859 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:34:38.747802 [info] : Client[10] quit!
+2024-11-30 20:34:38.747903 [info] : Client[9](113.54.243.158:7913) quit, UserCount:4
+2024-11-30 20:34:38.747997 [info] : Client[10](113.54.243.158:7401) quit, UserCount:3
+2024-11-30 20:34:38.747909 [info] : Client[6] quit!
+2024-11-30 20:34:38.748054 [info] : Client[6](113.54.243.158:6121) quit, UserCount:2
+2024-11-30 20:34:38.748102 [info] : Client[7] quit!
+2024-11-30 20:34:38.748128 [info] : Client[7](113.54.243.158:5609) quit, UserCount:1
+2024-11-30 20:34:38.748227 [info] : Client[8] quit!
+2024-11-30 20:34:38.748323 [info] : Client[8](113.54.243.158:7657) quit, UserCount:0
+2024-11-30 20:34:38.871017 [info] : Client[6](113.54.243.158:8425) in, userCount:1
+2024-11-30 20:34:38.871073 [info] : Client[6] in!
+2024-11-30 20:34:38.871102 [info] : Client[7](113.54.243.158:8169) in, userCount:2
+2024-11-30 20:34:38.871165 [info] : Client[7] in!
+2024-11-30 20:34:38.873028 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:34:38.873240 [info] : Client[6] quit!
+2024-11-30 20:34:38.873247 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:34:38.873324 [info] : Client[6](113.54.243.158:8425) quit, UserCount:1
+2024-11-30 20:34:38.873441 [info] : Client[7] quit!
+2024-11-30 20:34:38.873506 [info] : Client[7](113.54.243.158:8169) quit, UserCount:0
+2024-11-30 20:34:39.480136 [info] : Client[6](113.54.243.158:8937) in, userCount:1
+2024-11-30 20:34:39.480213 [info] : Client[6] in!
+2024-11-30 20:34:39.482930 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:34:39.483112 [info] : Client[6] quit!
+2024-11-30 20:34:39.483164 [info] : Client[6](113.54.243.158:8937) quit, UserCount:0
+2024-11-30 20:34:39.538115 [info] : Client[6](113.54.243.158:9193) in, userCount:1
+2024-11-30 20:34:39.538214 [info] : Client[6] in!
+2024-11-30 20:34:39.542147 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:34:39.542306 [info] : Client[6] quit!
+2024-11-30 20:34:39.542358 [info] : Client[6](113.54.243.158:9193) quit, UserCount:0
+2024-11-30 20:34:39.583057 [info] : Client[6](113.54.243.158:9449) in, userCount:1
+2024-11-30 20:34:39.583134 [info] : Client[6] in!
+2024-11-30 20:34:39.584967 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:34:39.585064 [info] : Client[6] quit!
+2024-11-30 20:34:39.585102 [info] : Client[6](113.54.243.158:9449) quit, UserCount:0
+2024-11-30 20:34:39.943162 [info] : Client[6](113.54.243.158:8681) in, userCount:1
+2024-11-30 20:34:39.943233 [info] : Client[6] in!
+2024-11-30 20:34:39.945093 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:34:39.945207 [info] : Client[6] quit!
+2024-11-30 20:34:39.945244 [info] : Client[6](113.54.243.158:8681) quit, UserCount:0
+2024-11-30 20:34:43.353601 [info] : Client[6](113.54.243.158:10217) in, userCount:1
+2024-11-30 20:34:43.353698 [info] : Client[6] in!
+2024-11-30 20:34:43.355790 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//picture.html
+2024-11-30 20:34:43.355909 [info] : Client[6] quit!
+2024-11-30 20:34:43.355964 [info] : Client[6](113.54.243.158:10217) quit, UserCount:0
+2024-11-30 20:34:43.520319 [info] : Client[6](113.54.243.158:10473) in, userCount:1
+2024-11-30 20:34:43.520407 [info] : Client[6] in!
+2024-11-30 20:34:43.522323 [info] : Client[7](113.54.243.158:10985) in, userCount:2
+2024-11-30 20:34:43.522374 [info] : Client[7] in!
+2024-11-30 20:34:43.524361 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:34:43.524483 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:34:43.524605 [info] : Client[7] quit!
+2024-11-30 20:34:43.524644 [info] : Client[6] quit!
+2024-11-30 20:34:43.524679 [info] : Client[7](113.54.243.158:10985) quit, UserCount:1
+2024-11-30 20:34:43.524687 [info] : Client[6](113.54.243.158:10473) quit, UserCount:0
+2024-11-30 20:34:43.524974 [info] : Client[6](113.54.243.158:11753) in, userCount:1
+2024-11-30 20:34:43.525007 [info] : Client[6] in!
+2024-11-30 20:34:43.525038 [info] : Client[7](113.54.243.158:11497) in, userCount:2
+2024-11-30 20:34:43.525047 [info] : Client[7] in!
+2024-11-30 20:34:43.525055 [info] : Client[8](113.54.243.158:10729) in, userCount:3
+2024-11-30 20:34:43.525063 [info] : Client[8] in!
+2024-11-30 20:34:43.525160 [info] : Client[9](113.54.243.158:11241) in, userCount:4
+2024-11-30 20:34:43.525183 [info] : Client[9] in!
+2024-11-30 20:34:43.528681 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:34:43.528754 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:34:43.528837 [info] : Client[8] quit!
+2024-11-30 20:34:43.528879 [info] : Client[8](113.54.243.158:10729) quit, UserCount:3
+2024-11-30 20:34:43.528907 [info] : Client[7] quit!
+2024-11-30 20:34:43.528932 [info] : Client[7](113.54.243.158:11497) quit, UserCount:2
+2024-11-30 20:34:43.529054 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:34:43.529144 [info] : Client[9] quit!
+2024-11-30 20:34:43.529190 [info] : Client[9](113.54.243.158:11241) quit, UserCount:1
+2024-11-30 20:34:43.529287 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:34:43.664528 [info] : Client[7](113.54.243.158:12009) in, userCount:2
+2024-11-30 20:34:43.664610 [info] : Client[7] in!
+2024-11-30 20:34:43.666475 [info] : Client[8](113.54.243.158:12265) in, userCount:3
+2024-11-30 20:34:43.666602 [info] : Client[8] in!
+2024-11-30 20:34:43.668534 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image1.png
+2024-11-30 20:34:43.668865 [info] : Client[7] quit!
+2024-11-30 20:34:43.668932 [info] : Client[7](113.54.243.158:12009) quit, UserCount:2
+2024-11-30 20:34:43.669111 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image2.png
+2024-11-30 20:34:43.669245 [info] : Client[8] quit!
+2024-11-30 20:34:43.669340 [info] : Client[8](113.54.243.158:12265) quit, UserCount:1
+2024-11-30 20:34:43.718526 [info] : Client[7](113.54.243.158:12521) in, userCount:2
+2024-11-30 20:34:43.718602 [info] : Client[7] in!
+2024-11-30 20:34:43.720701 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image3.png
+2024-11-30 20:34:45.190106 [info] : Client[8](113.54.243.158:15337) in, userCount:3
+2024-11-30 20:34:45.190193 [info] : Client[8] in!
+2024-11-30 20:34:45.192115 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image4.png
+2024-11-30 20:34:45.192295 [info] : Client[8] quit!
+2024-11-30 20:34:45.192355 [info] : Client[8](113.54.243.158:15337) quit, UserCount:2
+2024-11-30 20:34:45.424974 [info] : Client[7] quit!
+2024-11-30 20:34:45.425117 [info] : Client[7](113.54.243.158:12521) quit, UserCount:1
+2024-11-30 20:34:45.698478 [info] : Client[7](113.54.243.158:15593) in, userCount:2
+2024-11-30 20:34:45.698560 [info] : Client[7] in!
+2024-11-30 20:34:45.700418 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:34:45.700594 [info] : Client[7] quit!
+2024-11-30 20:34:45.700648 [info] : Client[7](113.54.243.158:15593) quit, UserCount:1
+2024-11-30 20:34:47.116055 [info] : Client[7](113.54.243.158:15849) in, userCount:2
+2024-11-30 20:34:47.116129 [info] : Client[7] in!
+2024-11-30 20:34:47.118059 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image5.png
+2024-11-30 20:34:47.355944 [info] : Client[8](113.54.243.158:16105) in, userCount:3
+2024-11-30 20:34:47.356057 [info] : Client[8] in!
+2024-11-30 20:34:47.361373 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:34:47.361635 [info] : Client[8] quit!
+2024-11-30 20:34:47.361708 [info] : Client[8](113.54.243.158:16105) quit, UserCount:2
+2024-11-30 20:34:47.428362 [info] : Client[8](113.54.243.158:16361) in, userCount:3
+2024-11-30 20:34:47.428466 [info] : Client[8] in!
+2024-11-30 20:34:47.430318 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:34:47.430458 [info] : Client[8] quit!
+2024-11-30 20:34:47.430527 [info] : Client[8](113.54.243.158:16361) quit, UserCount:2
+2024-11-30 20:34:47.995988 [info] : Client[8](113.54.243.158:16617) in, userCount:3
+2024-11-30 20:34:47.996133 [info] : Client[8] in!
+2024-11-30 20:34:47.998235 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:34:47.998402 [info] : Client[8] quit!
+2024-11-30 20:34:47.998457 [info] : Client[8](113.54.243.158:16617) quit, UserCount:2
+2024-11-30 20:34:48.832155 [info] : Client[8](113.54.243.158:17129) in, userCount:3
+2024-11-30 20:34:48.832273 [info] : Client[8] in!
+2024-11-30 20:34:48.834319 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:34:48.834573 [info] : Client[8] quit!
+2024-11-30 20:34:48.834649 [info] : Client[8](113.54.243.158:17129) quit, UserCount:2
+2024-11-30 20:34:48.945885 [info] : Client[8](113.54.243.158:17385) in, userCount:3
+2024-11-30 20:34:48.946022 [info] : Client[8] in!
+2024-11-30 20:34:48.948157 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:34:48.948306 [info] : Client[8] quit!
+2024-11-30 20:34:48.948354 [info] : Client[8](113.54.243.158:17385) quit, UserCount:2
+2024-11-30 20:34:49.055990 [info] : Client[8](113.54.243.158:17641) in, userCount:3
+2024-11-30 20:34:49.056066 [info] : Client[8] in!
+2024-11-30 20:34:49.060128 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:34:49.060295 [info] : Client[8] quit!
+2024-11-30 20:34:49.060355 [info] : Client[8](113.54.243.158:17641) quit, UserCount:2
+2024-11-30 20:34:57.554335 [info] : Client[6] quit!
+2024-11-30 20:34:57.554556 [info] : Client[6](113.54.243.158:11753) quit, UserCount:1
+2024-11-30 20:35:04.258168 [info] : Client[7] quit!
+2024-11-30 20:35:04.258318 [info] : Client[7](113.54.243.158:15849) quit, UserCount:0
+2024-11-30 20:35:18.863422 [info] : Client[6](113.54.243.158:24809) in, userCount:1
+2024-11-30 20:35:18.863549 [info] : Client[6] in!
+2024-11-30 20:35:18.868818 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//login.html
+2024-11-30 20:35:18.869063 [info] : Client[6] quit!
+2024-11-30 20:35:18.869221 [info] : Client[6](113.54.243.158:24809) quit, UserCount:0
+2024-11-30 20:35:19.055692 [info] : Client[6](113.54.243.158:25321) in, userCount:1
+2024-11-30 20:35:19.055821 [info] : Client[6] in!
+2024-11-30 20:35:19.057757 [info] : Client[7](113.54.243.158:25065) in, userCount:2
+2024-11-30 20:35:19.057832 [info] : Client[7] in!
+2024-11-30 20:35:19.057879 [info] : Client[8](113.54.243.158:25577) in, userCount:3
+2024-11-30 20:35:19.057892 [info] : Client[8] in!
+2024-11-30 20:35:19.057903 [info] : Client[9](113.54.243.158:26089) in, userCount:4
+2024-11-30 20:35:19.057912 [info] : Client[9] in!
+2024-11-30 20:35:19.057922 [info] : Client[10](113.54.243.158:26345) in, userCount:5
+2024-11-30 20:35:19.057932 [info] : Client[10] in!
+2024-11-30 20:35:19.059945 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:35:19.060042 [info] : Client[11](113.54.243.158:25833) in, userCount:6
+2024-11-30 20:35:19.060061 [info] : Client[11] in!
+2024-11-30 20:35:19.061901 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:35:19.062095 [info] : Client[7] quit!
+2024-11-30 20:35:19.062179 [info] : Client[7](113.54.243.158:25065) quit, UserCount:5
+2024-11-30 20:35:19.062203 [info] : Client[8] quit!
+2024-11-30 20:35:19.062233 [info] : Client[8](113.54.243.158:25577) quit, UserCount:4
+2024-11-30 20:35:19.063879 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:35:19.063915 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:35:19.064008 [info] : Client[9] quit!
+2024-11-30 20:35:19.064068 [info] : Client[9](113.54.243.158:26089) quit, UserCount:3
+2024-11-30 20:35:19.064099 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:35:19.064182 [info] : Client[11] quit!
+2024-11-30 20:35:19.064222 [info] : Client[11](113.54.243.158:25833) quit, UserCount:2
+2024-11-30 20:35:19.064264 [info] : Client[6] quit!
+2024-11-30 20:35:19.064322 [info] : Client[6](113.54.243.158:25321) quit, UserCount:1
+2024-11-30 20:35:19.064847 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:35:19.064920 [info] : Client[10] quit!
+2024-11-30 20:35:19.064942 [info] : Client[10](113.54.243.158:26345) quit, UserCount:0
+2024-11-30 20:35:19.192108 [info] : Client[6](113.54.243.158:26601) in, userCount:1
+2024-11-30 20:35:19.192284 [info] : Client[6] in!
+2024-11-30 20:35:19.194420 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:35:19.194578 [info] : Client[6] quit!
+2024-11-30 20:35:19.194645 [info] : Client[6](113.54.243.158:26601) quit, UserCount:0
+2024-11-30 20:35:19.214463 [info] : Client[6](113.54.243.158:26857) in, userCount:1
+2024-11-30 20:35:19.214556 [info] : Client[6] in!
+2024-11-30 20:35:19.219148 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:35:19.219318 [info] : Client[6] quit!
+2024-11-30 20:35:19.219392 [info] : Client[6](113.54.243.158:26857) quit, UserCount:0
+2024-11-30 20:35:19.395006 [info] : Client[6](113.54.243.158:27369) in, userCount:1
+2024-11-30 20:35:19.395120 [info] : Client[6] in!
+2024-11-30 20:35:19.404307 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:35:19.404494 [info] : Client[6] quit!
+2024-11-30 20:35:19.404561 [info] : Client[6](113.54.243.158:27369) quit, UserCount:0
+2024-11-30 20:35:19.566325 [info] : Client[6](113.54.243.158:27625) in, userCount:1
+2024-11-30 20:35:19.566422 [info] : Client[6] in!
+2024-11-30 20:35:19.568458 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:35:19.568700 [info] : Client[6] quit!
+2024-11-30 20:35:19.568764 [info] : Client[6](113.54.243.158:27625) quit, UserCount:0
+2024-11-30 20:35:19.699740 [info] : Client[6](113.54.243.158:27881) in, userCount:1
+2024-11-30 20:35:19.699866 [info] : Client[6] in!
+2024-11-30 20:35:19.703433 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:35:19.703622 [info] : Client[6] quit!
+2024-11-30 20:35:19.703697 [info] : Client[6](113.54.243.158:27881) quit, UserCount:0
+2024-11-30 20:35:20.266488 [info] : Client[6](113.54.243.158:27113) in, userCount:1
+2024-11-30 20:35:20.266566 [info] : Client[6] in!
+2024-11-30 20:35:20.268540 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:35:20.268662 [info] : Client[6] quit!
+2024-11-30 20:35:20.268702 [info] : Client[6](113.54.243.158:27113) quit, UserCount:0
+2024-11-30 20:35:22.692227 [info] : Client[6](113.54.243.158:28649) in, userCount:1
+2024-11-30 20:35:22.692308 [info] : Client[6] in!
+2024-11-30 20:35:22.694444 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//register.html
+2024-11-30 20:35:22.695330 [info] : Client[6] quit!
+2024-11-30 20:35:22.695394 [info] : Client[6](113.54.243.158:28649) quit, UserCount:0
+2024-11-30 20:35:23.627679 [info] : Client[6](113.54.243.158:29929) in, userCount:1
+2024-11-30 20:35:23.627763 [info] : Client[6] in!
+2024-11-30 20:35:23.627785 [info] : Client[7](113.54.243.158:30953) in, userCount:2
+2024-11-30 20:35:23.627796 [info] : Client[7] in!
+2024-11-30 20:35:23.627803 [info] : Client[8](113.54.243.158:30441) in, userCount:3
+2024-11-30 20:35:23.627811 [info] : Client[8] in!
+2024-11-30 20:35:23.627819 [info] : Client[9](113.54.243.158:30697) in, userCount:4
+2024-11-30 20:35:23.627827 [info] : Client[9] in!
+2024-11-30 20:35:23.627834 [info] : Client[10](113.54.243.158:30185) in, userCount:5
+2024-11-30 20:35:23.627842 [info] : Client[10] in!
+2024-11-30 20:35:23.627849 [info] : Client[11](113.54.243.158:29673) in, userCount:6
+2024-11-30 20:35:23.627855 [info] : Client[11] in!
+2024-11-30 20:35:23.629947 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:35:23.631831 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:35:23.632510 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:35:23.632570 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:35:23.633681 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:35:23.633799 [info] : Client[7] quit!
+2024-11-30 20:35:23.633844 [info] : Client[7](113.54.243.158:30953) quit, UserCount:5
+2024-11-30 20:35:23.633906 [info] : Client[9] quit!
+2024-11-30 20:35:23.633934 [info] : Client[9](113.54.243.158:30697) quit, UserCount:4
+2024-11-30 20:35:23.633974 [info] : Client[8] quit!
+2024-11-30 20:35:23.633988 [info] : Client[8](113.54.243.158:30441) quit, UserCount:3
+2024-11-30 20:35:23.634002 [info] : Client[6] quit!
+2024-11-30 20:35:23.634016 [info] : Client[6](113.54.243.158:29929) quit, UserCount:2
+2024-11-30 20:35:23.634194 [info] : Client[10] quit!
+2024-11-30 20:35:23.634325 [info] : Client[10](113.54.243.158:30185) quit, UserCount:1
+2024-11-30 20:35:23.634747 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:35:23.635037 [info] : Client[11] quit!
+2024-11-30 20:35:23.635101 [info] : Client[11](113.54.243.158:29673) quit, UserCount:0
+2024-11-30 20:35:23.817510 [info] : Client[6](113.54.243.158:31721) in, userCount:1
+2024-11-30 20:35:23.817613 [info] : Client[6] in!
+2024-11-30 20:35:23.817639 [info] : Client[7](113.54.243.158:31977) in, userCount:2
+2024-11-30 20:35:23.817653 [info] : Client[7] in!
+2024-11-30 20:35:23.819747 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:35:23.820028 [info] : Client[6] quit!
+2024-11-30 20:35:23.820109 [info] : Client[6](113.54.243.158:31721) quit, UserCount:1
+2024-11-30 20:35:23.820485 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:35:23.820599 [info] : Client[7] quit!
+2024-11-30 20:35:23.820667 [info] : Client[7](113.54.243.158:31977) quit, UserCount:0
+2024-11-30 20:35:23.875690 [info] : Client[6](113.54.243.158:32233) in, userCount:1
+2024-11-30 20:35:23.875799 [info] : Client[6] in!
+2024-11-30 20:35:23.878127 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:35:23.878297 [info] : Client[6] quit!
+2024-11-30 20:35:23.878376 [info] : Client[6](113.54.243.158:32233) quit, UserCount:0
+2024-11-30 20:35:24.356888 [info] : Client[6](113.54.243.158:33001) in, userCount:1
+2024-11-30 20:35:24.356984 [info] : Client[6] in!
+2024-11-30 20:35:24.358948 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:35:24.359117 [info] : Client[6] quit!
+2024-11-30 20:35:24.359183 [info] : Client[6](113.54.243.158:33001) quit, UserCount:0
+2024-11-30 20:35:24.478989 [info] : Client[6](113.54.243.158:33257) in, userCount:1
+2024-11-30 20:35:24.479079 [info] : Client[6] in!
+2024-11-30 20:35:24.481083 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:35:24.481198 [info] : Client[6] quit!
+2024-11-30 20:35:24.481239 [info] : Client[6](113.54.243.158:33257) quit, UserCount:0
+2024-11-30 20:35:24.616715 [info] : Client[6](113.54.243.158:33513) in, userCount:1
+2024-11-30 20:35:24.616828 [info] : Client[6] in!
+2024-11-30 20:35:24.618762 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:35:24.618886 [info] : Client[6] quit!
+2024-11-30 20:35:24.618927 [info] : Client[6](113.54.243.158:33513) quit, UserCount:0
+2024-11-30 20:36:23.691515 [info] : Client[9] quit!
+2024-11-30 20:36:23.691632 [info] : Client[8] quit!
+2024-11-30 20:36:23.691657 [info] : Client[10] quit!
+2024-11-30 20:36:23.691665 [info] : Client[11] quit!
+2024-11-30 20:36:23.819856 [info] : Client[7] quit!
+2024-11-30 20:43:23.305593 [info] : ========== Server init ==========
+2024-11-30 20:43:23.305635 [info] : Port:80, OpenLinger: false
+2024-11-30 20:43:23.305642 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-30 20:43:23.305647 [info] : LogSys level: 1
+2024-11-30 20:43:23.305651 [info] : srcDir: /root/ticketsserver/task3-tinyserver/tiny_webserver/resources/
+2024-11-30 20:43:23.305654 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-11-30 20:43:23.305757 [info] : ========== Server start ==========
+2024-11-30 20:43:27.861051 [info] : Client[6](113.54.243.158:15851) in, userCount:1
+2024-11-30 20:43:27.862613 [info] : Client[6] in!
+2024-11-30 20:43:27.874996 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//index.html
+2024-11-30 20:43:27.875917 [info] : Client[6] quit!
+2024-11-30 20:43:27.876064 [info] : Client[6](113.54.243.158:15851) quit, UserCount:0
+2024-11-30 20:43:28.029581 [info] : Client[6](113.54.243.158:17643) in, userCount:1
+2024-11-30 20:43:28.029654 [info] : Client[6] in!
+2024-11-30 20:43:28.035712 [info] : Client[7](113.54.243.158:17387) in, userCount:2
+2024-11-30 20:43:28.035885 [info] : Client[7] in!
+2024-11-30 20:43:28.035943 [info] : Client[8](113.54.243.158:17131) in, userCount:3
+2024-11-30 20:43:28.035968 [info] : Client[8] in!
+2024-11-30 20:43:28.035980 [info] : Client[9](113.54.243.158:18155) in, userCount:4
+2024-11-30 20:43:28.035987 [info] : Client[9] in!
+2024-11-30 20:43:28.035997 [info] : Client[10](113.54.243.158:18411) in, userCount:5
+2024-11-30 20:43:28.036037 [info] : Client[10] in!
+2024-11-30 20:43:28.036062 [info] : Client[11](113.54.243.158:17899) in, userCount:6
+2024-11-30 20:43:28.036073 [info] : Client[11] in!
+2024-11-30 20:43:28.039086 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:43:28.040024 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:43:28.041701 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:43:28.042061 [info] : Client[6] quit!
+2024-11-30 20:43:28.042152 [info] : Client[6](113.54.243.158:17643) quit, UserCount:5
+2024-11-30 20:43:28.042379 [info] : Client[7] quit!
+2024-11-30 20:43:28.042559 [info] : Client[7](113.54.243.158:17387) quit, UserCount:4
+2024-11-30 20:43:28.042687 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:43:28.042786 [info] : Client[11] quit!
+2024-11-30 20:43:28.042820 [info] : Client[11](113.54.243.158:17899) quit, UserCount:3
+2024-11-30 20:43:28.042821 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:43:28.042866 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:43:28.044130 [info] : Client[8] quit!
+2024-11-30 20:43:28.044190 [info] : Client[8](113.54.243.158:17131) quit, UserCount:2
+2024-11-30 20:43:28.044224 [info] : Client[9] quit!
+2024-11-30 20:43:28.044280 [info] : Client[9](113.54.243.158:18155) quit, UserCount:1
+2024-11-30 20:43:28.258650 [info] : Client[6](113.54.243.158:18667) in, userCount:2
+2024-11-30 20:43:28.258749 [info] : Client[6] in!
+2024-11-30 20:43:28.261598 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:43:28.262949 [info] : Client[6] quit!
+2024-11-30 20:43:28.263143 [info] : Client[6](113.54.243.158:18667) quit, UserCount:1
+2024-11-30 20:43:28.310406 [info] : Client[6](113.54.243.158:19179) in, userCount:2
+2024-11-30 20:43:28.310526 [info] : Client[6] in!
+2024-11-30 20:43:28.312613 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:43:28.313637 [info] : Client[6] quit!
+2024-11-30 20:43:28.313730 [info] : Client[6](113.54.243.158:19179) quit, UserCount:1
+2024-11-30 20:43:28.440374 [info] : Client[6](113.54.243.158:19435) in, userCount:2
+2024-11-30 20:43:28.440462 [info] : Client[6] in!
+2024-11-30 20:43:28.442463 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:43:28.443420 [info] : Client[6] quit!
+2024-11-30 20:43:28.443495 [info] : Client[6](113.54.243.158:19435) quit, UserCount:1
+2024-11-30 20:43:29.271595 [info] : Client[6](113.54.243.158:18923) in, userCount:2
+2024-11-30 20:43:29.271696 [info] : Client[6] in!
+2024-11-30 20:43:29.273757 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:43:29.274863 [info] : Client[6] quit!
+2024-11-30 20:43:29.274988 [info] : Client[6](113.54.243.158:18923) quit, UserCount:1
+2024-11-30 20:43:29.413411 [info] : Client[6](113.54.243.158:19691) in, userCount:2
+2024-11-30 20:43:29.413485 [info] : Client[6] in!
+2024-11-30 20:43:29.417410 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:43:29.418375 [info] : Client[6] quit!
+2024-11-30 20:43:29.418453 [info] : Client[6](113.54.243.158:19691) quit, UserCount:1
+2024-11-30 20:43:29.441856 [info] : Client[6](113.54.243.158:19947) in, userCount:2
+2024-11-30 20:43:29.441937 [info] : Client[6] in!
+2024-11-30 20:43:29.443776 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:43:29.444654 [info] : Client[6] quit!
+2024-11-30 20:43:29.444723 [info] : Client[6](113.54.243.158:19947) quit, UserCount:1
+2024-11-30 20:43:29.546671 [info] : Client[6](113.54.243.158:20203) in, userCount:2
+2024-11-30 20:43:29.546787 [info] : Client[6] in!
+2024-11-30 20:43:29.553613 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:43:29.554826 [info] : Client[6] quit!
+2024-11-30 20:43:29.554941 [info] : Client[6](113.54.243.158:20203) quit, UserCount:1
+2024-11-30 20:43:37.357647 [info] : Client[10] quit!
+2024-11-30 20:43:37.357802 [info] : Client[10](113.54.243.158:18411) quit, UserCount:0
+2024-11-30 20:43:38.845040 [info] : Client[6](113.54.243.158:22507) in, userCount:1
+2024-11-30 20:43:38.845159 [info] : Client[6] in!
+2024-11-30 20:43:38.847547 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/favicon.ico
+2024-11-30 20:43:38.848923 [info] : Client[6] quit!
+2024-11-30 20:43:38.849047 [info] : Client[6](113.54.243.158:22507) quit, UserCount:0
+2024-11-30 20:44:06.523814 [info] : Client[6](113.54.243.158:27115) in, userCount:1
+2024-11-30 20:44:06.523927 [info] : Client[6] in!
+2024-11-30 20:44:06.526301 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//picture.html
+2024-11-30 20:44:06.527213 [info] : Client[6] quit!
+2024-11-30 20:44:06.527320 [info] : Client[6](113.54.243.158:27115) quit, UserCount:0
+2024-11-30 20:44:06.733597 [info] : Client[6](113.54.243.158:28651) in, userCount:1
+2024-11-30 20:44:06.733681 [info] : Client[6] in!
+2024-11-30 20:44:06.733699 [info] : Client[7](113.54.243.158:28395) in, userCount:2
+2024-11-30 20:44:06.733708 [info] : Client[7] in!
+2024-11-30 20:44:06.733716 [info] : Client[8](113.54.243.158:28139) in, userCount:3
+2024-11-30 20:44:06.733724 [info] : Client[8] in!
+2024-11-30 20:44:06.733732 [info] : Client[9](113.54.243.158:27883) in, userCount:4
+2024-11-30 20:44:06.733739 [info] : Client[9] in!
+2024-11-30 20:44:06.733745 [info] : Client[10](113.54.243.158:27627) in, userCount:5
+2024-11-30 20:44:06.733753 [info] : Client[10] in!
+2024-11-30 20:44:06.733761 [info] : Client[11](113.54.243.158:27371) in, userCount:6
+2024-11-30 20:44:06.733767 [info] : Client[11] in!
+2024-11-30 20:44:06.735699 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:44:06.737544 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:44:06.738096 [info] : Client[7] quit!
+2024-11-30 20:44:06.738182 [info] : Client[7](113.54.243.158:28395) quit, UserCount:5
+2024-11-30 20:44:06.738268 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:44:06.739105 [info] : Client[9] quit!
+2024-11-30 20:44:06.739226 [info] : Client[9](113.54.243.158:27883) quit, UserCount:4
+2024-11-30 20:44:06.739440 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:44:06.739576 [info] : Client[10] quit!
+2024-11-30 20:44:06.739646 [info] : Client[10](113.54.243.158:27627) quit, UserCount:3
+2024-11-30 20:44:06.739786 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:44:06.739856 [info] : Client[8] quit!
+2024-11-30 20:44:06.739965 [info] : Client[8](113.54.243.158:28139) quit, UserCount:2
+2024-11-30 20:44:06.740504 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:44:06.740663 [info] : Client[11] quit!
+2024-11-30 20:44:06.740750 [info] : Client[11](113.54.243.158:27371) quit, UserCount:1
+2024-11-30 20:44:06.876408 [info] : Client[7](113.54.243.158:28907) in, userCount:2
+2024-11-30 20:44:06.876735 [info] : Client[7] in!
+2024-11-30 20:44:06.876789 [info] : Client[8](113.54.243.158:29163) in, userCount:3
+2024-11-30 20:44:06.876814 [info] : Client[8] in!
+2024-11-30 20:44:06.878686 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image1.png
+2024-11-30 20:44:06.879069 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image2.png
+2024-11-30 20:44:06.880210 [info] : Client[7] quit!
+2024-11-30 20:44:06.880281 [info] : Client[7](113.54.243.158:28907) quit, UserCount:2
+2024-11-30 20:44:06.880584 [info] : Client[8] quit!
+2024-11-30 20:44:06.880628 [info] : Client[8](113.54.243.158:29163) quit, UserCount:1
+2024-11-30 20:44:07.944779 [info] : Client[7](113.54.243.158:29419) in, userCount:2
+2024-11-30 20:44:07.944861 [info] : Client[7] in!
+2024-11-30 20:44:07.949166 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image3.png
+2024-11-30 20:44:07.950811 [info] : Client[7] quit!
+2024-11-30 20:44:07.950894 [info] : Client[7](113.54.243.158:29419) quit, UserCount:1
+2024-11-30 20:44:09.366397 [info] : Client[7](113.54.243.158:30187) in, userCount:2
+2024-11-30 20:44:09.366522 [info] : Client[7] in!
+2024-11-30 20:44:09.369334 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image4.png
+2024-11-30 20:44:09.370737 [info] : Client[7] quit!
+2024-11-30 20:44:09.370814 [info] : Client[7](113.54.243.158:30187) quit, UserCount:1
+2024-11-30 20:44:10.382476 [info] : Client[7](113.54.243.158:30443) in, userCount:2
+2024-11-30 20:44:10.382603 [info] : Client[7] in!
+2024-11-30 20:44:10.384436 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:44:10.384642 [info] : Client[7] quit!
+2024-11-30 20:44:10.384701 [info] : Client[7](113.54.243.158:30443) quit, UserCount:1
+2024-11-30 20:44:11.672082 [info] : Client[7](113.54.243.158:30699) in, userCount:2
+2024-11-30 20:44:11.672199 [info] : Client[7] in!
+2024-11-30 20:44:11.674200 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image5.png
+2024-11-30 20:44:15.073172 [info] : Client[8](113.54.243.158:31723) in, userCount:3
+2024-11-30 20:44:15.073275 [info] : Client[8] in!
+2024-11-30 20:44:15.075894 [info] : Client[9](113.54.243.158:31979) in, userCount:4
+2024-11-30 20:44:15.075983 [info] : Client[9] in!
+2024-11-30 20:44:15.077737 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:44:15.077897 [info] : Client[8] quit!
+2024-11-30 20:44:15.077975 [info] : Client[8](113.54.243.158:31723) quit, UserCount:3
+2024-11-30 20:44:15.078203 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:44:15.078313 [info] : Client[9] quit!
+2024-11-30 20:44:15.078376 [info] : Client[9](113.54.243.158:31979) quit, UserCount:2
+2024-11-30 20:44:16.762754 [info] : Client[8](113.54.243.158:34795) in, userCount:3
+2024-11-30 20:44:16.762853 [info] : Client[8] in!
+2024-11-30 20:44:16.764709 [info] : Client[9](113.54.243.158:35051) in, userCount:4
+2024-11-30 20:44:16.764768 [info] : Client[9] in!
+2024-11-30 20:44:16.766521 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:44:16.766805 [info] : Client[8] quit!
+2024-11-30 20:44:16.766904 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:44:16.766933 [info] : Client[8](113.54.243.158:34795) quit, UserCount:3
+2024-11-30 20:44:16.766993 [info] : Client[9] quit!
+2024-11-30 20:44:16.767021 [info] : Client[9](113.54.243.158:35051) quit, UserCount:2
+2024-11-30 20:44:18.072624 [info] : Client[8](113.54.243.158:35819) in, userCount:3
+2024-11-30 20:44:18.072749 [info] : Client[8] in!
+2024-11-30 20:44:18.074679 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:44:18.074858 [info] : Client[8] quit!
+2024-11-30 20:44:18.074903 [info] : Client[8](113.54.243.158:35819) quit, UserCount:2
+2024-11-30 20:44:18.075039 [info] : Client[8](113.54.243.158:36075) in, userCount:3
+2024-11-30 20:44:18.075112 [info] : Client[8] in!
+2024-11-30 20:44:18.078390 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:44:18.078608 [info] : Client[8] quit!
+2024-11-30 20:44:18.078698 [info] : Client[8](113.54.243.158:36075) quit, UserCount:2
+2024-11-30 20:44:20.950551 [info] : Client[6] quit!
+2024-11-30 20:44:20.950708 [info] : Client[6](113.54.243.158:28651) quit, UserCount:1
+2024-11-30 20:44:28.039714 [info] : Client[7] quit!
+2024-11-30 20:44:28.039918 [info] : Client[7](113.54.243.158:30699) quit, UserCount:0
+2024-11-30 20:45:06.776529 [info] : Client[10] quit!
+2024-11-30 20:45:46.688334 [info] : ========== Server init ==========
+2024-11-30 20:45:46.688359 [info] : Port:80, OpenLinger: false
+2024-11-30 20:45:46.688438 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-30 20:45:46.688449 [info] : LogSys level: 1
+2024-11-30 20:45:46.688456 [info] : srcDir: /root/ticketsserver/task3-tinyserver/tiny_webserver/resources/
+2024-11-30 20:45:46.688468 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-11-30 20:45:46.688473 [info] : ========== Server start ==========
+2024-11-30 20:45:52.593872 [info] : Client[6](113.54.243.158:12780) in, userCount:1
+2024-11-30 20:45:52.594073 [info] : Client[6] in!
+2024-11-30 20:45:52.599960 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//picture.html
+2024-11-30 20:45:52.600134 [info] : Client[6] quit!
+2024-11-30 20:45:52.600220 [info] : Client[6](113.54.243.158:12780) quit, UserCount:0
+2024-11-30 20:45:52.751544 [info] : Client[6](113.54.243.158:13548) in, userCount:1
+2024-11-30 20:45:52.751631 [info] : Client[6] in!
+2024-11-30 20:45:52.755227 [info] : Client[7](113.54.243.158:14316) in, userCount:2
+2024-11-30 20:45:52.755310 [info] : Client[7] in!
+2024-11-30 20:45:52.755338 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:45:52.755565 [info] : Client[6] quit!
+2024-11-30 20:45:52.755649 [info] : Client[6](113.54.243.158:13548) quit, UserCount:1
+2024-11-30 20:45:52.757442 [info] : Client[6](113.54.243.158:15340) in, userCount:2
+2024-11-30 20:45:52.757584 [info] : Client[6] in!
+2024-11-30 20:45:52.757618 [info] : Client[8](113.54.243.158:15596) in, userCount:3
+2024-11-30 20:45:52.757630 [info] : Client[8] in!
+2024-11-30 20:45:52.757642 [info] : Client[9](113.54.243.158:15084) in, userCount:4
+2024-11-30 20:45:52.757662 [info] : Client[9] in!
+2024-11-30 20:45:52.757676 [info] : Client[10](113.54.243.158:15852) in, userCount:5
+2024-11-30 20:45:52.757687 [info] : Client[10] in!
+2024-11-30 20:45:52.761676 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:45:52.762041 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:45:52.762151 [info] : Client[7] quit!
+2024-11-30 20:45:52.762192 [info] : Client[7](113.54.243.158:14316) quit, UserCount:4
+2024-11-30 20:45:52.762214 [info] : Client[9] quit!
+2024-11-30 20:45:52.762232 [info] : Client[9](113.54.243.158:15084) quit, UserCount:3
+2024-11-30 20:45:52.762569 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:45:52.762650 [info] : Client[8] quit!
+2024-11-30 20:45:52.762683 [info] : Client[8](113.54.243.158:15596) quit, UserCount:2
+2024-11-30 20:45:52.763104 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:45:52.763188 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:45:52.763290 [info] : Client[10] quit!
+2024-11-30 20:45:52.763354 [info] : Client[10](113.54.243.158:15852) quit, UserCount:1
+2024-11-30 20:45:52.887663 [info] : Client[7](113.54.243.158:16364) in, userCount:2
+2024-11-30 20:45:52.887795 [info] : Client[7] in!
+2024-11-30 20:45:52.889738 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:45:52.889918 [info] : Client[7] quit!
+2024-11-30 20:45:52.889992 [info] : Client[7](113.54.243.158:16364) quit, UserCount:1
+2024-11-30 20:45:52.894581 [info] : Client[7](113.54.243.158:16108) in, userCount:2
+2024-11-30 20:45:52.894650 [info] : Client[7] in!
+2024-11-30 20:45:52.896758 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image3.png
+2024-11-30 20:45:53.956192 [info] : Client[8](113.54.243.158:16620) in, userCount:3
+2024-11-30 20:45:53.956396 [info] : Client[8] in!
+2024-11-30 20:45:53.958361 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image4.png
+2024-11-30 20:45:53.958556 [info] : Client[8] quit!
+2024-11-30 20:45:53.958609 [info] : Client[8](113.54.243.158:16620) quit, UserCount:2
+2024-11-30 20:45:54.948669 [info] : Client[8](113.54.243.158:16876) in, userCount:3
+2024-11-30 20:45:54.948771 [info] : Client[8] in!
+2024-11-30 20:45:54.950877 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image1.png
+2024-11-30 20:45:54.951123 [info] : Client[8] quit!
+2024-11-30 20:45:54.951191 [info] : Client[8](113.54.243.158:16876) quit, UserCount:2
+2024-11-30 20:45:56.251801 [info] : Client[7] quit!
+2024-11-30 20:45:56.251945 [info] : Client[7](113.54.243.158:16108) quit, UserCount:1
+2024-11-30 20:45:56.308458 [info] : Client[7](113.54.243.158:17388) in, userCount:2
+2024-11-30 20:45:56.308541 [info] : Client[7] in!
+2024-11-30 20:45:56.308552 [info] : Client[8](113.54.243.158:17132) in, userCount:3
+2024-11-30 20:45:56.308560 [info] : Client[8] in!
+2024-11-30 20:45:56.310480 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image5.png
+2024-11-30 20:45:56.311349 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image2.png
+2024-11-30 20:45:56.311485 [info] : Client[8] quit!
+2024-11-30 20:45:56.311581 [info] : Client[8](113.54.243.158:17132) quit, UserCount:2
+2024-11-30 20:45:57.428760 [info] : Client[8](113.54.243.158:17644) in, userCount:3
+2024-11-30 20:45:57.428861 [info] : Client[8] in!
+2024-11-30 20:45:57.431545 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:45:57.431726 [info] : Client[8] quit!
+2024-11-30 20:45:57.431804 [info] : Client[8](113.54.243.158:17644) quit, UserCount:2
+2024-11-30 20:45:59.177755 [info] : Client[8](113.54.243.158:18156) in, userCount:3
+2024-11-30 20:45:59.177851 [info] : Client[8] in!
+2024-11-30 20:45:59.182382 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:45:59.182601 [info] : Client[8] quit!
+2024-11-30 20:45:59.182672 [info] : Client[8](113.54.243.158:18156) quit, UserCount:2
+2024-11-30 20:45:59.292010 [info] : Client[8](113.54.243.158:18412) in, userCount:3
+2024-11-30 20:45:59.292117 [info] : Client[8] in!
+2024-11-30 20:45:59.294789 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:45:59.294975 [info] : Client[8] quit!
+2024-11-30 20:45:59.295044 [info] : Client[8](113.54.243.158:18412) quit, UserCount:2
+2024-11-30 20:46:01.955098 [info] : Client[8](113.54.243.158:18668) in, userCount:3
+2024-11-30 20:46:01.955190 [info] : Client[8] in!
+2024-11-30 20:46:01.957230 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:46:01.957371 [info] : Client[8] quit!
+2024-11-30 20:46:01.957417 [info] : Client[8](113.54.243.158:18668) quit, UserCount:2
+2024-11-30 20:46:01.961192 [info] : Client[8](113.54.243.158:18924) in, userCount:3
+2024-11-30 20:46:01.961263 [info] : Client[8] in!
+2024-11-30 20:46:01.965285 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:46:01.965497 [info] : Client[8] quit!
+2024-11-30 20:46:01.965573 [info] : Client[8](113.54.243.158:18924) quit, UserCount:2
+2024-11-30 20:46:02.069550 [info] : Client[8](113.54.243.158:19180) in, userCount:3
+2024-11-30 20:46:02.069658 [info] : Client[8] in!
+2024-11-30 20:46:02.073353 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:46:02.073576 [info] : Client[8] quit!
+2024-11-30 20:46:02.073666 [info] : Client[8](113.54.243.158:19180) quit, UserCount:2
+2024-11-30 20:46:10.387801 [info] : Client[6] quit!
+2024-11-30 20:46:10.387998 [info] : Client[6](113.54.243.158:15340) quit, UserCount:1
+2024-11-30 20:46:14.326118 [info] : Client[7] quit!
+2024-11-30 20:46:14.326302 [info] : Client[7](113.54.243.158:17388) quit, UserCount:0
+2024-11-30 20:46:15.365386 [info] : Client[6](113.54.243.158:22508) in, userCount:1
+2024-11-30 20:46:15.365441 [info] : Client[6] in!
+2024-11-30 20:46:15.367777 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/favicon.ico
+2024-11-30 20:46:15.368014 [info] : Client[6] quit!
+2024-11-30 20:46:15.368085 [info] : Client[6](113.54.243.158:22508) quit, UserCount:0
+2024-11-30 20:46:52.797267 [info] : Client[9] quit!
+2024-11-30 20:46:52.797399 [info] : Client[10] quit!
+2024-11-30 20:47:02.082204 [info] : Client[8] quit!
+2024-11-30 20:47:09.620181 [info] : Client[6](113.54.243.158:31980) in, userCount:1
+2024-11-30 20:47:09.620265 [info] : Client[6] in!
+2024-11-30 20:47:09.624771 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//login.html
+2024-11-30 20:47:09.625682 [info] : Client[6] quit!
+2024-11-30 20:47:09.625770 [info] : Client[6](113.54.243.158:31980) quit, UserCount:0
+2024-11-30 20:47:09.779886 [info] : Client[6](113.54.243.158:32236) in, userCount:1
+2024-11-30 20:47:09.780014 [info] : Client[6] in!
+2024-11-30 20:47:09.784994 [info] : Client[7](113.54.243.158:33772) in, userCount:2
+2024-11-30 20:47:09.785133 [info] : Client[7] in!
+2024-11-30 20:47:09.785159 [info] : Client[8](113.54.243.158:34028) in, userCount:3
+2024-11-30 20:47:09.785170 [info] : Client[8] in!
+2024-11-30 20:47:09.785178 [info] : Client[9](113.54.243.158:34540) in, userCount:4
+2024-11-30 20:47:09.785185 [info] : Client[9] in!
+2024-11-30 20:47:09.785194 [info] : Client[10](113.54.243.158:32748) in, userCount:5
+2024-11-30 20:47:09.785216 [info] : Client[10] in!
+2024-11-30 20:47:09.785243 [info] : Client[11](113.54.243.158:34284) in, userCount:6
+2024-11-30 20:47:09.785252 [info] : Client[11] in!
+2024-11-30 20:47:09.787108 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:47:09.789148 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:47:09.790012 [info] : Client[7] quit!
+2024-11-30 20:47:09.790075 [info] : Client[7](113.54.243.158:33772) quit, UserCount:5
+2024-11-30 20:47:09.790168 [info] : Client[9] quit!
+2024-11-30 20:47:09.790245 [info] : Client[9](113.54.243.158:34540) quit, UserCount:4
+2024-11-30 20:47:09.790656 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:47:09.790875 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:47:09.791044 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:47:09.791183 [info] : Client[8] quit!
+2024-11-30 20:47:09.791253 [info] : Client[6] quit!
+2024-11-30 20:47:09.791281 [info] : Client[8](113.54.243.158:34028) quit, UserCount:3
+2024-11-30 20:47:09.791318 [info] : Client[6](113.54.243.158:32236) quit, UserCount:2
+2024-11-30 20:47:09.791403 [info] : Client[10] quit!
+2024-11-30 20:47:09.791434 [info] : Client[10](113.54.243.158:32748) quit, UserCount:1
+2024-11-30 20:47:09.791769 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:47:09.791884 [info] : Client[11] quit!
+2024-11-30 20:47:09.791926 [info] : Client[11](113.54.243.158:34284) quit, UserCount:0
+2024-11-30 20:47:09.896977 [info] : Client[6](113.54.243.158:35052) in, userCount:1
+2024-11-30 20:47:09.897055 [info] : Client[6] in!
+2024-11-30 20:47:09.901116 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:47:09.901385 [info] : Client[6] quit!
+2024-11-30 20:47:09.901453 [info] : Client[6](113.54.243.158:35052) quit, UserCount:0
+2024-11-30 20:47:09.914048 [info] : Client[6](113.54.243.158:34796) in, userCount:1
+2024-11-30 20:47:09.914147 [info] : Client[6] in!
+2024-11-30 20:47:09.916026 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:47:09.916167 [info] : Client[6] quit!
+2024-11-30 20:47:09.916209 [info] : Client[6](113.54.243.158:34796) quit, UserCount:0
+2024-11-30 20:47:09.945212 [info] : Client[6](113.54.243.158:35308) in, userCount:1
+2024-11-30 20:47:09.945285 [info] : Client[6] in!
+2024-11-30 20:47:09.947156 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:47:09.947297 [info] : Client[6] quit!
+2024-11-30 20:47:09.947356 [info] : Client[6](113.54.243.158:35308) quit, UserCount:0
+2024-11-30 20:47:10.025376 [info] : Client[6](113.54.243.158:35564) in, userCount:1
+2024-11-30 20:47:10.025456 [info] : Client[6] in!
+2024-11-30 20:47:10.027738 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:47:10.027940 [info] : Client[6] quit!
+2024-11-30 20:47:10.028025 [info] : Client[6](113.54.243.158:35564) quit, UserCount:0
+2024-11-30 20:47:10.142471 [info] : Client[6](113.54.243.158:35820) in, userCount:1
+2024-11-30 20:47:10.142600 [info] : Client[6] in!
+2024-11-30 20:47:10.144741 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:47:10.144884 [info] : Client[6] quit!
+2024-11-30 20:47:10.144937 [info] : Client[6](113.54.243.158:35820) quit, UserCount:0
+2024-11-30 20:47:10.422562 [info] : Client[6](113.54.243.158:36076) in, userCount:1
+2024-11-30 20:47:10.422658 [info] : Client[6] in!
+2024-11-30 20:47:10.426557 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:47:10.426740 [info] : Client[6] quit!
+2024-11-30 20:47:10.426796 [info] : Client[6](113.54.243.158:36076) quit, UserCount:0
+2024-11-30 20:47:18.234840 [info] : Client[6](113.54.243.158:39404) in, userCount:1
+2024-11-30 20:47:18.234967 [info] : Client[6] in!
+2024-11-30 20:47:18.237739 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//index.html
+2024-11-30 20:47:18.237907 [info] : Client[6] quit!
+2024-11-30 20:47:18.237984 [info] : Client[6](113.54.243.158:39404) quit, UserCount:0
+2024-11-30 20:47:18.393239 [info] : Client[6](113.54.243.158:39660) in, userCount:1
+2024-11-30 20:47:18.393336 [info] : Client[6] in!
+2024-11-30 20:47:18.396947 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:47:18.397260 [info] : Client[6] quit!
+2024-11-30 20:47:18.397333 [info] : Client[6](113.54.243.158:39660) quit, UserCount:0
+2024-11-30 20:47:18.404993 [info] : Client[6](113.54.243.158:39916) in, userCount:1
+2024-11-30 20:47:18.405072 [info] : Client[6] in!
+2024-11-30 20:47:18.407040 [info] : Client[7](113.54.243.158:40428) in, userCount:2
+2024-11-30 20:47:18.407127 [info] : Client[7] in!
+2024-11-30 20:47:18.407144 [info] : Client[8](113.54.243.158:40940) in, userCount:3
+2024-11-30 20:47:18.407156 [info] : Client[8] in!
+2024-11-30 20:47:18.407167 [info] : Client[9](113.54.243.158:40684) in, userCount:4
+2024-11-30 20:47:18.407178 [info] : Client[9] in!
+2024-11-30 20:47:18.407186 [info] : Client[10](113.54.243.158:40172) in, userCount:5
+2024-11-30 20:47:18.407193 [info] : Client[10] in!
+2024-11-30 20:47:18.408885 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:47:18.410853 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:47:18.411243 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:47:18.411370 [info] : Client[6] quit!
+2024-11-30 20:47:18.411457 [info] : Client[6](113.54.243.158:39916) quit, UserCount:4
+2024-11-30 20:47:18.411528 [info] : Client[9] quit!
+2024-11-30 20:47:18.411564 [info] : Client[9](113.54.243.158:40684) quit, UserCount:3
+2024-11-30 20:47:18.411980 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:47:18.412106 [info] : Client[8] quit!
+2024-11-30 20:47:18.412144 [info] : Client[8](113.54.243.158:40940) quit, UserCount:2
+2024-11-30 20:47:18.412278 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:47:18.412415 [info] : Client[10] quit!
+2024-11-30 20:47:18.412482 [info] : Client[10](113.54.243.158:40172) quit, UserCount:1
+2024-11-30 20:47:18.526615 [info] : Client[6](113.54.243.158:41196) in, userCount:2
+2024-11-30 20:47:18.526689 [info] : Client[6] in!
+2024-11-30 20:47:18.531059 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:47:18.531244 [info] : Client[6] quit!
+2024-11-30 20:47:18.531306 [info] : Client[6](113.54.243.158:41196) quit, UserCount:1
+2024-11-30 20:47:21.898086 [info] : Client[6](113.54.243.158:41964) in, userCount:2
+2024-11-30 20:47:21.898256 [info] : Client[6] in!
+2024-11-30 20:47:21.898291 [info] : Client[8](113.54.243.158:42220) in, userCount:3
+2024-11-30 20:47:21.898306 [info] : Client[8] in!
+2024-11-30 20:47:21.900440 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:47:21.900572 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:47:21.900687 [info] : Client[6] quit!
+2024-11-30 20:47:21.900696 [info] : Client[8] quit!
+2024-11-30 20:47:21.900793 [info] : Client[6](113.54.243.158:41964) quit, UserCount:2
+2024-11-30 20:47:21.900866 [info] : Client[8](113.54.243.158:42220) quit, UserCount:1
+2024-11-30 20:47:21.953281 [info] : Client[6](113.54.243.158:42476) in, userCount:2
+2024-11-30 20:47:21.953368 [info] : Client[6] in!
+2024-11-30 20:47:21.957313 [info] : Client[8](113.54.243.158:42988) in, userCount:3
+2024-11-30 20:47:21.957413 [info] : Client[8] in!
+2024-11-30 20:47:21.957431 [info] : Client[9](113.54.243.158:42732) in, userCount:4
+2024-11-30 20:47:21.957446 [info] : Client[9] in!
+2024-11-30 20:47:21.959355 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:47:21.959441 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:47:21.959624 [info] : Client[8] quit!
+2024-11-30 20:47:21.959690 [info] : Client[8](113.54.243.158:42988) quit, UserCount:3
+2024-11-30 20:47:21.959717 [info] : Client[6] quit!
+2024-11-30 20:47:21.959757 [info] : Client[6](113.54.243.158:42476) quit, UserCount:2
+2024-11-30 20:47:21.961331 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:47:21.961439 [info] : Client[9] quit!
+2024-11-30 20:47:21.961522 [info] : Client[9](113.54.243.158:42732) quit, UserCount:1
+2024-11-30 20:47:22.067907 [info] : Client[6](113.54.243.158:43244) in, userCount:2
+2024-11-30 20:47:22.068024 [info] : Client[6] in!
+2024-11-30 20:47:22.069941 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:47:22.070096 [info] : Client[6] quit!
+2024-11-30 20:47:22.070167 [info] : Client[6](113.54.243.158:43244) quit, UserCount:1
+2024-11-30 20:47:27.162766 [info] : Client[7] quit!
+2024-11-30 20:47:27.162989 [info] : Client[7](113.54.243.158:40428) quit, UserCount:0
+2024-11-30 20:47:31.127933 [info] : Client[6](113.54.243.158:43500) in, userCount:1
+2024-11-30 20:47:31.128013 [info] : Client[6] in!
+2024-11-30 20:47:31.130292 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//login.html
+2024-11-30 20:47:31.130456 [info] : Client[6] quit!
+2024-11-30 20:47:31.130523 [info] : Client[6](113.54.243.158:43500) quit, UserCount:0
+2024-11-30 20:47:31.293451 [info] : Client[6](113.54.243.158:43756) in, userCount:1
+2024-11-30 20:47:31.293569 [info] : Client[6] in!
+2024-11-30 20:47:31.298773 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:47:31.299048 [info] : Client[6] quit!
+2024-11-30 20:47:31.299145 [info] : Client[6](113.54.243.158:43756) quit, UserCount:0
+2024-11-30 20:47:31.300028 [info] : Client[6](113.54.243.158:44268) in, userCount:1
+2024-11-30 20:47:31.300071 [info] : Client[6] in!
+2024-11-30 20:47:31.302414 [info] : Client[7](113.54.243.158:44524) in, userCount:2
+2024-11-30 20:47:31.302526 [info] : Client[7] in!
+2024-11-30 20:47:31.302573 [info] : Client[8](113.54.243.158:44780) in, userCount:3
+2024-11-30 20:47:31.302584 [info] : Client[8] in!
+2024-11-30 20:47:31.302608 [info] : Client[9](113.54.243.158:44012) in, userCount:4
+2024-11-30 20:47:31.302616 [info] : Client[9] in!
+2024-11-30 20:47:31.302623 [info] : Client[10](113.54.243.158:45036) in, userCount:5
+2024-11-30 20:47:31.302631 [info] : Client[10] in!
+2024-11-30 20:47:31.304661 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:47:31.307275 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:47:31.307352 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:47:31.307439 [info] : Client[7] quit!
+2024-11-30 20:47:31.307480 [info] : Client[6] quit!
+2024-11-30 20:47:31.307530 [info] : Client[8] quit!
+2024-11-30 20:47:31.307543 [info] : Client[6](113.54.243.158:44268) quit, UserCount:3
+2024-11-30 20:47:31.307559 [info] : Client[8](113.54.243.158:44780) quit, UserCount:2
+2024-11-30 20:47:31.307598 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:47:31.307486 [info] : Client[7](113.54.243.158:44524) quit, UserCount:4
+2024-11-30 20:47:31.307732 [info] : Client[9] quit!
+2024-11-30 20:47:31.307791 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:47:31.307822 [info] : Client[9](113.54.243.158:44012) quit, UserCount:1
+2024-11-30 20:47:31.307858 [info] : Client[10] quit!
+2024-11-30 20:47:31.307890 [info] : Client[10](113.54.243.158:45036) quit, UserCount:0
+2024-11-30 20:47:31.442760 [info] : Client[6](113.54.243.158:45292) in, userCount:1
+2024-11-30 20:47:31.442855 [info] : Client[6] in!
+2024-11-30 20:47:31.442879 [info] : Client[7](113.54.243.158:45548) in, userCount:2
+2024-11-30 20:47:31.442892 [info] : Client[7] in!
+2024-11-30 20:47:31.444870 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:47:31.444940 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:47:31.445096 [info] : Client[7] quit!
+2024-11-30 20:47:31.445122 [info] : Client[6] quit!
+2024-11-30 20:47:31.445204 [info] : Client[6](113.54.243.158:45292) quit, UserCount:0
+2024-11-30 20:47:31.445236 [info] : Client[7](113.54.243.158:45548) quit, UserCount:0
+2024-11-30 20:47:32.269666 [info] : Client[6](113.54.243.158:45804) in, userCount:1
+2024-11-30 20:47:32.269764 [info] : Client[6] in!
+2024-11-30 20:47:32.271946 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:47:32.272315 [info] : Client[6] quit!
+2024-11-30 20:47:32.272394 [info] : Client[6](113.54.243.158:45804) quit, UserCount:0
+2024-11-30 20:47:32.751347 [info] : Client[6](113.54.243.158:46572) in, userCount:1
+2024-11-30 20:47:32.751493 [info] : Client[6] in!
+2024-11-30 20:47:32.753509 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:47:32.753661 [info] : Client[6] quit!
+2024-11-30 20:47:32.753713 [info] : Client[6](113.54.243.158:46572) quit, UserCount:0
+2024-11-30 20:47:33.382400 [info] : Client[6](113.54.243.158:46060) in, userCount:1
+2024-11-30 20:47:33.382521 [info] : Client[6] in!
+2024-11-30 20:47:33.385002 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:47:33.385182 [info] : Client[6] quit!
+2024-11-30 20:47:33.385245 [info] : Client[6](113.54.243.158:46060) quit, UserCount:0
+2024-11-30 20:47:33.654012 [info] : Client[6](113.54.243.158:46316) in, userCount:1
+2024-11-30 20:47:33.654096 [info] : Client[6] in!
+2024-11-30 20:47:33.656628 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:47:33.656821 [info] : Client[6] quit!
+2024-11-30 20:47:33.656890 [info] : Client[6](113.54.243.158:46316) quit, UserCount:0
+2024-11-30 20:48:09.826519 [info] : Client[11] quit!
+2024-11-30 20:48:31.328175 [info] : Client[8] quit!
+2024-11-30 20:48:31.328286 [info] : Client[9] quit!
+2024-11-30 20:48:31.328354 [info] : Client[10] quit!
+2024-11-30 20:48:31.444551 [info] : Client[7] quit!
+2024-11-30 20:50:44.971607 [info] : ========== Server init ==========
+2024-11-30 20:50:44.971628 [info] : Port:80, OpenLinger: false
+2024-11-30 20:50:44.971632 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-30 20:50:44.971700 [info] : LogSys level: 1
+2024-11-30 20:50:44.971710 [info] : srcDir: /root/ticketsserver/task3-tinyserver/tiny_webserver/resources/
+2024-11-30 20:50:44.971776 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-11-30 20:50:44.971791 [info] : ========== Server start ==========
+2024-11-30 20:50:51.602382 [info] : Client[6](113.54.243.158:17901) in, userCount:1
+2024-11-30 20:50:51.602480 [info] : Client[6] in!
+2024-11-30 20:50:51.606218 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//login.html
+2024-11-30 20:50:51.606358 [info] : Client[6] quit!
+2024-11-30 20:50:51.606425 [info] : Client[6](113.54.243.158:17901) quit, UserCount:0
+2024-11-30 20:50:51.738768 [info] : Client[6](113.54.243.158:18413) in, userCount:1
+2024-11-30 20:50:51.738888 [info] : Client[6] in!
+2024-11-30 20:50:51.741248 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:50:51.741448 [info] : Client[6] quit!
+2024-11-30 20:50:51.741590 [info] : Client[6](113.54.243.158:18413) quit, UserCount:0
+2024-11-30 20:50:51.745098 [info] : Client[6](113.54.243.158:19437) in, userCount:1
+2024-11-30 20:50:51.745163 [info] : Client[6] in!
+2024-11-30 20:50:51.745207 [info] : Client[7](113.54.243.158:19949) in, userCount:2
+2024-11-30 20:50:51.745219 [info] : Client[7] in!
+2024-11-30 20:50:51.745231 [info] : Client[8](113.54.243.158:20461) in, userCount:3
+2024-11-30 20:50:51.745240 [info] : Client[8] in!
+2024-11-30 20:50:51.745253 [info] : Client[9](113.54.243.158:20205) in, userCount:4
+2024-11-30 20:50:51.745262 [info] : Client[9] in!
+2024-11-30 20:50:51.745284 [info] : Client[10](113.54.243.158:19693) in, userCount:5
+2024-11-30 20:50:51.745296 [info] : Client[10] in!
+2024-11-30 20:50:51.747524 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:50:51.749916 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:50:51.750086 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:50:51.750231 [info] : Client[6] quit!
+2024-11-30 20:50:51.750289 [info] : Client[6](113.54.243.158:19437) quit, UserCount:4
+2024-11-30 20:50:51.750310 [info] : Client[7] quit!
+2024-11-30 20:50:51.750332 [info] : Client[7](113.54.243.158:19949) quit, UserCount:3
+2024-11-30 20:50:51.750361 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:50:51.750554 [info] : Client[9] quit!
+2024-11-30 20:50:51.750607 [info] : Client[9](113.54.243.158:20205) quit, UserCount:2
+2024-11-30 20:50:51.750673 [info] : Client[8] quit!
+2024-11-30 20:50:51.750705 [info] : Client[8](113.54.243.158:20461) quit, UserCount:1
+2024-11-30 20:50:51.751520 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:50:51.751644 [info] : Client[10] quit!
+2024-11-30 20:50:51.751731 [info] : Client[10](113.54.243.158:19693) quit, UserCount:0
+2024-11-30 20:50:51.859155 [info] : Client[6](113.54.243.158:20717) in, userCount:1
+2024-11-30 20:50:51.859241 [info] : Client[6] in!
+2024-11-30 20:50:51.861511 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:50:51.861681 [info] : Client[6] quit!
+2024-11-30 20:50:51.861749 [info] : Client[6](113.54.243.158:20717) quit, UserCount:0
+2024-11-30 20:50:51.875073 [info] : Client[6](113.54.243.158:20973) in, userCount:1
+2024-11-30 20:50:51.875176 [info] : Client[6] in!
+2024-11-30 20:50:51.879293 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:50:51.879489 [info] : Client[6] quit!
+2024-11-30 20:50:51.879619 [info] : Client[6](113.54.243.158:20973) quit, UserCount:0
+2024-11-30 20:50:51.956167 [info] : Client[6](113.54.243.158:21229) in, userCount:1
+2024-11-30 20:50:51.956313 [info] : Client[6] in!
+2024-11-30 20:50:51.961897 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:50:51.962108 [info] : Client[6] quit!
+2024-11-30 20:50:51.962238 [info] : Client[6](113.54.243.158:21229) quit, UserCount:0
+2024-11-30 20:50:52.580911 [info] : Client[6](113.54.243.158:21485) in, userCount:1
+2024-11-30 20:50:52.581033 [info] : Client[6] in!
+2024-11-30 20:50:52.592873 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:50:52.593064 [info] : Client[6] quit!
+2024-11-30 20:50:52.593163 [info] : Client[6](113.54.243.158:21485) quit, UserCount:0
+2024-11-30 20:50:52.696832 [info] : Client[6](113.54.243.158:21741) in, userCount:1
+2024-11-30 20:50:52.696917 [info] : Client[6] in!
+2024-11-30 20:50:52.700943 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:50:52.701133 [info] : Client[6] quit!
+2024-11-30 20:50:52.701213 [info] : Client[6](113.54.243.158:21741) quit, UserCount:0
+2024-11-30 20:50:52.800443 [info] : Client[6](113.54.243.158:21997) in, userCount:1
+2024-11-30 20:50:52.800576 [info] : Client[6] in!
+2024-11-30 20:50:52.803516 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:50:52.803629 [info] : Client[6] quit!
+2024-11-30 20:50:52.803698 [info] : Client[6](113.54.243.158:21997) quit, UserCount:0
+2024-11-30 20:50:54.568572 [info] : Client[6](113.54.243.158:22509) in, userCount:1
+2024-11-30 20:50:54.568671 [info] : Client[6] in!
+2024-11-30 20:50:54.574106 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/favicon.ico
+2024-11-30 20:50:54.574299 [info] : Client[6] quit!
+2024-11-30 20:50:54.574349 [info] : Client[6](113.54.243.158:22509) quit, UserCount:0
+2024-11-30 20:50:56.609919 [info] : Client[6](113.54.243.158:22765) in, userCount:1
+2024-11-30 20:50:56.610050 [info] : Client[6] in!
+2024-11-30 20:50:56.612714 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//index.html
+2024-11-30 20:50:56.612872 [info] : Client[6] quit!
+2024-11-30 20:50:56.612922 [info] : Client[6](113.54.243.158:22765) quit, UserCount:0
+2024-11-30 20:50:56.749779 [info] : Client[6](113.54.243.158:23021) in, userCount:1
+2024-11-30 20:50:56.749858 [info] : Client[6] in!
+2024-11-30 20:50:56.750157 [info] : Client[7](113.54.243.158:23277) in, userCount:2
+2024-11-30 20:50:56.750189 [info] : Client[7] in!
+2024-11-30 20:50:56.752123 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:50:56.752286 [info] : Client[8](113.54.243.158:23533) in, userCount:3
+2024-11-30 20:50:56.752297 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:50:56.752303 [info] : Client[8] in!
+2024-11-30 20:50:56.752333 [info] : Client[10](113.54.243.158:23789) in, userCount:4
+2024-11-30 20:50:56.752341 [info] : Client[10] in!
+2024-11-30 20:50:56.752436 [info] : Client[6] quit!
+2024-11-30 20:50:56.752485 [info] : Client[6](113.54.243.158:23021) quit, UserCount:3
+2024-11-30 20:50:56.752536 [info] : Client[7] quit!
+2024-11-30 20:50:56.752550 [info] : Client[6](113.54.243.158:24045) in, userCount:4
+2024-11-30 20:50:56.752578 [info] : Client[6] in!
+2024-11-30 20:50:56.754462 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:50:56.754561 [info] : Client[7](113.54.243.158:24301) in, userCount:4
+2024-11-30 20:50:56.754581 [info] : Client[7] in!
+2024-11-30 20:50:56.754632 [info] : Client[8] quit!
+2024-11-30 20:50:56.754690 [info] : Client[8](113.54.243.158:23533) quit, UserCount:3
+2024-11-30 20:50:56.754868 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:50:56.755051 [info] : Client[6] quit!
+2024-11-30 20:50:56.755148 [info] : Client[6](113.54.243.158:24045) quit, UserCount:2
+2024-11-30 20:50:56.756513 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:50:56.756587 [info] : Client[7] quit!
+2024-11-30 20:50:56.756625 [info] : Client[7](113.54.243.158:24301) quit, UserCount:1
+2024-11-30 20:50:56.756645 [info] : Client[7](113.54.243.158:24301) quit, UserCount:1
+2024-11-30 20:50:56.757115 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:50:56.857386 [info] : Client[6](113.54.243.158:24557) in, userCount:2
+2024-11-30 20:50:56.857467 [info] : Client[6] in!
+2024-11-30 20:50:56.859685 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:50:56.859913 [info] : Client[6] quit!
+2024-11-30 20:50:56.859979 [info] : Client[6](113.54.243.158:24557) quit, UserCount:1
+2024-11-30 20:50:59.454706 [info] : Client[6](113.54.243.158:25581) in, userCount:2
+2024-11-30 20:50:59.454814 [info] : Client[6] in!
+2024-11-30 20:50:59.456764 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:50:59.456895 [info] : Client[6] quit!
+2024-11-30 20:50:59.457052 [info] : Client[6](113.54.243.158:25581) quit, UserCount:1
+2024-11-30 20:50:59.457334 [info] : Client[6](113.54.243.158:25325) in, userCount:2
+2024-11-30 20:50:59.457358 [info] : Client[6] in!
+2024-11-30 20:50:59.459243 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:50:59.459365 [info] : Client[6] quit!
+2024-11-30 20:50:59.459420 [info] : Client[6](113.54.243.158:25325) quit, UserCount:1
+2024-11-30 20:50:59.534919 [info] : Client[6](113.54.243.158:26093) in, userCount:2
+2024-11-30 20:50:59.535061 [info] : Client[6] in!
+2024-11-30 20:50:59.535145 [info] : Client[7](113.54.243.158:25837) in, userCount:3
+2024-11-30 20:50:59.535170 [info] : Client[7] in!
+2024-11-30 20:50:59.535273 [info] : Client[8](113.54.243.158:26349) in, userCount:4
+2024-11-30 20:50:59.535305 [info] : Client[8] in!
+2024-11-30 20:50:59.538581 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:50:59.538728 [info] : Client[7] quit!
+2024-11-30 20:50:59.538771 [info] : Client[7](113.54.243.158:25837) quit, UserCount:3
+2024-11-30 20:50:59.539142 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:50:59.539247 [info] : Client[6] quit!
+2024-11-30 20:50:59.539282 [info] : Client[6](113.54.243.158:26093) quit, UserCount:2
+2024-11-30 20:50:59.539756 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:50:59.539848 [info] : Client[8] quit!
+2024-11-30 20:50:59.539914 [info] : Client[8](113.54.243.158:26349) quit, UserCount:1
+2024-11-30 20:51:00.171668 [info] : Client[6](113.54.243.158:26605) in, userCount:2
+2024-11-30 20:51:00.171752 [info] : Client[6] in!
+2024-11-30 20:51:00.174054 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:51:00.174231 [info] : Client[6] quit!
+2024-11-30 20:51:00.174308 [info] : Client[6](113.54.243.158:26605) quit, UserCount:1
+2024-11-30 20:51:05.274433 [info] : Client[10] quit!
+2024-11-30 20:51:05.274621 [info] : Client[10](113.54.243.158:23789) quit, UserCount:0
+2024-11-30 20:51:16.479556 [info] : Client[6](113.54.243.158:30445) in, userCount:1
+2024-11-30 20:51:16.479673 [info] : Client[6] in!
+2024-11-30 20:51:16.482036 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//picture.html
+2024-11-30 20:51:16.482155 [info] : Client[6] quit!
+2024-11-30 20:51:16.482252 [info] : Client[6](113.54.243.158:30445) quit, UserCount:0
+2024-11-30 20:51:16.626826 [info] : Client[6](113.54.243.158:30957) in, userCount:1
+2024-11-30 20:51:16.626916 [info] : Client[6] in!
+2024-11-30 20:51:16.630154 [info] : Client[7](113.54.243.158:30701) in, userCount:2
+2024-11-30 20:51:16.630252 [info] : Client[7] in!
+2024-11-30 20:51:16.630269 [info] : Client[8](113.54.243.158:31725) in, userCount:3
+2024-11-30 20:51:16.630278 [info] : Client[8] in!
+2024-11-30 20:51:16.630286 [info] : Client[9](113.54.243.158:31213) in, userCount:4
+2024-11-30 20:51:16.630293 [info] : Client[9] in!
+2024-11-30 20:51:16.630302 [info] : Client[10](113.54.243.158:31469) in, userCount:5
+2024-11-30 20:51:16.630309 [info] : Client[10] in!
+2024-11-30 20:51:16.632400 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:51:16.633860 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:51:16.634018 [info] : Client[11](113.54.243.158:31981) in, userCount:6
+2024-11-30 20:51:16.634043 [info] : Client[11] in!
+2024-11-30 20:51:16.634256 [info] : Client[7] quit!
+2024-11-30 20:51:16.634272 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:51:16.634330 [info] : Client[7](113.54.243.158:30701) quit, UserCount:5
+2024-11-30 20:51:16.634469 [info] : Client[6] quit!
+2024-11-30 20:51:16.634580 [info] : Client[6](113.54.243.158:30957) quit, UserCount:4
+2024-11-30 20:51:16.635138 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:51:16.635330 [info] : Client[9] quit!
+2024-11-30 20:51:16.635421 [info] : Client[9](113.54.243.158:31213) quit, UserCount:3
+2024-11-30 20:51:16.636336 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:51:16.636440 [info] : Client[11] quit!
+2024-11-30 20:51:16.636514 [info] : Client[11](113.54.243.158:31981) quit, UserCount:2
+2024-11-30 20:51:16.637489 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:51:16.637596 [info] : Client[10] quit!
+2024-11-30 20:51:16.637649 [info] : Client[10](113.54.243.158:31469) quit, UserCount:1
+2024-11-30 20:51:16.741697 [info] : Client[6](113.54.243.158:32493) in, userCount:2
+2024-11-30 20:51:16.741830 [info] : Client[6] in!
+2024-11-30 20:51:16.742088 [info] : Client[7](113.54.243.158:32237) in, userCount:3
+2024-11-30 20:51:16.742116 [info] : Client[7] in!
+2024-11-30 20:51:16.744345 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image2.png
+2024-11-30 20:51:16.744470 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image1.png
+2024-11-30 20:51:16.744583 [info] : Client[6] quit!
+2024-11-30 20:51:16.744648 [info] : Client[6](113.54.243.158:32493) quit, UserCount:2
+2024-11-30 20:51:16.744748 [info] : Client[7] quit!
+2024-11-30 20:51:16.744804 [info] : Client[7](113.54.243.158:32237) quit, UserCount:1
+2024-11-30 20:51:16.787631 [info] : Client[6](113.54.243.158:32749) in, userCount:2
+2024-11-30 20:51:16.787748 [info] : Client[6] in!
+2024-11-30 20:51:16.789965 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image3.png
+2024-11-30 20:51:17.779406 [info] : Client[6] quit!
+2024-11-30 20:51:17.779581 [info] : Client[6](113.54.243.158:32749) quit, UserCount:1
+2024-11-30 20:51:18.177442 [info] : Client[6](113.54.243.158:33773) in, userCount:2
+2024-11-30 20:51:18.177534 [info] : Client[6] in!
+2024-11-30 20:51:18.179536 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image4.png
+2024-11-30 20:51:18.179806 [info] : Client[6] quit!
+2024-11-30 20:51:18.179868 [info] : Client[6](113.54.243.158:33773) quit, UserCount:1
+2024-11-30 20:51:18.909772 [info] : Client[6](113.54.243.158:34029) in, userCount:2
+2024-11-30 20:51:18.909860 [info] : Client[6] in!
+2024-11-30 20:51:18.913000 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:51:18.913207 [info] : Client[6] quit!
+2024-11-30 20:51:18.913290 [info] : Client[6](113.54.243.158:34029) quit, UserCount:1
+2024-11-30 20:51:20.210326 [info] : Client[6](113.54.243.158:34797) in, userCount:2
+2024-11-30 20:51:20.210411 [info] : Client[6] in!
+2024-11-30 20:51:20.212864 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/image5.png
+2024-11-30 20:51:28.987945 [info] : Client[6] quit!
+2024-11-30 20:51:28.988137 [info] : Client[6](113.54.243.158:34797) quit, UserCount:1
+2024-11-30 20:51:31.643743 [info] : Client[6](113.54.243.158:35821) in, userCount:2
+2024-11-30 20:51:31.643811 [info] : Client[6] in!
+2024-11-30 20:51:31.645834 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:51:31.646112 [info] : Client[6] quit!
+2024-11-30 20:51:31.646169 [info] : Client[6](113.54.243.158:35821) quit, UserCount:1
+2024-11-30 20:51:31.647722 [info] : Client[6](113.54.243.158:36333) in, userCount:2
+2024-11-30 20:51:31.647773 [info] : Client[6] in!
+2024-11-30 20:51:31.647790 [info] : Client[7](113.54.243.158:36077) in, userCount:3
+2024-11-30 20:51:31.647799 [info] : Client[7] in!
+2024-11-30 20:51:31.649909 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:51:31.650095 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:51:31.650160 [info] : Client[7] quit!
+2024-11-30 20:51:31.650222 [info] : Client[7](113.54.243.158:36077) quit, UserCount:2
+2024-11-30 20:51:31.650304 [info] : Client[6] quit!
+2024-11-30 20:51:31.650356 [info] : Client[6](113.54.243.158:36333) quit, UserCount:1
+2024-11-30 20:51:32.433663 [info] : Client[6](113.54.243.158:36589) in, userCount:2
+2024-11-30 20:51:32.433767 [info] : Client[6] in!
+2024-11-30 20:51:32.435865 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:51:32.436018 [info] : Client[6] quit!
+2024-11-30 20:51:32.436079 [info] : Client[6](113.54.243.158:36589) quit, UserCount:1
+2024-11-30 20:51:32.539815 [info] : Client[6](113.54.243.158:36845) in, userCount:2
+2024-11-30 20:51:32.539899 [info] : Client[6] in!
+2024-11-30 20:51:32.541988 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:51:32.542156 [info] : Client[6] quit!
+2024-11-30 20:51:32.542216 [info] : Client[6](113.54.243.158:36845) quit, UserCount:1
+2024-11-30 20:51:32.655885 [info] : Client[6](113.54.243.158:37101) in, userCount:2
+2024-11-30 20:51:32.655992 [info] : Client[6] in!
+2024-11-30 20:51:32.658289 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:51:32.658427 [info] : Client[6] quit!
+2024-11-30 20:51:32.658470 [info] : Client[6](113.54.243.158:37101) quit, UserCount:1
+2024-11-30 20:51:36.909530 [info] : Client[8] quit!
+2024-11-30 20:51:36.909748 [info] : Client[8](113.54.243.158:31725) quit, UserCount:0
+2024-11-30 20:51:44.783067 [info] : Client[6](113.54.243.158:37613) in, userCount:1
+2024-11-30 20:51:44.783268 [info] : Client[6] in!
+2024-11-30 20:51:44.785758 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//video.html
+2024-11-30 20:51:44.786711 [info] : Client[6] quit!
+2024-11-30 20:51:44.786805 [info] : Client[6](113.54.243.158:37613) quit, UserCount:0
+2024-11-30 20:51:44.925016 [info] : Client[6](113.54.243.158:38125) in, userCount:1
+2024-11-30 20:51:44.925175 [info] : Client[6] in!
+2024-11-30 20:51:44.925196 [info] : Client[7](113.54.243.158:38893) in, userCount:2
+2024-11-30 20:51:44.925206 [info] : Client[7] in!
+2024-11-30 20:51:44.925213 [info] : Client[8](113.54.243.158:38381) in, userCount:3
+2024-11-30 20:51:44.925221 [info] : Client[8] in!
+2024-11-30 20:51:44.925228 [info] : Client[9](113.54.243.158:37869) in, userCount:4
+2024-11-30 20:51:44.925236 [info] : Client[9] in!
+2024-11-30 20:51:44.925242 [info] : Client[10](113.54.243.158:39149) in, userCount:5
+2024-11-30 20:51:44.925251 [info] : Client[10] in!
+2024-11-30 20:51:44.925257 [info] : Client[11](113.54.243.158:38637) in, userCount:6
+2024-11-30 20:51:44.925266 [info] : Client[11] in!
+2024-11-30 20:51:44.927871 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:51:44.930833 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:51:44.930867 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:51:44.931364 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:51:44.931529 [info] : Client[8] quit!
+2024-11-30 20:51:44.931591 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:51:44.931636 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:51:44.931657 [info] : Client[7] quit!
+2024-11-30 20:51:44.931765 [info] : Client[8](113.54.243.158:38381) quit, UserCount:5
+2024-11-30 20:51:44.931842 [info] : Client[11] quit!
+2024-11-30 20:51:44.931878 [info] : Client[11](113.54.243.158:38637) quit, UserCount:4
+2024-11-30 20:51:44.931939 [info] : Client[7](113.54.243.158:38893) quit, UserCount:3
+2024-11-30 20:51:44.932010 [info] : Client[6] quit!
+2024-11-30 20:51:44.932049 [info] : Client[6](113.54.243.158:38125) quit, UserCount:2
+2024-11-30 20:51:44.932151 [info] : Client[9] quit!
+2024-11-30 20:51:44.932183 [info] : Client[9](113.54.243.158:37869) quit, UserCount:1
+2024-11-30 20:51:45.031411 [info] : Client[6](113.54.243.158:39405) in, userCount:2
+2024-11-30 20:51:45.031482 [info] : Client[6] in!
+2024-11-30 20:51:45.033743 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:51:45.033970 [info] : Client[6] quit!
+2024-11-30 20:51:45.034051 [info] : Client[6](113.54.243.158:39405) quit, UserCount:1
+2024-11-30 20:51:46.740683 [info] : Client[6](113.54.243.158:42477) in, userCount:2
+2024-11-30 20:51:46.740780 [info] : Client[6] in!
+2024-11-30 20:51:46.740813 [info] : Client[7](113.54.243.158:42733) in, userCount:3
+2024-11-30 20:51:46.740827 [info] : Client[7] in!
+2024-11-30 20:51:46.742969 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:51:46.743200 [info] : Client[6] quit!
+2024-11-30 20:51:46.743281 [info] : Client[6](113.54.243.158:42477) quit, UserCount:2
+2024-11-30 20:51:46.743309 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:51:46.743413 [info] : Client[7] quit!
+2024-11-30 20:51:46.743463 [info] : Client[7](113.54.243.158:42733) quit, UserCount:1
+2024-11-30 20:51:46.847282 [info] : Client[6](113.54.243.158:43501) in, userCount:2
+2024-11-30 20:51:46.847459 [info] : Client[6] in!
+2024-11-30 20:51:46.847524 [info] : Client[7](113.54.243.158:42989) in, userCount:3
+2024-11-30 20:51:46.847545 [info] : Client[7] in!
+2024-11-30 20:51:46.847560 [info] : Client[8](113.54.243.158:43245) in, userCount:4
+2024-11-30 20:51:46.847569 [info] : Client[8] in!
+2024-11-30 20:51:46.847576 [info] : Client[9](113.54.243.158:43757) in, userCount:5
+2024-11-30 20:51:46.847584 [info] : Client[9] in!
+2024-11-30 20:51:46.849599 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:51:46.851180 [info] : Client[6] quit!
+2024-11-30 20:51:46.851242 [info] : Client[6](113.54.243.158:43501) quit, UserCount:4
+2024-11-30 20:51:46.851407 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:51:46.851806 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:51:46.851916 [info] : Client[7] quit!
+2024-11-30 20:51:46.852037 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:51:46.852038 [info] : Client[7](113.54.243.158:42989) quit, UserCount:3
+2024-11-30 20:51:46.851928 [info] : Client[8] quit!
+2024-11-30 20:51:46.852097 [info] : Client[9] quit!
+2024-11-30 20:51:46.852129 [info] : Client[8](113.54.243.158:43245) quit, UserCount:2
+2024-11-30 20:51:46.852186 [info] : Client[9](113.54.243.158:43757) quit, UserCount:1
+2024-11-30 20:51:47.330133 [info] : Client[6](113.54.243.158:44013) in, userCount:2
+2024-11-30 20:51:47.330202 [info] : Client[6] in!
+2024-11-30 20:51:47.333475 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//video/xxx.mp4
+2024-11-30 20:51:57.853081 [info] : Client[10] quit!
+2024-11-30 20:51:57.853285 [info] : Client[10](113.54.243.158:39149) quit, UserCount:1
+2024-11-30 20:52:09.365812 [info] : Client[6] quit!
+2024-11-30 20:52:09.366068 [info] : Client[6](113.54.243.158:44013) quit, UserCount:0
+2024-11-30 20:52:09.785194 [info] : Client[6](113.54.243.158:46061) in, userCount:1
+2024-11-30 20:52:09.785296 [info] : Client[6] in!
+2024-11-30 20:52:09.787773 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//video/xxx.mp4
+2024-11-30 20:52:12.582550 [info] : Client[7](113.54.243.158:46317) in, userCount:2
+2024-11-30 20:52:12.582632 [info] : Client[7] in!
+2024-11-30 20:52:12.584746 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//index.html
+2024-11-30 20:52:12.584900 [info] : Client[7] quit!
+2024-11-30 20:52:12.584965 [info] : Client[7](113.54.243.158:46317) quit, UserCount:1
+2024-11-30 20:52:12.720479 [info] : Client[7](113.54.243.158:46573) in, userCount:2
+2024-11-30 20:52:12.720622 [info] : Client[7] in!
+2024-11-30 20:52:12.722256 [info] : Client[8](113.54.243.158:46829) in, userCount:3
+2024-11-30 20:52:12.722329 [info] : Client[8] in!
+2024-11-30 20:52:12.722624 [info] : Client[9](113.54.243.158:47341) in, userCount:4
+2024-11-30 20:52:12.722785 [info] : Client[9] in!
+2024-11-30 20:52:12.722853 [info] : Client[10](113.54.243.158:47085) in, userCount:5
+2024-11-30 20:52:12.722864 [info] : Client[10] in!
+2024-11-30 20:52:12.722871 [info] : Client[11](113.54.243.158:47853) in, userCount:6
+2024-11-30 20:52:12.722879 [info] : Client[11] in!
+2024-11-30 20:52:12.722948 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:52:12.727113 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:52:12.727310 [info] : Client[7] quit!
+2024-11-30 20:52:12.727379 [info] : Client[7](113.54.243.158:46573) quit, UserCount:5
+2024-11-30 20:52:12.727446 [info] : Client[9] quit!
+2024-11-30 20:52:12.727476 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:52:12.727597 [info] : Client[9](113.54.243.158:47341) quit, UserCount:4
+2024-11-30 20:52:12.727662 [info] : Client[10] quit!
+2024-11-30 20:52:12.727677 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:52:12.727695 [info] : Client[10](113.54.243.158:47085) quit, UserCount:3
+2024-11-30 20:52:12.727733 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:52:12.727805 [info] : Client[11] quit!
+2024-11-30 20:52:12.727855 [info] : Client[11](113.54.243.158:47853) quit, UserCount:2
+2024-11-30 20:52:12.727884 [info] : Client[8] quit!
+2024-11-30 20:52:12.727975 [info] : Client[8](113.54.243.158:46829) quit, UserCount:1
+2024-11-30 20:52:12.994208 [info] : Client[7](113.54.243.158:48109) in, userCount:2
+2024-11-30 20:52:12.994297 [info] : Client[7] in!
+2024-11-30 20:52:12.996420 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:52:13.661291 [info] : Client[8](113.54.243.158:48365) in, userCount:3
+2024-11-30 20:52:13.661400 [info] : Client[8] in!
+2024-11-30 20:52:13.663579 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:52:13.663741 [info] : Client[8] quit!
+2024-11-30 20:52:13.663808 [info] : Client[8](113.54.243.158:48365) quit, UserCount:2
+2024-11-30 20:52:16.377291 [info] : Client[8](113.54.243.158:51181) in, userCount:3
+2024-11-30 20:52:16.377413 [info] : Client[8] in!
+2024-11-30 20:52:16.377472 [info] : Client[9](113.54.243.158:51437) in, userCount:4
+2024-11-30 20:52:16.377495 [info] : Client[9] in!
+2024-11-30 20:52:16.379918 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:52:16.380032 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:52:16.380163 [info] : Client[8] quit!
+2024-11-30 20:52:16.380189 [info] : Client[9] quit!
+2024-11-30 20:52:16.380264 [info] : Client[8](113.54.243.158:51181) quit, UserCount:3
+2024-11-30 20:52:16.380280 [info] : Client[9](113.54.243.158:51437) quit, UserCount:2
+2024-11-30 20:52:16.487847 [info] : Client[8](113.54.243.158:51693) in, userCount:3
+2024-11-30 20:52:16.487991 [info] : Client[8] in!
+2024-11-30 20:52:16.490044 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:52:16.490248 [info] : Client[8] quit!
+2024-11-30 20:52:16.490316 [info] : Client[8](113.54.243.158:51693) quit, UserCount:2
+2024-11-30 20:52:17.324917 [info] : Client[8](113.54.243.158:51949) in, userCount:3
+2024-11-30 20:52:17.325005 [info] : Client[8] in!
+2024-11-30 20:52:17.326993 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:52:17.327131 [info] : Client[8] quit!
+2024-11-30 20:52:17.327202 [info] : Client[8](113.54.243.158:51949) quit, UserCount:2
+2024-11-30 20:52:17.428888 [info] : Client[8](113.54.243.158:52461) in, userCount:3
+2024-11-30 20:52:17.428984 [info] : Client[8] in!
+2024-11-30 20:52:17.431800 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:52:17.431984 [info] : Client[8] quit!
+2024-11-30 20:52:17.432061 [info] : Client[8](113.54.243.158:52461) quit, UserCount:2
+2024-11-30 20:52:17.524593 [info] : Client[8](113.54.243.158:52717) in, userCount:3
+2024-11-30 20:52:17.524676 [info] : Client[8] in!
+2024-11-30 20:52:17.526681 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:52:17.526789 [info] : Client[8] quit!
+2024-11-30 20:52:17.526832 [info] : Client[8](113.54.243.158:52717) quit, UserCount:2
+2024-11-30 20:52:28.518266 [info] : Client[7] quit!
+2024-11-30 20:52:28.518436 [info] : Client[7](113.54.243.158:48109) quit, UserCount:1
+2024-11-30 20:52:31.687039 [info] : Client[6] quit!
+2024-11-30 20:52:31.687241 [info] : Client[6](113.54.243.158:46061) quit, UserCount:0
+2024-11-30 20:52:32.355065 [info] : Client[6](113.54.243.158:53997) in, userCount:1
+2024-11-30 20:52:32.355169 [info] : Client[6] in!
+2024-11-30 20:52:32.357546 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//login.html
+2024-11-30 20:52:32.357757 [info] : Client[6] quit!
+2024-11-30 20:52:32.357847 [info] : Client[6](113.54.243.158:53997) quit, UserCount:0
+2024-11-30 20:52:32.494095 [info] : Client[6](113.54.243.158:54509) in, userCount:1
+2024-11-30 20:52:32.494188 [info] : Client[6] in!
+2024-11-30 20:52:32.494335 [info] : Client[7](113.54.243.158:54253) in, userCount:2
+2024-11-30 20:52:32.494377 [info] : Client[7] in!
+2024-11-30 20:52:32.494393 [info] : Client[8](113.54.243.158:55021) in, userCount:3
+2024-11-30 20:52:32.494402 [info] : Client[8] in!
+2024-11-30 20:52:32.494409 [info] : Client[9](113.54.243.158:55533) in, userCount:4
+2024-11-30 20:52:32.494417 [info] : Client[9] in!
+2024-11-30 20:52:32.494424 [info] : Client[10](113.54.243.158:55277) in, userCount:5
+2024-11-30 20:52:32.494432 [info] : Client[10] in!
+2024-11-30 20:52:32.494524 [info] : Client[11](113.54.243.158:55789) in, userCount:6
+2024-11-30 20:52:32.494571 [info] : Client[11] in!
+2024-11-30 20:52:32.496345 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:52:32.498292 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:52:32.499682 [info] : Client[6] quit!
+2024-11-30 20:52:32.499751 [info] : Client[6](113.54.243.158:54509) quit, UserCount:5
+2024-11-30 20:52:32.499869 [info] : Client[8] quit!
+2024-11-30 20:52:32.499907 [info] : Client[8](113.54.243.158:55021) quit, UserCount:4
+2024-11-30 20:52:32.500310 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:52:32.500438 [info] : Client[10] quit!
+2024-11-30 20:52:32.500470 [info] : Client[10](113.54.243.158:55277) quit, UserCount:3
+2024-11-30 20:52:32.500571 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:52:32.500829 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:52:32.501028 [info] : Client[7] quit!
+2024-11-30 20:52:32.501067 [info] : Client[7](113.54.243.158:54253) quit, UserCount:2
+2024-11-30 20:52:32.501068 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:52:32.501184 [info] : Client[11] quit!
+2024-11-30 20:52:32.501210 [info] : Client[9] quit!
+2024-11-30 20:52:32.501249 [info] : Client[11](113.54.243.158:55789) quit, UserCount:0
+2024-11-30 20:52:32.501250 [info] : Client[9](113.54.243.158:55533) quit, UserCount:0
+2024-11-30 20:52:32.611291 [info] : Client[6](113.54.243.158:56045) in, userCount:1
+2024-11-30 20:52:32.611364 [info] : Client[6] in!
+2024-11-30 20:52:32.611413 [info] : Client[7](113.54.243.158:56301) in, userCount:2
+2024-11-30 20:52:32.611422 [info] : Client[7] in!
+2024-11-30 20:52:32.613500 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:52:32.613687 [info] : Client[6] quit!
+2024-11-30 20:52:32.613740 [info] : Client[6](113.54.243.158:56045) quit, UserCount:1
+2024-11-30 20:52:32.614784 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:52:32.614977 [info] : Client[7] quit!
+2024-11-30 20:52:32.615032 [info] : Client[7](113.54.243.158:56301) quit, UserCount:0
+2024-11-30 20:52:33.267082 [info] : Client[6](113.54.243.158:57069) in, userCount:1
+2024-11-30 20:52:33.267191 [info] : Client[6] in!
+2024-11-30 20:52:33.269841 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:52:33.270021 [info] : Client[6] quit!
+2024-11-30 20:52:33.270077 [info] : Client[6](113.54.243.158:57069) quit, UserCount:0
+2024-11-30 20:52:33.418767 [info] : Client[6](113.54.243.158:57325) in, userCount:1
+2024-11-30 20:52:33.418874 [info] : Client[6] in!
+2024-11-30 20:52:33.420926 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:52:33.421077 [info] : Client[6] quit!
+2024-11-30 20:52:33.421135 [info] : Client[6](113.54.243.158:57325) quit, UserCount:0
+2024-11-30 20:52:33.680024 [info] : Client[6](113.54.243.158:57581) in, userCount:1
+2024-11-30 20:52:33.680138 [info] : Client[6] in!
+2024-11-30 20:52:33.682592 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:52:33.682805 [info] : Client[6] quit!
+2024-11-30 20:52:33.682871 [info] : Client[6](113.54.243.158:57581) quit, UserCount:0
+2024-11-30 20:52:33.728066 [info] : Client[6](113.54.243.158:57837) in, userCount:1
+2024-11-30 20:52:33.728171 [info] : Client[6] in!
+2024-11-30 20:52:33.730344 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:52:33.730470 [info] : Client[6] quit!
+2024-11-30 20:52:33.730519 [info] : Client[6](113.54.243.158:57837) quit, UserCount:0
+2024-11-30 20:53:12.787761 [info] : Client[6](113.54.243.158:4590) in, userCount:1
+2024-11-30 20:53:12.787998 [info] : Client[6] in!
+2024-11-30 20:53:12.790358 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//register.html
+2024-11-30 20:53:12.791281 [info] : Client[6] quit!
+2024-11-30 20:53:12.791386 [info] : Client[6](113.54.243.158:4590) quit, UserCount:0
+2024-11-30 20:53:12.942668 [info] : Client[6](113.54.243.158:5102) in, userCount:1
+2024-11-30 20:53:12.942748 [info] : Client[6] in!
+2024-11-30 20:53:12.943109 [info] : Client[7](113.54.243.158:5358) in, userCount:2
+2024-11-30 20:53:12.943198 [info] : Client[7] in!
+2024-11-30 20:53:12.943222 [info] : Client[8](113.54.243.158:5614) in, userCount:3
+2024-11-30 20:53:12.943234 [info] : Client[8] in!
+2024-11-30 20:53:12.943246 [info] : Client[9](113.54.243.158:4846) in, userCount:4
+2024-11-30 20:53:12.943254 [info] : Client[9] in!
+2024-11-30 20:53:12.943263 [info] : Client[10](113.54.243.158:5870) in, userCount:5
+2024-11-30 20:53:12.943274 [info] : Client[10] in!
+2024-11-30 20:53:12.943284 [info] : Client[11](113.54.243.158:6126) in, userCount:6
+2024-11-30 20:53:12.943295 [info] : Client[11] in!
+2024-11-30 20:53:12.946827 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:53:12.949749 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:53:12.949803 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:53:12.949887 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:53:12.949890 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:53:12.950007 [info] : Client[7] quit!
+2024-11-30 20:53:12.950089 [info] : Client[7](113.54.243.158:5358) quit, UserCount:5
+2024-11-30 20:53:12.950166 [info] : Client[9] quit!
+2024-11-30 20:53:12.950206 [info] : Client[11] quit!
+2024-11-30 20:53:12.950263 [info] : Client[6] quit!
+2024-11-30 20:53:12.950316 [info] : Client[6](113.54.243.158:5102) quit, UserCount:3
+2024-11-30 20:53:12.950371 [info] : Client[8] quit!
+2024-11-30 20:53:12.950386 [info] : Client[8](113.54.243.158:5614) quit, UserCount:2
+2024-11-30 20:53:12.950394 [info] : Client[9](113.54.243.158:4846) quit, UserCount:2
+2024-11-30 20:53:12.950424 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:53:12.950488 [info] : Client[11](113.54.243.158:6126) quit, UserCount:1
+2024-11-30 20:53:12.950602 [info] : Client[10] quit!
+2024-11-30 20:53:12.950636 [info] : Client[10](113.54.243.158:5870) quit, UserCount:0
+2024-11-30 20:53:13.054346 [info] : Client[6](113.54.243.158:6382) in, userCount:1
+2024-11-30 20:53:13.054437 [info] : Client[6] in!
+2024-11-30 20:53:13.054465 [info] : Client[7](113.54.243.158:6638) in, userCount:2
+2024-11-30 20:53:13.054476 [info] : Client[7] in!
+2024-11-30 20:53:13.056456 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:53:13.056702 [info] : Client[7] quit!
+2024-11-30 20:53:13.056801 [info] : Client[7](113.54.243.158:6638) quit, UserCount:1
+2024-11-30 20:53:13.056906 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:53:13.056999 [info] : Client[6] quit!
+2024-11-30 20:53:13.057033 [info] : Client[6](113.54.243.158:6382) quit, UserCount:0
+2024-11-30 20:53:13.105292 [info] : Client[6](113.54.243.158:6894) in, userCount:1
+2024-11-30 20:53:13.105412 [info] : Client[6] in!
+2024-11-30 20:53:13.107478 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:53:13.107677 [info] : Client[6] quit!
+2024-11-30 20:53:13.107754 [info] : Client[6](113.54.243.158:6894) quit, UserCount:0
+2024-11-30 20:53:13.157417 [info] : Client[6](113.54.243.158:7150) in, userCount:1
+2024-11-30 20:53:13.157497 [info] : Client[6] in!
+2024-11-30 20:53:13.159691 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:53:13.159833 [info] : Client[6] quit!
+2024-11-30 20:53:13.159924 [info] : Client[6](113.54.243.158:7150) quit, UserCount:0
+2024-11-30 20:53:13.267389 [info] : Client[6](113.54.243.158:7406) in, userCount:1
+2024-11-30 20:53:13.267477 [info] : Client[6] in!
+2024-11-30 20:53:13.269375 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:53:13.269519 [info] : Client[6] quit!
+2024-11-30 20:53:13.269566 [info] : Client[6](113.54.243.158:7406) quit, UserCount:0
+2024-11-30 20:53:13.363677 [info] : Client[6](113.54.243.158:7662) in, userCount:1
+2024-11-30 20:53:13.363769 [info] : Client[6] in!
+2024-11-30 20:53:13.365771 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:53:13.365884 [info] : Client[6] quit!
+2024-11-30 20:53:13.365937 [info] : Client[6](113.54.243.158:7662) quit, UserCount:0
+2024-11-30 20:53:17.568467 [info] : Client[6](113.54.243.158:10734) in, userCount:1
+2024-11-30 20:53:17.568607 [info] : Client[6] in!
+2024-11-30 20:53:17.570998 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//index.html
+2024-11-30 20:53:17.571142 [info] : Client[6] quit!
+2024-11-30 20:53:17.571200 [info] : Client[6](113.54.243.158:10734) quit, UserCount:0
+2024-11-30 20:53:17.713795 [info] : Client[6](113.54.243.158:10990) in, userCount:1
+2024-11-30 20:53:17.713892 [info] : Client[6] in!
+2024-11-30 20:53:17.713916 [info] : Client[7](113.54.243.158:11246) in, userCount:2
+2024-11-30 20:53:17.713925 [info] : Client[7] in!
+2024-11-30 20:53:17.714573 [info] : Client[8](113.54.243.158:11502) in, userCount:3
+2024-11-30 20:53:17.714599 [info] : Client[8] in!
+2024-11-30 20:53:17.715275 [info] : Client[9](113.54.243.158:12270) in, userCount:4
+2024-11-30 20:53:17.715346 [info] : Client[9] in!
+2024-11-30 20:53:17.715367 [info] : Client[10](113.54.243.158:12014) in, userCount:5
+2024-11-30 20:53:17.715375 [info] : Client[10] in!
+2024-11-30 20:53:17.717011 [info] : Client[11](113.54.243.158:11758) in, userCount:6
+2024-11-30 20:53:17.718019 [info] : Client[11] in!
+2024-11-30 20:53:17.718160 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:53:17.720547 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:53:17.720759 [info] : Client[7] quit!
+2024-11-30 20:53:17.720887 [info] : Client[7](113.54.243.158:11246) quit, UserCount:5
+2024-11-30 20:53:17.721008 [info] : Client[8] quit!
+2024-11-30 20:53:17.721125 [info] : Client[8](113.54.243.158:11502) quit, UserCount:4
+2024-11-30 20:53:17.721869 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:53:17.722035 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:53:17.722174 [info] : Client[9] quit!
+2024-11-30 20:53:17.722204 [info] : Client[10] quit!
+2024-11-30 20:53:17.722242 [info] : Client[9](113.54.243.158:12270) quit, UserCount:3
+2024-11-30 20:53:17.722429 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:53:17.722479 [info] : Client[11] quit!
+2024-11-30 20:53:17.722498 [info] : Client[11](113.54.243.158:11758) quit, UserCount:1
+2024-11-30 20:53:17.722520 [info] : Client[10](113.54.243.158:12014) quit, UserCount:1
+2024-11-30 20:53:17.722567 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:53:17.824479 [info] : Client[7](113.54.243.158:12526) in, userCount:2
+2024-11-30 20:53:17.824583 [info] : Client[7] in!
+2024-11-30 20:53:17.826989 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:53:17.827185 [info] : Client[7] quit!
+2024-11-30 20:53:17.827241 [info] : Client[7](113.54.243.158:12526) quit, UserCount:1
+2024-11-30 20:53:18.652981 [info] : Client[7](113.54.243.158:13038) in, userCount:2
+2024-11-30 20:53:18.653120 [info] : Client[7] in!
+2024-11-30 20:53:18.653165 [info] : Client[8](113.54.243.158:12782) in, userCount:3
+2024-11-30 20:53:18.653179 [info] : Client[8] in!
+2024-11-30 20:53:18.655291 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:53:18.655438 [info] : Client[7] quit!
+2024-11-30 20:53:18.655539 [info] : Client[7](113.54.243.158:13038) quit, UserCount:2
+2024-11-30 20:53:18.655539 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:53:18.655652 [info] : Client[8] quit!
+2024-11-30 20:53:18.655737 [info] : Client[8](113.54.243.158:12782) quit, UserCount:1
+2024-11-30 20:53:18.755842 [info] : Client[7](113.54.243.158:13294) in, userCount:2
+2024-11-30 20:53:18.756949 [info] : Client[7] in!
+2024-11-30 20:53:18.759164 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:53:18.759297 [info] : Client[7] quit!
+2024-11-30 20:53:18.759357 [info] : Client[7](113.54.243.158:13294) quit, UserCount:1
+2024-11-30 20:53:18.979760 [info] : Client[7](113.54.243.158:13550) in, userCount:2
+2024-11-30 20:53:18.979872 [info] : Client[7] in!
+2024-11-30 20:53:18.979928 [info] : Client[8](113.54.243.158:14062) in, userCount:3
+2024-11-30 20:53:18.979969 [info] : Client[8] in!
+2024-11-30 20:53:18.980164 [info] : Client[9](113.54.243.158:13806) in, userCount:4
+2024-11-30 20:53:18.982025 [info] : Client[9] in!
+2024-11-30 20:53:18.982368 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:53:18.982369 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:53:18.982626 [info] : Client[7] quit!
+2024-11-30 20:53:18.982664 [info] : Client[7](113.54.243.158:13550) quit, UserCount:3
+2024-11-30 20:53:18.982722 [info] : Client[8] quit!
+2024-11-30 20:53:18.982750 [info] : Client[8](113.54.243.158:14062) quit, UserCount:2
+2024-11-30 20:53:18.985209 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:53:18.985364 [info] : Client[9] quit!
+2024-11-30 20:53:18.985479 [info] : Client[9](113.54.243.158:13806) quit, UserCount:1
+2024-11-30 20:53:24.871608 [info] : Client[6] quit!
+2024-11-30 20:54:00.602818 [info] : ========== Server init ==========
+2024-11-30 20:54:00.602835 [info] : Port:80, OpenLinger: false
+2024-11-30 20:54:00.602839 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-11-30 20:54:00.602898 [info] : LogSys level: 1
+2024-11-30 20:54:00.602902 [info] : srcDir: /root/ticketsserver/task3-tinyserver/tiny_webserver/resources/
+2024-11-30 20:54:00.602981 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-11-30 20:54:00.602999 [info] : ========== Server start ==========
+2024-11-30 20:54:20.333881 [info] : Client[6](113.54.243.158:60910) in, userCount:1
+2024-11-30 20:54:20.334009 [info] : Client[6] in!
+2024-11-30 20:54:20.336095 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//index.html
+2024-11-30 20:54:20.336240 [info] : Client[6] quit!
+2024-11-30 20:54:20.336341 [info] : Client[6](113.54.243.158:60910) quit, UserCount:0
+2024-11-30 20:54:20.501658 [info] : Client[6](113.54.243.158:64238) in, userCount:1
+2024-11-30 20:54:20.501773 [info] : Client[6] in!
+2024-11-30 20:54:20.503899 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/bootstrap.min.css
+2024-11-30 20:54:20.504156 [info] : Client[6] quit!
+2024-11-30 20:54:20.504274 [info] : Client[6](113.54.243.158:64238) quit, UserCount:0
+2024-11-30 20:54:20.504722 [info] : Client[6](113.54.243.158:751) in, userCount:1
+2024-11-30 20:54:20.504770 [info] : Client[6] in!
+2024-11-30 20:54:20.504792 [info] : Client[7](113.54.243.158:495) in, userCount:2
+2024-11-30 20:54:20.504801 [info] : Client[7] in!
+2024-11-30 20:54:20.504969 [info] : Client[8](113.54.243.158:1007) in, userCount:3
+2024-11-30 20:54:20.504992 [info] : Client[8] in!
+2024-11-30 20:54:20.505127 [info] : Client[9](113.54.243.158:239) in, userCount:4
+2024-11-30 20:54:20.505230 [info] : Client[9] in!
+2024-11-30 20:54:20.505280 [info] : Client[10](113.54.243.158:1263) in, userCount:5
+2024-11-30 20:54:20.505293 [info] : Client[10] in!
+2024-11-30 20:54:20.506834 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/style.css
+2024-11-30 20:54:20.506929 [info] : Client[8] quit!
+2024-11-30 20:54:20.506992 [info] : Client[8](113.54.243.158:1007) quit, UserCount:4
+2024-11-30 20:54:20.509002 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/font-awesome.min.css
+2024-11-30 20:54:20.509124 [info] : Client[6] quit!
+2024-11-30 20:54:20.509171 [info] : Client[6](113.54.243.158:751) quit, UserCount:3
+2024-11-30 20:54:20.509505 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/magnific-popup.css
+2024-11-30 20:54:20.509603 [info] : Client[7] quit!
+2024-11-30 20:54:20.509638 [info] : Client[7](113.54.243.158:495) quit, UserCount:2
+2024-11-30 20:54:20.509929 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.js
+2024-11-30 20:54:20.510088 [info] : Client[10] quit!
+2024-11-30 20:54:20.510096 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//css/animate.css
+2024-11-30 20:54:20.510143 [info] : Client[10](113.54.243.158:1263) quit, UserCount:1
+2024-11-30 20:54:20.510222 [info] : Client[9] quit!
+2024-11-30 20:54:20.510298 [info] : Client[9](113.54.243.158:239) quit, UserCount:0
+2024-11-30 20:54:20.612392 [info] : Client[6](113.54.243.158:1519) in, userCount:1
+2024-11-30 20:54:20.612594 [info] : Client[6] in!
+2024-11-30 20:54:20.614743 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//images/profile-image.png
+2024-11-30 20:54:20.614841 [info] : Client[8](113.54.243.158:1775) in, userCount:2
+2024-11-30 20:54:20.614903 [info] : Client[8] in!
+2024-11-30 20:54:20.616771 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/bootstrap.min.js
+2024-11-30 20:54:20.616881 [info] : Client[8] quit!
+2024-11-30 20:54:20.616933 [info] : Client[8](113.54.243.158:1775) quit, UserCount:1
+2024-11-30 20:54:20.666908 [info] : Client[7](113.54.243.158:2031) in, userCount:2
+2024-11-30 20:54:20.667069 [info] : Client[7] in!
+2024-11-30 20:54:20.669120 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/smoothscroll.js
+2024-11-30 20:54:20.669323 [info] : Client[7] quit!
+2024-11-30 20:54:20.669389 [info] : Client[7](113.54.243.158:2031) quit, UserCount:1
+2024-11-30 20:54:21.293928 [info] : Client[7](113.54.243.158:2287) in, userCount:2
+2024-11-30 20:54:21.294048 [info] : Client[7] in!
+2024-11-30 20:54:21.296209 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/jquery.magnific-popup.min.js
+2024-11-30 20:54:21.296352 [info] : Client[7] quit!
+2024-11-30 20:54:21.296405 [info] : Client[7](113.54.243.158:2287) quit, UserCount:1
+2024-11-30 20:54:21.541668 [info] : Client[7](113.54.243.158:2543) in, userCount:2
+2024-11-30 20:54:21.541745 [info] : Client[7] in!
+2024-11-30 20:54:21.544687 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/magnific-popup-options.js
+2024-11-30 20:54:21.544878 [info] : Client[7] quit!
+2024-11-30 20:54:21.544996 [info] : Client[7](113.54.243.158:2543) quit, UserCount:1
+2024-11-30 20:54:21.646045 [info] : Client[7](113.54.243.158:2799) in, userCount:2
+2024-11-30 20:54:21.646127 [info] : Client[7] in!
+2024-11-30 20:54:21.649100 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/wow.min.js
+2024-11-30 20:54:21.649305 [info] : Client[7] quit!
+2024-11-30 20:54:21.649366 [info] : Client[7](113.54.243.158:2799) quit, UserCount:1
+2024-11-30 20:54:21.750482 [info] : Client[7](113.54.243.158:3055) in, userCount:2
+2024-11-30 20:54:21.750586 [info] : Client[7] in!
+2024-11-30 20:54:21.752913 [info] : file path /root/ticketsserver/task3-tinyserver/tiny_webserver/resources//js/custom.js
+2024-11-30 20:54:21.753158 [info] : Client[7] quit!
+2024-11-30 20:54:21.753238 [info] : Client[7](113.54.243.158:3055) quit, UserCount:1
+2024-11-30 20:54:30.561341 [info] : Client[6] quit!

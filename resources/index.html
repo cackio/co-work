@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>售票系统</title>
+    <link rel="stylesheet" href="./css/shoupiao.css" />
+  </head>
+  <body>
+    <div class="background">
+      <h1 id="title">成电售票System</h1>
+      <div class="other">
+        <button class="login">
+          <div class="svg-wrapper-1">
+            <div class="svg-wrapper">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+              >
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path
+                  fill="currentColor"
+                  d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <span>Login</span>
+        </button>
+        <button class="mine">
+          <span class="span-mother">
+            <span>M</span>
+            <span>i</span>
+            <span>n</span>
+            <span>e</span>
+          </span>
+          <span class="span-mother2">
+            <span>M</span>
+            <span>i</span>
+            <span>n</span>
+            <span>e</span>
+          </span>
+        </button>
+      </div>
+      <div class="up">
+        <div class="title">Uestc Railway</div>
+      </div>
+      <div class="down">
+        <div class="main">
+          <form id="ticketForm">
+            <table>
+              <tbody>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="1" /></td>
+                  <td>12月14日</td>
+                  <td>D1234</td>
+                  <td>成都&emsp;——&emsp;北京</td>
+                  <td>高铁</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="2" /></td>
+                  <td>12月14日</td>
+                  <td>T5678</td>
+                  <td>上海&emsp;——&emsp;广州</td>
+                  <td>火车</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="3" /></td>
+                  <td>12月14日</td>
+                  <td>G9101</td>
+                  <td>深圳&emsp;——&emsp;武汉</td>
+                  <td>高铁</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="4" /></td>
+                  <td>12月15日</td>
+                  <td>K1234</td>
+                  <td>南京&emsp;——&emsp;杭州</td>
+                  <td>火车</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="5" /></td>
+                  <td>12月20日</td>
+                  <td>G5432</td>
+                  <td>重庆&emsp;——&emsp;西安</td>
+                  <td>高铁</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="6" /></td>
+                  <td>12月20日</td>
+                  <td>J3421</td>
+                  <td>沈阳&emsp;——&emsp;大连</td>
+                  <td>火车</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="7" /></td>
+                  <td>12月21日</td>
+                  <td>D8765</td>
+                  <td>厦门&emsp;——&emsp;福州</td>
+                  <td>高铁</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="8" /></td>
+                  <td>12月21日</td>
+                  <td>G9087</td>
+                  <td>长沙&emsp;——&emsp;武汉</td>
+                  <td>火车</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="9" /></td>
+                  <td>12月22日</td>
+                  <td>H4657</td>
+                  <td>郑州&emsp;——&emsp;南京</td>
+                  <td>高铁</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="10" /></td>
+                  <td>12月22日</td>
+                  <td>T7643</td>
+                  <td>贵阳&emsp;——&emsp;成都</td>
+                  <td>火车</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="11" /></td>
+                  <td>12月23日</td>
+                  <td>G2341</td>
+                  <td>济南&emsp;——&emsp;青岛</td>
+                  <td>高铁</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="12" /></td>
+                  <td>12月23日</td>
+                  <td>T5423</td>
+                  <td>哈尔滨&emsp;——&emsp;长春</td>
+                  <td>火车</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="13" /></td>
+                  <td>12月24日</td>
+                  <td>G7643</td>
+                  <td>宁波&emsp;——&emsp;杭州</td>
+                  <td>高铁</td>
+                </tr>
+                <tr>
+                  <td><input type="checkbox" name="ticket" value="14" /></td>
+                  <td>12月24日</td>
+                  <td>J9654</td>
+                  <td>西安&emsp;——&emsp;兰州</td>
+                  <td>火车</td>
+                </tr>
+              </tbody>
+            </table>
+            <button type="button" class="submit-btn">确定</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./js/shoupiao.js"></script>
+  </body>
+</html>
