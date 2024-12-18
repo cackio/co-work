@@ -1,0 +1,80 @@
+[
+    {
+        "day": "2024-12-14",
+        "number": "D1234",
+        "quantity": 15,
+        "ticket_name": "成都 —— 北京 高铁"
+    },
+    {
+        "day": "2024-12-14",
+        "number": "T5678",
+        "quantity": 12,
+        "ticket_name": "上海 —— 广州 火车"
+    },
+    {
+        "day": "2024-12-14",
+        "number": "G9101",
+        "quantity": 8,
+        "ticket_name": "深圳 —— 武汉 高铁"
+    },
+    {
+        "day": "2024-12-24",
+        "number": "G7643",
+        "quantity": 2,
+        "ticket_name": "宁波 —— 杭州 高铁"
+    },
+    {
+        "day": "2024-12-24",
+        "number": "J9654",
+        "quantity": 2,
+        "ticket_name": "西安 —— 兰州 火车"
+    },
+    {
+        "day": "2024-12-23",
+        "number": "T5423",
+        "quantity": 1,
+        "ticket_name": "哈尔滨 —— 长春 火车"
+    },
+    {
+        "day": "2024-12-20",
+        "number": "J3421",
+        "quantity": 2,
+        "ticket_name": "沈阳 —— 大连 火车"
+    },
+    {
+        "day": "2024-12-21",
+        "number": "D8765",
+        "quantity": 1,
+        "ticket_name": "厦门 —— 福州 高铁"
+    },
+    {
+        "day": "2024-12-15",
+        "number": "K1234",
+        "quantity": 2,
+        "ticket_name": "南京 —— 杭州 火车"
+    },
+    {
+        "day": "2024-12-20",
+        "number": "G5432",
+        "quantity": 1,
+        "ticket_name": "重庆 —— 西安 高铁"
+    },
+    {
+        "day": "2024-12-21",
+        "number": "G9087",
+        "quantity": 1,
+        "ticket_name": "长沙 —— 武汉 火车"
+    },
+    {
+        "day": "2024-12-22",
+        "number": "H4657",
+        "quantity": 1,
+        "ticket_name": "郑州 —— 南京 高铁"
+    },
+    {
+        "day": "2024-12-22",
+        "number": "T7643",
+        "quantity": 1,
+        "ticket_name": "贵阳 —— 成都 火车"
+    }
+]

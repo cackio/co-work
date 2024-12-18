@@ -149,6 +149,7 @@ void HttpRequest::ParsePost_() {
             // if(ticket_ids.empty()) {
             //     path_ = "/errorbuy.html";  // 购票失败
             // }
+
             for (int ticket_id : ticket_ids) {
                 if (!BuyTicket(username, ticket_id)) {
                     path_ = "/errorticket.html";  // 购票失败（如票数不足）
@@ -158,12 +159,21 @@ void HttpRequest::ParsePost_() {
             path_ = "/index.html";  // 购票成功
         }
     }
+
         // 如果是查看已购票记录请求
-        if (path_ == "/view_bookings") {
-            std::string requestedFile = srcDir_ + path_;
-            bookings = GetBookings(post_["username"]);  // 获取用户已购票记录
-            SaveBookingsToFile(bookings,"data.json");  // 将用户已购票记录保存到文件
-            path_ = "/view_bookings.html";  // 显示已购票记录
+        if (path_.find("/viewBookings")!= std::string::npos) {
+            std::string requestedFile = srcDir_ + "data.json";
+            username = "uestc";
+            bookings = GetBookings(username);  // 获取用户已购票记录
+            SaveBookingsToFile(bookings,requestedFile);  // 将用户已购票记录保存到文件
+            path_ = "/data.json";  // 显示已购票记录
+        }
+        if(path_=="/load")
+        {
+            nlohmann::json jsonBookings = nlohmann::json::parse(body_);
+            //std::vector<Booking> bookings;
+            path_ = "data.json";
+            SaveBookingsToFile(bookings, "data.json");
         }
 }
 

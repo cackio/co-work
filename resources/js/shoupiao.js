@@ -172,6 +172,7 @@ function submitTickets() {
 });
 }
 
+
 //如果已登录，按下提交按钮可以提交购票信息，否则跳转至登录界面
 const submitBtn = document.querySelector(".submit-btn");
 submitBtn.addEventListener("click", () => {
@@ -192,3 +193,75 @@ alltr.forEach((tr) => {
   td.innerText = `余票：${left[i]}`;
   i++;
 });
+
+
+//查票12/16
+const mine = document.querySelector(".mine");
+const dialog = document.querySelector(".dialog");
+function showDialog() {
+  dialog.showModal();
+}
+// 弹窗打开及数据渲染
+mine.onclick = function () {
+  showDialog();
+  searchTickets();
+};
+// 隐藏对话框
+function hideDialog() {
+  dialog.close();
+}
+const tbody = document.querySelector("tbody");
+let height = tbody.getBoundingClientRect().top;
+console.log(height);
+
+//后端数据请求函数
+function searchTickets() {
+  //const ticketDiv = document.createElement("div");
+  // 请求数据的初始化
+  const requestData = {
+    query: "getTicketInfo",
+  };
+
+  // 用ajax请求后端数据
+  const xhr = new XMLHttpRequest();
+  xhr.open("POST", "/viewBookings", true); // 请求方式为POST，URL可能需要根据你的后端实际接口来调整
+  xhr.setRequestHeader("Content-Type", "application/json"); // 设置请求头为JSON格式
+
+  // 请求状态变化时执行的函数  xhr.readyState === 4 && xhr.status === 200
+  xhr.onreadystatechange = function () {
+    if (1) {
+      // 确保请求成功
+      const response = JSON.parse(xhr.responseText); // 解析返回的JSON数据
+
+      // 动态填充数据到HTML元素中
+      // 清空之前的内容
+      const container = document.querySelector(".train");
+      // container.innerHTML = '';
+
+      // 如果返回的是一个数组
+      if (Array.isArray(response)) {
+        // 遍历数组，动态创建内容
+        response.forEach((ticket)=> {
+          const ticketDiv = document.createElement("div");
+          ticketDiv.classList.add("ticket-item");
+
+          ticketDiv.innerHTML = `
+            <p>${ticket.day}</p>
+            <p>${ticket.number}</p>
+            <p>${ticket.ticket_name}</p>
+            <p>${ticket.quantity}</p>
+          `;
+
+          // 将新的票务信息添加到容器
+          container.appendChild(ticketDiv);
+        });
+      } else {
+        console.error("请求出错");
+      }
+    }
+  };
+
+  // 发送请求，数据格式为JSON
+  xhr.send(JSON.stringify(requestData));
+}
+

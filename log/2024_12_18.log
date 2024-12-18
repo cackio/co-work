@@ -1,0 +1,1235 @@
+2024-12-18 16:18:25.900203 [info] : ========== Server init ==========
+2024-12-18 16:18:25.900224 [info] : Port:8000, OpenLinger: false
+2024-12-18 16:18:25.900228 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 16:18:25.900229 [info] : LogSys level: 0
+2024-12-18 16:18:25.900231 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 16:18:25.900233 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 16:18:25.900235 [info] : ========== Server start ==========
+2024-12-18 16:18:31.386338 [info] : Client[18](127.0.0.1:151) in, userCount:1
+2024-12-18 16:18:31.386436 [info] : Client[18] in!
+2024-12-18 16:18:31.386857 [info] : Client[22](127.0.0.1:3223) in, userCount:2
+2024-12-18 16:18:31.386911 [info] : Client[22] in!
+2024-12-18 16:18:31.388487 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:18:31.388559 [debug]: /index.html
+2024-12-18 16:18:31.388618 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:18:31.388633 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:18:31.388879 [debug]: filesize:6201, 2  to 6375
+2024-12-18 16:18:31.448927 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:18:31.449011 [debug]: /css/shoupiao.css
+2024-12-18 16:18:31.449046 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:18:31.449064 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:18:31.449303 [debug]: filesize:7539, 2  to 7713
+2024-12-18 16:18:31.449725 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:18:31.449782 [debug]: /js/shoupiao.js
+2024-12-18 16:18:31.449798 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:18:31.449800 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:18:31.450132 [debug]: filesize:8049, 2  to 8230
+2024-12-18 16:18:31.455850 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:18:31.456003 [debug]: /images/haiou.jpg
+2024-12-18 16:18:31.456060 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:18:31.456124 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:18:31.456509 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:18:31.500068 [info] : Client[23](127.0.0.1:6295) in, userCount:3
+2024-12-18 16:18:31.500174 [info] : Client[23] in!
+2024-12-18 16:18:31.500576 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:18:31.500688 [debug]: /fonts/lingli.ttf
+2024-12-18 16:18:31.500740 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:18:31.500763 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:18:31.501568 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:18:31.501776 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:18:31.501867 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:18:31.501924 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:18:31.501943 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:18:31.502496 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:18:32.232539 [debug]: [GET], [/favicon.ico], [1.1]
+2024-12-18 16:18:32.232752 [debug]: /favicon.ico
+2024-12-18 16:18:32.233544 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:18:32.233618 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:18:32.233913 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:19:03.290626 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-18 16:19:03.291392 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:19:03.331394 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-18 16:19:03.333389 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-18 16:19:03.347397 [debug]: Record exists.
+2024-12-18 16:19:03.347497 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 1
+2024-12-18 16:19:03.350188 [debug]: Ticket bought successfully: username=uestc, ticket_name=1, quantity=1
+2024-12-18 16:19:03.350279 [info] : Buy ticket, username:uestc ticket_id:2 quantity:1
+2024-12-18 16:19:03.350360 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:19:03.350828 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=2 LIMIT 1
+2024-12-18 16:19:03.351130 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='2'
+2024-12-18 16:19:03.354126 [debug]: Record exists.
+2024-12-18 16:19:03.354193 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 2
+2024-12-18 16:19:03.357025 [debug]: Ticket bought successfully: username=uestc, ticket_name=2, quantity=1
+2024-12-18 16:19:03.357090 [info] : Buy ticket, username:uestc ticket_id:3 quantity:1
+2024-12-18 16:19:03.357143 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:19:03.357513 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=3 LIMIT 1
+2024-12-18 16:19:03.357797 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='3'
+2024-12-18 16:19:03.360812 [debug]: Record exists.
+2024-12-18 16:19:03.360880 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 3
+2024-12-18 16:19:03.363639 [debug]: Ticket bought successfully: username=uestc, ticket_name=3, quantity=1
+2024-12-18 16:19:03.363716 [debug]: Body:{"tickets":["1","2","3"]}, len:25
+2024-12-18 16:19:03.363772 [debug]: [POST], [/index.html], [1.1]
+2024-12-18 16:19:03.363828 [debug]: /index.html
+2024-12-18 16:19:03.363891 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:19:03.363949 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:19:03.364132 [debug]: filesize:6201, 2  to 6375
+2024-12-18 16:19:05.998433 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:19:05.998555 [debug]: [{"tickets":["1","2","3"]}POST], [/viewBookings], [1.1]
+2024-12-18 16:19:05.998574 [debug]: /viewBookings
+2024-12-18 16:19:06.003006 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:19:06.003063 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:19:06.003093 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:19:13.061350 [debug]: [{"query":"getTicketInfo"}GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:19:13.061462 [debug]: /css/shoupiao.css
+2024-12-18 16:19:13.061549 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:19:13.061590 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:19:13.062203 [debug]: filesize:7539, 2  to 7713
+2024-12-18 16:19:31.459196 [info] : Client[18] quit!
+2024-12-18 16:19:31.459716 [info] : Client[18](127.0.0.1:151) quit, UserCount:2
+2024-12-18 16:19:31.502064 [info] : Client[22] quit!
+2024-12-18 16:19:31.502653 [info] : Client[22](127.0.0.1:3223) quit, UserCount:1
+2024-12-18 16:20:13.068450 [info] : Client[23] quit!
+2024-12-18 16:20:13.068783 [info] : Client[23](127.0.0.1:6295) quit, UserCount:0
+2024-12-18 16:21:10.442758 [info] : Client[18](127.0.0.1:28312) in, userCount:1
+2024-12-18 16:21:10.442890 [info] : Client[18] in!
+2024-12-18 16:21:10.443615 [info] : Client[22](127.0.0.1:32408) in, userCount:2
+2024-12-18 16:21:10.443750 [info] : Client[22] in!
+2024-12-18 16:21:10.444523 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:21:10.444591 [debug]: /index.html
+2024-12-18 16:21:10.444636 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:21:10.444688 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:21:10.444728 [debug]: filesize:6201, 2  to 6375
+2024-12-18 16:21:10.493835 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:21:10.494218 [debug]: /css/shoupiao.css
+2024-12-18 16:21:10.494310 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:21:10.494397 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:21:10.494495 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:21:10.496003 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:21:10.496154 [debug]: /js/shoupiao.js
+2024-12-18 16:21:10.496191 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:21:10.496206 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:21:10.496577 [debug]: filesize:8049, 2  to 8230
+2024-12-18 16:21:10.525892 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:21:10.525972 [debug]: /images/haiou.jpg
+2024-12-18 16:21:10.526041 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:21:10.526059 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:21:10.526076 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:21:10.552512 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:21:10.552629 [debug]: /fonts/lingli.ttf
+2024-12-18 16:21:10.552699 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:21:10.552715 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:21:10.552741 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:21:10.553399 [info] : Client[23](127.0.0.1:34456) in, userCount:3
+2024-12-18 16:21:10.553561 [info] : Client[23] in!
+2024-12-18 16:21:10.555193 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:21:10.555299 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:21:10.555595 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:21:10.555630 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:21:10.556362 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:21:21.255046 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-18 16:21:21.255136 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:21:21.256795 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-18 16:21:21.257158 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-18 16:21:21.268023 [debug]: Record exists.
+2024-12-18 16:21:21.268109 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 1
+2024-12-18 16:21:21.271131 [debug]: Ticket bought successfully: username=uestc, ticket_name=1, quantity=1
+2024-12-18 16:21:21.271201 [info] : Buy ticket, username:uestc ticket_id:2 quantity:1
+2024-12-18 16:21:21.271253 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:21:21.271752 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=2 LIMIT 1
+2024-12-18 16:21:21.272015 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='2'
+2024-12-18 16:21:21.274988 [debug]: Record exists.
+2024-12-18 16:21:21.275052 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 2
+2024-12-18 16:21:21.277371 [debug]: Ticket bought successfully: username=uestc, ticket_name=2, quantity=1
+2024-12-18 16:21:21.277432 [info] : Buy ticket, username:uestc ticket_id:3 quantity:1
+2024-12-18 16:21:21.277484 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:21:21.277807 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=3 LIMIT 1
+2024-12-18 16:21:21.278074 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='3'
+2024-12-18 16:21:21.280704 [debug]: Record exists.
+2024-12-18 16:21:21.280773 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 3
+2024-12-18 16:21:21.284011 [debug]: Ticket bought successfully: username=uestc, ticket_name=3, quantity=1
+2024-12-18 16:21:21.284086 [debug]: Body:{"tickets":["1","2","3"]}, len:25
+2024-12-18 16:21:21.284116 [debug]: [POST], [/index.html], [1.1]
+2024-12-18 16:21:21.284120 [debug]: /index.html
+2024-12-18 16:21:21.284876 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:21:21.284905 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:21:21.284919 [debug]: filesize:6201, 2  to 6375
+2024-12-18 16:21:23.391184 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:21:23.391272 [debug]: [{"tickets":["1","2","3"]}POST], [/viewBookings], [1.1]
+2024-12-18 16:21:23.391278 [debug]: /viewBookings
+2024-12-18 16:21:23.391315 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:21:23.391333 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:21:23.391348 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:21:29.920393 [debug]: [{"query":"getTicketInfo"}GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:21:29.920470 [debug]: /css/shoupiao.css
+2024-12-18 16:21:29.920511 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:21:29.920555 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:21:29.920938 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:22:10.530722 [info] : Client[22] quit!
+2024-12-18 16:22:10.531414 [info] : Client[22](127.0.0.1:32408) quit, UserCount:2
+2024-12-18 16:22:10.553459 [info] : Client[18] quit!
+2024-12-18 16:22:10.553938 [info] : Client[18](127.0.0.1:28312) quit, UserCount:1
+2024-12-18 16:22:29.923860 [info] : Client[23] quit!
+2024-12-18 16:22:29.924183 [info] : Client[23](127.0.0.1:34456) quit, UserCount:0
+2024-12-18 16:23:53.551096 [info] : Client[18](127.0.0.1:33949) in, userCount:1
+2024-12-18 16:23:53.551235 [info] : Client[18] in!
+2024-12-18 16:23:53.553072 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-18 16:23:53.553150 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:23:53.554140 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-18 16:23:53.554438 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-18 16:23:53.562211 [debug]: Record exists.
+2024-12-18 16:23:53.562257 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 1
+2024-12-18 16:23:53.566723 [debug]: Ticket bought successfully: username=uestc, ticket_name=1, quantity=1
+2024-12-18 16:23:53.566815 [info] : Buy ticket, username:uestc ticket_id:2 quantity:1
+2024-12-18 16:23:53.566833 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:23:53.567237 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=2 LIMIT 1
+2024-12-18 16:23:53.567572 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='2'
+2024-12-18 16:23:53.570849 [debug]: Record exists.
+2024-12-18 16:23:53.570920 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 2
+2024-12-18 16:23:53.573216 [debug]: Ticket bought successfully: username=uestc, ticket_name=2, quantity=1
+2024-12-18 16:23:53.573283 [info] : Buy ticket, username:uestc ticket_id:3 quantity:1
+2024-12-18 16:23:53.573309 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:23:53.573818 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=3 LIMIT 1
+2024-12-18 16:23:53.574129 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='3'
+2024-12-18 16:23:53.576699 [debug]: Record exists.
+2024-12-18 16:23:53.576850 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 3
+2024-12-18 16:23:53.580097 [debug]: Ticket bought successfully: username=uestc, ticket_name=3, quantity=1
+2024-12-18 16:23:53.580163 [debug]: Body:{"tickets":["1","2","3"]}, len:25
+2024-12-18 16:23:53.580222 [debug]: [POST], [/index.html], [1.1]
+2024-12-18 16:23:53.580272 [debug]: /index.html
+2024-12-18 16:23:53.580319 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:23:53.580369 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:23:53.580567 [debug]: filesize:6201, 2  to 6375
+2024-12-18 16:24:12.008190 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:24:12.008268 [debug]: [{"tickets":["1","2","3"]}POST], [/viewBookings], [1.1]
+2024-12-18 16:24:12.008273 [debug]: /viewBookings
+2024-12-18 16:24:12.008309 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:24:12.008327 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:24:12.008340 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:25:12.014802 [info] : Client[18] quit!
+2024-12-18 16:25:50.709133 [info] : ========== Server init ==========
+2024-12-18 16:25:50.709155 [info] : Port:8000, OpenLinger: false
+2024-12-18 16:25:50.709158 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 16:25:50.709160 [info] : LogSys level: 0
+2024-12-18 16:25:50.709162 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 16:25:50.709164 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 16:25:50.709209 [info] : ========== Server start ==========
+2024-12-18 16:25:56.752725 [info] : Client[18](127.0.0.1:16069) in, userCount:1
+2024-12-18 16:25:56.752892 [info] : Client[18] in!
+2024-12-18 16:25:56.753107 [info] : Client[22](127.0.0.1:17093) in, userCount:2
+2024-12-18 16:25:56.753208 [info] : Client[22] in!
+2024-12-18 16:25:56.754803 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:25:56.754854 [debug]: /index.html
+2024-12-18 16:25:56.754875 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:25:56.754877 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:25:56.754885 [debug]: filesize:6201, 2  to 6375
+2024-12-18 16:25:56.801767 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:25:56.801941 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:25:56.801953 [debug]: /css/shoupiao.css
+2024-12-18 16:25:56.802208 [debug]: /js/shoupiao.js
+2024-12-18 16:25:56.802331 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:25:56.802355 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:25:56.802424 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:25:56.802438 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:25:56.802495 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:25:56.802560 [debug]: filesize:8049, 2  to 8230
+2024-12-18 16:25:56.820579 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:25:56.820693 [debug]: /images/haiou.jpg
+2024-12-18 16:25:56.820746 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:25:56.820805 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:25:56.820876 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:25:56.857848 [info] : Client[23](127.0.0.1:17605) in, userCount:3
+2024-12-18 16:25:56.858009 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:25:56.858193 [debug]: /fonts/lingli.ttf
+2024-12-18 16:25:56.858207 [info] : Client[23] in!
+2024-12-18 16:25:56.858473 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:25:56.858636 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:25:56.858705 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:25:56.861175 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:25:56.861283 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:25:56.861309 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:25:56.861315 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:25:56.862009 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:26:12.184562 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-18 16:26:12.184740 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:26:12.185730 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-18 16:26:12.186024 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-18 16:26:12.190027 [debug]: Record exists.
+2024-12-18 16:26:12.190072 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 1
+2024-12-18 16:26:12.192541 [debug]: Ticket bought successfully: username=uestc, ticket_name=1, quantity=1
+2024-12-18 16:26:12.192611 [info] : Buy ticket, username:uestc ticket_id:2 quantity:1
+2024-12-18 16:26:12.192675 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:26:12.193034 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=2 LIMIT 1
+2024-12-18 16:26:12.193297 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='2'
+2024-12-18 16:26:12.196550 [debug]: Record exists.
+2024-12-18 16:26:12.196600 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 2
+2024-12-18 16:26:12.198996 [debug]: Ticket bought successfully: username=uestc, ticket_name=2, quantity=1
+2024-12-18 16:26:12.199070 [info] : Buy ticket, username:uestc ticket_id:3 quantity:1
+2024-12-18 16:26:12.199097 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:26:12.199565 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=3 LIMIT 1
+2024-12-18 16:26:12.199860 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='3'
+2024-12-18 16:26:12.202635 [debug]: Record exists.
+2024-12-18 16:26:12.202709 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 3
+2024-12-18 16:26:12.206615 [debug]: Ticket bought successfully: username=uestc, ticket_name=3, quantity=1
+2024-12-18 16:26:12.206673 [debug]: Body:{"tickets":["1","2","3"]}, len:25
+2024-12-18 16:26:12.206689 [debug]: [POST], [/index.html], [1.1]
+2024-12-18 16:26:12.206707 [debug]: /index.html
+2024-12-18 16:26:12.207266 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:26:12.207311 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:26:12.207323 [debug]: filesize:6201, 2  to 6375
+2024-12-18 16:26:14.444022 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:26:14.444173 [debug]: [{"tickets":["1","2","3"]}POST], [/viewBookings], [1.1]
+2024-12-18 16:26:14.444193 [debug]: /viewBookings
+2024-12-18 16:26:14.444237 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:26:14.444253 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:26:14.444264 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:26:56.820887 [info] : Client[22] quit!
+2024-12-18 16:26:56.825689 [info] : Client[22](127.0.0.1:17093) quit, UserCount:2
+2024-12-18 16:26:56.858078 [info] : Client[18] quit!
+2024-12-18 16:27:56.251583 [info] : ========== Server init ==========
+2024-12-18 16:27:56.251606 [info] : Port:8000, OpenLinger: false
+2024-12-18 16:27:56.251609 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 16:27:56.251610 [info] : LogSys level: 0
+2024-12-18 16:27:56.251613 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 16:27:56.251668 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 16:27:56.251818 [info] : ========== Server start ==========
+2024-12-18 16:28:11.609814 [info] : Client[18](127.0.0.1:6825) in, userCount:1
+2024-12-18 16:28:11.609968 [info] : Client[18] in!
+2024-12-18 16:28:11.611902 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-18 16:28:11.611995 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:28:11.612848 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-18 16:28:11.613268 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-18 16:28:11.617316 [debug]: Record exists.
+2024-12-18 16:28:11.617394 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 1
+2024-12-18 16:28:11.619838 [debug]: Ticket bought successfully: username=uestc, ticket_name=1, quantity=1
+2024-12-18 16:28:11.619920 [info] : Buy ticket, username:uestc ticket_id:2 quantity:1
+2024-12-18 16:28:11.619975 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:28:11.620470 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=2 LIMIT 1
+2024-12-18 16:28:11.620740 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='2'
+2024-12-18 16:28:11.623333 [debug]: Record exists.
+2024-12-18 16:28:11.623407 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 2
+2024-12-18 16:28:11.625896 [debug]: Ticket bought successfully: username=uestc, ticket_name=2, quantity=1
+2024-12-18 16:28:11.625966 [info] : Buy ticket, username:uestc ticket_id:3 quantity:1
+2024-12-18 16:28:11.626006 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:28:11.626415 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=3 LIMIT 1
+2024-12-18 16:28:11.626691 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='3'
+2024-12-18 16:28:11.629448 [debug]: Record exists.
+2024-12-18 16:28:11.629516 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 3
+2024-12-18 16:28:11.631908 [debug]: Ticket bought successfully: username=uestc, ticket_name=3, quantity=1
+2024-12-18 16:28:11.632033 [debug]: Body:{"tickets":["1","2","3"]}, len:25
+2024-12-18 16:28:11.632135 [debug]: [POST], [/index.html], [1.1]
+2024-12-18 16:28:11.632325 [debug]: /index.html
+2024-12-18 16:28:11.632370 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:28:11.632427 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:28:11.632857 [debug]: filesize:6201, 2  to 6375
+2024-12-18 16:28:13.628841 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:28:13.629115 [debug]: [{"tickets":["1","2","3"]}POST], [/viewBookings], [1.1]
+2024-12-18 16:28:13.629181 [debug]: /viewBookings
+2024-12-18 16:28:13.629225 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:28:13.629240 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:28:13.629250 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:29:11.527219 [debug]: [{"query":"getTicketInfo"}GET], [/index.html], [1.1]
+2024-12-18 16:29:11.528679 [info] : Client[22](127.0.0.1:32999) in, userCount:2
+2024-12-18 16:29:11.528693 [debug]: /index.html
+2024-12-18 16:29:11.528872 [info] : Client[22] in!
+2024-12-18 16:29:11.529004 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:29:11.529116 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:29:11.529764 [debug]: filesize:6201, 2  to 6375
+2024-12-18 16:29:11.560515 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:29:11.560628 [debug]: /css/shoupiao.css
+2024-12-18 16:29:11.560683 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:29:11.560740 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:29:11.561058 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:29:11.564547 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:29:11.564703 [debug]: /js/shoupiao.js
+2024-12-18 16:29:11.564776 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:29:11.564792 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:29:11.565163 [debug]: filesize:8049, 2  to 8230
+2024-12-18 16:29:11.569061 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:29:11.569135 [debug]: /images/haiou.jpg
+2024-12-18 16:29:11.569174 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:29:11.569178 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:29:11.569663 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:29:11.579038 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:29:11.579146 [debug]: /fonts/lingli.ttf
+2024-12-18 16:29:11.579324 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:29:11.579344 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:29:11.579773 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:29:11.579816 [info] : Client[24](127.0.0.1:37095) in, userCount:3
+2024-12-18 16:29:11.579850 [info] : Client[24] in!
+2024-12-18 16:29:11.581631 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:29:11.581727 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:29:11.581760 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:29:11.581774 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:29:11.582198 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:29:29.085493 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:29:29.085575 [debug]: [POST], [/viewBookings], [1.1]
+2024-12-18 16:29:29.085580 [debug]: /viewBookings
+2024-12-18 16:29:29.086243 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:29:29.086298 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:29:29.086324 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:29:28.656459 [debug]: [{"query":"getTicketInfo"}GET], [/index.html], [1.1]
+2024-12-18 16:29:28.656560 [debug]: /index.html
+2024-12-18 16:29:28.656609 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:29:28.656680 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:29:28.656733 [debug]: filesize:6201, 2  to 6375
+2024-12-18 16:29:28.694113 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:29:28.694194 [debug]: /css/shoupiao.css
+2024-12-18 16:29:28.694239 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:29:28.694257 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:29:28.694269 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:29:28.695119 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:29:28.695183 [debug]: /js/shoupiao.js
+2024-12-18 16:29:28.695232 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:29:28.695249 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:29:28.695262 [debug]: filesize:8049, 2  to 8230
+2024-12-18 16:29:28.702348 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:29:28.702506 [debug]: /images/haiou.jpg
+2024-12-18 16:29:28.702588 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:29:28.702606 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:29:28.702624 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:29:28.710207 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:29:28.710365 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:29:28.710396 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:29:28.710396 [debug]: /fonts/lingli.ttf
+2024-12-18 16:29:28.710508 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:29:28.710548 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:29:28.710568 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:29:28.710604 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:29:28.710634 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:29:28.710662 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:29:50.799410 [info] : Buy ticket, username:uestc ticket_id:6 quantity:1
+2024-12-18 16:29:50.799528 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:29:50.800642 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=6 LIMIT 1
+2024-12-18 16:29:50.800952 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='6'
+2024-12-18 16:29:50.806236 [debug]: SQL Insert: INSERT INTO booking_records(user_id, ticket_id, quantity) VALUES(1, 6, 1)
+2024-12-18 16:29:50.812058 [debug]: Ticket bought successfully: username=uestc, ticket_name=6, quantity=1
+2024-12-18 16:29:50.812126 [info] : Buy ticket, username:uestc ticket_id:7 quantity:1
+2024-12-18 16:29:50.812184 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:29:50.812486 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=7 LIMIT 1
+2024-12-18 16:29:50.812741 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='7'
+2024-12-18 16:29:50.816359 [debug]: SQL Insert: INSERT INTO booking_records(user_id, ticket_id, quantity) VALUES(1, 7, 1)
+2024-12-18 16:29:50.819475 [debug]: Ticket bought successfully: username=uestc, ticket_name=7, quantity=1
+2024-12-18 16:29:50.819619 [debug]: Body:{"tickets":["6","7"]}, len:21
+2024-12-18 16:29:50.819688 [debug]: [POST], [/index.html], [1.1]
+2024-12-18 16:29:50.819741 [debug]: /index.html
+2024-12-18 16:29:50.821325 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:29:50.821372 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:29:50.821383 [debug]: filesize:6201, 2  to 6375
+2024-12-18 16:29:53.931826 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:29:53.932092 [debug]: [{"tickets":["6","7"]}POST], [/viewBookings], [1.1]
+2024-12-18 16:29:53.932163 [debug]: /viewBookings
+2024-12-18 16:29:53.932224 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:29:53.932254 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:29:53.932273 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:29:56.293859 [debug]: [{"query":"getTicketInfo"}GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:29:56.294074 [debug]: /css/shoupiao.css
+2024-12-18 16:29:56.294138 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:29:56.294155 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:29:56.294166 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:30:11.612115 [info] : Client[18] quit!
+2024-12-18 16:30:11.612307 [info] : Client[18](127.0.0.1:6825) quit, UserCount:2
+2024-12-18 16:30:28.731862 [info] : Client[22] quit!
+2024-12-18 16:30:28.732617 [info] : Client[22](127.0.0.1:32999) quit, UserCount:1
+2024-12-18 16:30:56.297270 [info] : Client[24] quit!
+2024-12-18 16:30:56.297686 [info] : Client[24](127.0.0.1:37095) quit, UserCount:0
+2024-12-18 16:30:58.425722 [info] : Client[18](127.0.0.1:1725) in, userCount:1
+2024-12-18 16:30:58.425803 [info] : Client[18] in!
+2024-12-18 16:30:58.426289 [info] : Client[22](127.0.0.1:2237) in, userCount:2
+2024-12-18 16:30:58.426357 [info] : Client[22] in!
+2024-12-18 16:30:58.428620 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:30:58.428746 [debug]: /index.html
+2024-12-18 16:30:58.428793 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:30:58.428812 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:30:58.428849 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:30:58.466681 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:30:58.466898 [debug]: /css/shoupiao.css
+2024-12-18 16:30:58.466976 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:30:58.466996 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:30:58.467006 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:30:58.474880 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:30:58.475107 [debug]: /js/shoupiao.js
+2024-12-18 16:30:58.475189 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:30:58.475209 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:30:58.475227 [debug]: filesize:8049, 2  to 8230
+2024-12-18 16:30:58.481623 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:30:58.481970 [debug]: /images/haiou.jpg
+2024-12-18 16:30:58.482060 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:30:58.482078 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:30:58.482097 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:30:58.485883 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:30:58.486050 [debug]: /fonts/lingli.ttf
+2024-12-18 16:30:58.486140 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:30:58.486249 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:30:58.486295 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:30:58.486583 [info] : Client[23](127.0.0.1:3261) in, userCount:3
+2024-12-18 16:30:58.486729 [info] : Client[23] in!
+2024-12-18 16:30:58.489526 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:30:58.489698 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:30:58.489750 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:30:58.489769 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:30:58.489799 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:31:08.687521 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:31:08.687790 [debug]: [POST], [/viewBookings], [1.1]
+2024-12-18 16:31:08.687888 [debug]: /viewBookings
+2024-12-18 16:31:08.688777 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:31:08.688823 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:31:08.688838 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:31:58.485185 [info] : Client[22] quit!
+2024-12-18 16:31:58.485796 [info] : Client[22](127.0.0.1:2237) quit, UserCount:2
+2024-12-18 16:31:58.485914 [info] : Client[18] quit!
+2024-12-18 16:31:58.486176 [info] : Client[18](127.0.0.1:1725) quit, UserCount:1
+2024-12-18 16:32:08.692166 [info] : Client[23] quit!
+2024-12-18 16:32:08.692536 [info] : Client[23](127.0.0.1:3261) quit, UserCount:0
+2024-12-18 16:35:04.614858 [info] : Client[18](127.0.0.1:16090) in, userCount:1
+2024-12-18 16:35:04.615001 [info] : Client[18] in!
+2024-12-18 16:35:04.615148 [info] : Client[22](127.0.0.1:18650) in, userCount:2
+2024-12-18 16:35:04.615253 [info] : Client[22] in!
+2024-12-18 16:35:04.616829 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:35:04.616894 [debug]: /index.html
+2024-12-18 16:35:04.616932 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:35:04.616946 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:35:04.616962 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:35:04.649154 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:35:04.649211 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:35:04.649457 [debug]: /js/shoupiao.js
+2024-12-18 16:35:04.649619 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:35:04.649629 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:35:04.649635 [debug]: /css/shoupiao.css
+2024-12-18 16:35:04.649708 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:35:04.649728 [debug]: filesize:7949, 2  to 8130
+2024-12-18 16:35:04.649795 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:35:04.649824 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:35:04.660777 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:35:04.660911 [debug]: /images/haiou.jpg
+2024-12-18 16:35:04.661124 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:35:04.661146 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:35:04.661162 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:35:04.665396 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:35:04.665530 [debug]: /fonts/lingli.ttf
+2024-12-18 16:35:04.665725 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:35:04.665759 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:35:04.665774 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:35:04.665907 [info] : Client[23](127.0.0.1:20186) in, userCount:3
+2024-12-18 16:35:04.666054 [info] : Client[23] in!
+2024-12-18 16:35:04.668711 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:35:04.669032 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:35:04.669199 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:35:04.669299 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:35:04.669423 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:35:14.847682 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:35:14.847858 [debug]: [POST], [/viewBookings], [1.1]
+2024-12-18 16:35:14.847885 [debug]: /viewBookings
+2024-12-18 16:35:14.848789 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:35:14.848866 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:35:14.848889 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:35:21.480653 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-18 16:35:21.480812 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:35:21.481879 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-18 16:35:21.482296 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-18 16:35:21.486754 [debug]: Record exists.
+2024-12-18 16:35:21.486849 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 1
+2024-12-18 16:35:21.489627 [debug]: Ticket bought successfully: username=uestc, ticket_name=1, quantity=1
+2024-12-18 16:35:21.489729 [info] : Buy ticket, username:uestc ticket_id:2 quantity:1
+2024-12-18 16:35:21.489767 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:35:21.490211 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=2 LIMIT 1
+2024-12-18 16:35:21.490405 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='2'
+2024-12-18 16:35:21.493268 [debug]: Record exists.
+2024-12-18 16:35:21.493330 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 2
+2024-12-18 16:35:21.495905 [debug]: Ticket bought successfully: username=uestc, ticket_name=2, quantity=1
+2024-12-18 16:35:21.495968 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-18 16:35:21.495973 [debug]: [{"query":"getTicketInfo"}POST], [/index.html], [1.1]
+2024-12-18 16:35:21.495975 [debug]: /index.html
+2024-12-18 16:35:21.496007 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:35:21.496020 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:35:21.496033 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:35:25.894294 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:35:25.894415 [debug]: [{"tickets":["1","2"]}POST], [/viewBookings], [1.1]
+2024-12-18 16:35:25.894423 [debug]: /viewBookings
+2024-12-18 16:35:25.894475 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:35:25.894480 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:35:25.894495 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:35:28.698584 [debug]: [{"query":"getTicketInfo"}GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:35:28.698766 [debug]: /css/shoupiao.css
+2024-12-18 16:35:28.698961 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:35:28.699107 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:35:28.699212 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:36:04.670510 [info] : Client[18] quit!
+2024-12-18 16:36:04.671125 [info] : Client[18](127.0.0.1:16090) quit, UserCount:2
+2024-12-18 16:36:04.671265 [info] : Client[22] quit!
+2024-12-18 16:36:04.671703 [info] : Client[22](127.0.0.1:18650) quit, UserCount:1
+2024-12-18 16:36:20.210868 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:36:20.210950 [debug]: /index.html
+2024-12-18 16:36:20.210983 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:36:20.211000 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:36:20.211013 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:36:20.214073 [info] : Client[18](127.0.0.1:16095) in, userCount:2
+2024-12-18 16:36:20.214165 [info] : Client[18] in!
+2024-12-18 16:36:20.259846 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:36:20.260005 [debug]: /css/shoupiao.css
+2024-12-18 16:36:20.260066 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:36:20.260124 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:36:20.260166 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:36:20.265570 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:36:20.265657 [debug]: /js/shoupiao.js
+2024-12-18 16:36:20.265691 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:36:20.265708 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:36:20.265727 [debug]: filesize:8001, 2  to 8182
+2024-12-18 16:36:20.282047 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:36:20.282226 [debug]: /images/haiou.jpg
+2024-12-18 16:36:20.282341 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:36:20.282361 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:36:20.282380 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:36:20.291005 [info] : Client[22](127.0.0.1:18143) in, userCount:3
+2024-12-18 16:36:20.291160 [info] : Client[22] in!
+2024-12-18 16:36:20.291405 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:36:20.291529 [debug]: /fonts/lingli.ttf
+2024-12-18 16:36:20.291600 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:36:20.291766 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:36:20.291869 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:36:20.292864 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:36:20.293050 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:36:20.293221 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:36:20.293432 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:36:20.293635 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:36:38.198110 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:36:38.198216 [debug]: [POST], [/viewBookings], [1.1]
+2024-12-18 16:36:38.198223 [debug]: /viewBookings
+2024-12-18 16:36:38.199043 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:36:38.199106 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:36:38.199124 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:36:41.967373 [debug]: [{"query":"getTicketInfo"}GET], [/index.html], [1.1]
+2024-12-18 16:36:41.967453 [debug]: /index.html
+2024-12-18 16:36:41.967491 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:36:41.967510 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:36:41.967524 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:36:42.016073 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:36:42.016249 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:36:42.016393 [debug]: /js/shoupiao.js
+2024-12-18 16:36:42.016259 [debug]: /css/shoupiao.css
+2024-12-18 16:36:42.016452 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:36:42.016484 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:36:42.016486 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:36:42.016491 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:36:42.016501 [debug]: filesize:8001, 2  to 8182
+2024-12-18 16:36:42.016569 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:36:42.031195 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:36:42.031291 [debug]: /images/haiou.jpg
+2024-12-18 16:36:42.031340 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:36:42.031359 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:36:42.031377 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:36:42.042910 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:36:42.043018 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:36:42.043073 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:36:42.043094 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:36:42.043137 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:36:42.043815 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:36:42.044076 [debug]: /fonts/lingli.ttf
+2024-12-18 16:36:42.044273 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:36:42.044478 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:36:42.044664 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:37:00.726011 [info] : Buy ticket, username:uestc ticket_id:2 quantity:1
+2024-12-18 16:37:00.726121 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:37:00.727913 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=2 LIMIT 1
+2024-12-18 16:37:00.728298 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='2'
+2024-12-18 16:37:00.733896 [debug]: Record exists.
+2024-12-18 16:37:00.733943 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 2
+2024-12-18 16:37:00.736137 [debug]: Ticket bought successfully: username=uestc, ticket_name=2, quantity=1
+2024-12-18 16:37:00.736200 [info] : Buy ticket, username:uestc ticket_id:4 quantity:1
+2024-12-18 16:37:00.736252 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:37:00.736618 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=4 LIMIT 1
+2024-12-18 16:37:00.736844 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='4'
+2024-12-18 16:37:00.740079 [debug]: SQL Insert: INSERT INTO booking_records(user_id, ticket_id, quantity) VALUES(1, 4, 1)
+2024-12-18 16:37:00.742418 [debug]: Ticket bought successfully: username=uestc, ticket_name=4, quantity=1
+2024-12-18 16:37:00.742480 [debug]: Body:{"tickets":["2","4"]}, len:21
+2024-12-18 16:37:00.742521 [debug]: [POST], [/index.html], [1.1]
+2024-12-18 16:37:00.742575 [debug]: /index.html
+2024-12-18 16:37:00.743212 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:37:00.743300 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:37:00.743351 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:37:08.310110 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:37:08.310253 [debug]: [{"tickets":["2","4"]}POST], [/viewBookings], [1.1]
+2024-12-18 16:37:08.310269 [debug]: /viewBookings
+2024-12-18 16:37:08.310341 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:37:08.310369 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:37:08.310387 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:37:20.297071 [info] : Client[23] quit!
+2024-12-18 16:37:20.297403 [info] : Client[23](127.0.0.1:20186) quit, UserCount:2
+2024-12-18 16:37:39.234171 [debug]: [{"query":"getTicketInfo"}GET], [/index.html], [1.1]
+2024-12-18 16:37:39.234276 [debug]: /index.html
+2024-12-18 16:37:39.234328 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:37:39.234346 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:37:39.234359 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:37:39.281616 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:37:39.281673 [debug]: /css/shoupiao.css
+2024-12-18 16:37:39.281714 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:37:39.281802 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:37:39.281842 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:37:39.282438 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:37:39.282567 [debug]: /js/shoupiao.js
+2024-12-18 16:37:39.282674 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:37:39.282700 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:37:39.282710 [debug]: filesize:8001, 2  to 8182
+2024-12-18 16:37:39.297468 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:37:39.297626 [debug]: /images/haiou.jpg
+2024-12-18 16:37:39.297685 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:37:39.297703 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:37:39.297721 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:37:39.300925 [info] : Client[23](127.0.0.1:24256) in, userCount:3
+2024-12-18 16:37:39.301008 [info] : Client[23] in!
+2024-12-18 16:37:39.301242 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:37:39.301300 [debug]: /fonts/lingli.ttf
+2024-12-18 16:37:39.301336 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:37:39.301363 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:37:39.301377 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:37:39.303078 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:37:39.303221 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:37:39.303285 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:37:39.303305 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:37:39.303329 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:38:00.732516 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-18 16:38:00.732638 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:38:00.733810 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-18 16:38:00.734184 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-18 16:38:00.740250 [debug]: Record exists.
+2024-12-18 16:38:00.740315 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 1
+2024-12-18 16:38:00.742894 [debug]: Ticket bought successfully: username=uestc, ticket_name=1, quantity=1
+2024-12-18 16:38:00.742955 [info] : Buy ticket, username:uestc ticket_id:2 quantity:1
+2024-12-18 16:38:00.742982 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:38:00.743322 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=2 LIMIT 1
+2024-12-18 16:38:00.743555 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='2'
+2024-12-18 16:38:00.746147 [debug]: Record exists.
+2024-12-18 16:38:00.746246 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 2
+2024-12-18 16:38:00.748689 [debug]: Ticket bought successfully: username=uestc, ticket_name=2, quantity=1
+2024-12-18 16:38:00.748755 [debug]: Body:{"tickets":["1","2"]}, len:21
+2024-12-18 16:38:00.748820 [debug]: [POST], [/index.html], [1.1]
+2024-12-18 16:38:00.748872 [debug]: /index.html
+2024-12-18 16:38:00.749489 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:38:00.749550 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:38:00.749605 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:38:22.912212 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:38:22.912387 [debug]: [{"tickets":["1","2"]}POST], [/viewBookings], [1.1]
+2024-12-18 16:38:22.912499 [debug]: /viewBookings
+2024-12-18 16:38:22.912558 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:38:22.912583 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:38:22.912602 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:38:39.319951 [info] : Client[18] quit!
+2024-12-18 16:38:39.320438 [info] : Client[18](127.0.0.1:16095) quit, UserCount:2
+2024-12-18 16:38:39.320519 [info] : Client[22] quit!
+2024-12-18 16:38:39.320741 [info] : Client[22](127.0.0.1:18143) quit, UserCount:1
+2024-12-18 16:39:22.922092 [info] : Client[23] quit!
+2024-12-18 16:42:50.791272 [info] : ========== Server init ==========
+2024-12-18 16:42:50.791357 [info] : Port:8000, OpenLinger: false
+2024-12-18 16:42:50.791383 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 16:42:50.791386 [info] : LogSys level: 0
+2024-12-18 16:42:50.791397 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 16:42:50.791400 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 16:42:50.791411 [info] : ========== Server start ==========
+2024-12-18 16:42:56.037522 [info] : Client[18](127.0.0.1:8421) in, userCount:1
+2024-12-18 16:42:56.037608 [info] : Client[18] in!
+2024-12-18 16:42:56.038040 [info] : Client[22](127.0.0.1:12517) in, userCount:2
+2024-12-18 16:42:56.038195 [info] : Client[22] in!
+2024-12-18 16:42:56.039293 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:42:56.039336 [debug]: /index.html
+2024-12-18 16:42:56.039364 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:42:56.039378 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:42:56.039389 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:42:56.088360 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:42:56.088493 [debug]: /css/shoupiao.css
+2024-12-18 16:42:56.088720 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:42:56.088739 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:42:56.088752 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:42:56.089443 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:42:56.089555 [debug]: /js/shoupiao.js
+2024-12-18 16:42:56.089596 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:42:56.089612 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:42:56.089639 [debug]: filesize:8001, 2  to 8182
+2024-12-18 16:42:56.112218 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:42:56.112293 [debug]: /images/haiou.jpg
+2024-12-18 16:42:56.112338 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:42:56.112354 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:42:56.112374 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:42:56.162736 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:42:56.162976 [debug]: /fonts/lingli.ttf
+2024-12-18 16:42:56.163064 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:42:56.163082 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:42:56.163099 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:42:56.163418 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:42:56.163593 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:42:56.163721 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:42:56.163825 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:42:56.163959 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:43:09.705759 [info] : Buy ticket, username:uestc ticket_id:4 quantity:1
+2024-12-18 16:43:09.705873 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:43:09.706648 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=4 LIMIT 1
+2024-12-18 16:43:09.706933 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='4'
+2024-12-18 16:43:09.711246 [debug]: Record exists.
+2024-12-18 16:43:09.711316 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 4
+2024-12-18 16:43:09.713677 [debug]: Ticket bought successfully: username=uestc, ticket_name=4, quantity=1
+2024-12-18 16:43:09.713744 [info] : Buy ticket, username:uestc ticket_id:5 quantity:1
+2024-12-18 16:43:09.713807 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:43:09.714172 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=5 LIMIT 1
+2024-12-18 16:43:09.714382 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='5'
+2024-12-18 16:43:09.716621 [debug]: SQL Insert: INSERT INTO booking_records(user_id, ticket_id, quantity) VALUES(1, 5, 1)
+2024-12-18 16:43:09.719015 [debug]: Ticket bought successfully: username=uestc, ticket_name=5, quantity=1
+2024-12-18 16:43:09.719166 [info] : Buy ticket, username:uestc ticket_id:6 quantity:1
+2024-12-18 16:43:09.719245 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:43:09.719602 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=6 LIMIT 1
+2024-12-18 16:43:09.719934 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='6'
+2024-12-18 16:43:09.723108 [debug]: Record exists.
+2024-12-18 16:43:09.723186 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 6
+2024-12-18 16:43:09.726168 [debug]: Ticket bought successfully: username=uestc, ticket_name=6, quantity=1
+2024-12-18 16:43:09.726237 [debug]: Body:{"tickets":["4","5","6"]}, len:25
+2024-12-18 16:43:09.726317 [debug]: [POST], [/index.html], [1.1]
+2024-12-18 16:43:09.726378 [debug]: /index.html
+2024-12-18 16:43:09.727077 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:43:09.727163 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:43:09.727211 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:43:11.575668 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:43:11.575949 [debug]: [{"tickets":["4","5","6"]}POST], [/viewBookings], [1.1]
+2024-12-18 16:43:11.576184 [debug]: /viewBookings
+2024-12-18 16:43:11.576523 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:43:11.576590 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:43:11.576659 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:43:56.166500 [info] : Client[22] quit!
+2024-12-18 16:43:56.171553 [info] : Client[22](127.0.0.1:12517) quit, UserCount:1
+2024-12-18 16:44:11.596832 [info] : Client[18] quit!
+2024-12-18 16:45:12.506091 [info] : ========== Server init ==========
+2024-12-18 16:45:12.506134 [info] : Port:8000, OpenLinger: false
+2024-12-18 16:45:12.506215 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 16:45:12.506320 [info] : LogSys level: 0
+2024-12-18 16:45:12.506546 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 16:45:12.506670 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 16:45:12.506708 [info] : ========== Server start ==========
+2024-12-18 16:45:30.784484 [info] : Client[18](127.0.0.1:8903) in, userCount:1
+2024-12-18 16:45:30.784560 [info] : Client[18] in!
+2024-12-18 16:45:30.784584 [info] : Client[22](127.0.0.1:10951) in, userCount:2
+2024-12-18 16:45:30.784654 [info] : Client[22] in!
+2024-12-18 16:45:30.786333 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:45:30.786388 [debug]: /index.html
+2024-12-18 16:45:30.786411 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:45:30.786426 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:45:30.787660 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:45:30.826531 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:45:30.826619 [debug]: /css/shoupiao.css
+2024-12-18 16:45:30.826688 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:45:30.826707 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:45:30.827105 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:45:30.831329 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:45:30.831523 [debug]: /js/shoupiao.js
+2024-12-18 16:45:30.831582 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:45:30.831597 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:45:30.831623 [debug]: filesize:8006, 2  to 8187
+2024-12-18 16:45:30.856638 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:45:30.856731 [debug]: /images/haiou.jpg
+2024-12-18 16:45:30.856785 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:45:30.856803 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:45:30.857263 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:45:30.894151 [info] : Client[23](127.0.0.1:12487) in, userCount:3
+2024-12-18 16:45:30.894384 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:45:30.894524 [info] : Client[23] in!
+2024-12-18 16:45:30.894532 [debug]: /fonts/lingli.ttf
+2024-12-18 16:45:30.894656 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:45:30.894677 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:45:30.894696 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:45:30.897316 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:45:30.897462 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:45:30.897538 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:45:30.897561 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:45:30.898168 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:45:44.779018 [info] : Buy ticket, username:uestc ticket_id:8 quantity:1
+2024-12-18 16:45:44.779165 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:45:44.779961 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=8 LIMIT 1
+2024-12-18 16:45:44.780283 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='8'
+2024-12-18 16:45:44.785546 [debug]: SQL Insert: INSERT INTO booking_records(user_id, ticket_id, quantity) VALUES(1, 8, 1)
+2024-12-18 16:45:44.790288 [debug]: Ticket bought successfully: username=uestc, ticket_name=8, quantity=1
+2024-12-18 16:45:44.790362 [info] : Buy ticket, username:uestc ticket_id:9 quantity:1
+2024-12-18 16:45:44.790430 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:45:44.790785 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=9 LIMIT 1
+2024-12-18 16:45:44.791020 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='9'
+2024-12-18 16:45:44.794018 [debug]: SQL Insert: INSERT INTO booking_records(user_id, ticket_id, quantity) VALUES(1, 9, 1)
+2024-12-18 16:45:44.796333 [debug]: Ticket bought successfully: username=uestc, ticket_name=9, quantity=1
+2024-12-18 16:45:44.796402 [info] : Buy ticket, username:uestc ticket_id:10 quantity:1
+2024-12-18 16:45:44.796467 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 16:45:44.796779 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=10 LIMIT 1
+2024-12-18 16:45:44.797001 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='10'
+2024-12-18 16:45:44.801779 [debug]: SQL Insert: INSERT INTO booking_records(user_id, ticket_id, quantity) VALUES(1, 10, 1)
+2024-12-18 16:45:44.804742 [debug]: Ticket bought successfully: username=uestc, ticket_name=10, quantity=1
+2024-12-18 16:45:44.804807 [debug]: Body:{"tickets":["8","9","10"]}, len:26
+2024-12-18 16:45:44.804859 [debug]: [POST], [/index.html], [1.1]
+2024-12-18 16:45:44.804910 [debug]: /index.html
+2024-12-18 16:45:44.805564 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:45:44.805601 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:45:44.805612 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:45:47.986552 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 16:45:47.986628 [debug]: [{"tickets":["8","9","10"]}POST], [/viewBookings], [1.1]
+2024-12-18 16:45:47.986633 [debug]: /viewBookings
+2024-12-18 16:45:47.986669 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:45:47.986687 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:45:47.986700 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:46:30.861491 [info] : Client[18] quit!
+2024-12-18 16:46:30.866846 [info] : Client[18](127.0.0.1:8903) quit, UserCount:2
+2024-12-18 16:46:30.894448 [info] : Client[22] quit!
+2024-12-18 16:46:30.894812 [info] : Client[22](127.0.0.1:10951) quit, UserCount:1
+2024-12-18 16:46:47.999645 [info] : Client[23] quit!
+2024-12-18 16:46:47.999887 [info] : Client[23](127.0.0.1:12487) quit, UserCount:0
+2024-12-18 16:47:40.211468 [info] : Client[18](127.0.0.1:45184) in, userCount:1
+2024-12-18 16:47:40.211599 [info] : Client[18] in!
+2024-12-18 16:47:40.212053 [info] : Client[22](127.0.0.1:48768) in, userCount:2
+2024-12-18 16:47:40.212190 [info] : Client[22] in!
+2024-12-18 16:47:40.213923 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:47:40.214013 [debug]: /index.html
+2024-12-18 16:47:40.214045 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:47:40.214097 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:47:40.214125 [debug]: filesize:6226, 2  to 6400
+2024-12-18 16:47:40.247892 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:47:40.248054 [debug]: /css/shoupiao.css
+2024-12-18 16:47:40.248123 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:47:40.248141 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:47:40.248495 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:47:40.259448 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:47:40.259547 [debug]: /js/shoupiao.js
+2024-12-18 16:47:40.259569 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:47:40.259585 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:47:40.259888 [debug]: filesize:8006, 2  to 8187
+2024-12-18 16:47:40.264666 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:47:40.264834 [debug]: /images/haiou.jpg
+2024-12-18 16:47:40.264908 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:47:40.264926 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:47:40.264944 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:47:40.285982 [info] : Client[23](127.0.0.1:52352) in, userCount:3
+2024-12-18 16:47:40.286150 [info] : Client[23] in!
+2024-12-18 16:47:40.286741 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:47:40.286848 [debug]: /fonts/lingli.ttf
+2024-12-18 16:47:40.286910 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:47:40.286929 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:47:40.286942 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:47:40.288745 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:47:40.288959 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:47:40.289166 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:47:40.289227 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:47:40.289724 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:48:40.268314 [info] : Client[18] quit!
+2024-12-18 16:48:40.269086 [info] : Client[18](127.0.0.1:45184) quit, UserCount:2
+2024-12-18 16:48:40.287193 [info] : Client[22] quit!
+2024-12-18 16:48:40.287517 [info] : Client[22](127.0.0.1:48768) quit, UserCount:1
+2024-12-18 16:48:40.529838 [info] : Client[23] quit!
+2024-12-18 16:48:40.530884 [info] : Client[23](127.0.0.1:52352) quit, UserCount:0
+2024-12-18 16:49:49.004655 [info] : Client[18](127.0.0.1:65175) in, userCount:1
+2024-12-18 16:49:49.004765 [info] : Client[18] in!
+2024-12-18 16:49:49.005355 [info] : Client[22](127.0.0.1:2712) in, userCount:2
+2024-12-18 16:49:49.005533 [info] : Client[22] in!
+2024-12-18 16:49:49.006780 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:49:49.006864 [debug]: /index.html
+2024-12-18 16:49:49.006908 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:49:49.006924 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:49:49.006939 [debug]: filesize:6240, 2  to 6414
+2024-12-18 16:49:49.042260 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:49:49.042352 [debug]: /css/shoupiao.css
+2024-12-18 16:49:49.042408 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:49:49.042428 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:49:49.042442 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:49:49.049709 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:49:49.049879 [debug]: /js/shoupiao.js
+2024-12-18 16:49:49.049971 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:49:49.049991 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:49:49.050010 [debug]: filesize:8006, 2  to 8187
+2024-12-18 16:49:49.062914 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:49:49.063008 [debug]: /images/haiou.jpg
+2024-12-18 16:49:49.063061 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:49:49.063079 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:49:49.063127 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:49:49.070089 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:49:49.070371 [debug]: /fonts/lingli.ttf
+2024-12-18 16:49:49.070514 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:49:49.070532 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:49:49.070656 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:49:49.073150 [info] : Client[23](127.0.0.1:3736) in, userCount:3
+2024-12-18 16:49:49.073409 [info] : Client[23] in!
+2024-12-18 16:49:49.075961 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:49:49.076157 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:49:49.076239 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:49:49.076258 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:49:49.076286 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:50:11.949012 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:50:11.949159 [debug]: /index.html
+2024-12-18 16:50:11.951119 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:50:11.951208 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:50:11.955680 [debug]: filesize:6240, 2  to 6414
+2024-12-18 16:50:11.993618 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:50:11.993770 [debug]: /css/shoupiao.css
+2024-12-18 16:50:11.993848 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:50:11.993869 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:50:11.994414 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:50:11.996577 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:50:11.996651 [debug]: /js/shoupiao.js
+2024-12-18 16:50:11.996721 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:50:11.996737 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:50:11.997598 [debug]: filesize:8006, 2  to 8187
+2024-12-18 16:50:12.005877 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:50:12.006001 [debug]: /images/haiou.jpg
+2024-12-18 16:50:12.006051 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:50:12.006067 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:50:12.006113 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:50:12.021372 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:50:12.021561 [debug]: /fonts/lingli.ttf
+2024-12-18 16:50:12.021657 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:50:12.021675 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:50:12.021693 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:50:12.022177 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:50:12.022246 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:50:12.022297 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:50:12.022315 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:50:12.022332 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:50:49.074677 [info] : Client[22] quit!
+2024-12-18 16:50:49.075032 [info] : Client[22](127.0.0.1:2712) quit, UserCount:2
+2024-12-18 16:51:12.020957 [info] : Client[18] quit!
+2024-12-18 16:51:12.021167 [info] : Client[18](127.0.0.1:65175) quit, UserCount:1
+2024-12-18 16:51:12.185615 [info] : Client[23] quit!
+2024-12-18 16:51:12.187347 [info] : Client[23](127.0.0.1:3736) quit, UserCount:0
+2024-12-18 16:51:12.249172 [info] : Client[23] quit!
+2024-12-18 16:51:38.131634 [info] : Client[18](127.0.0.1:11419) in, userCount:1
+2024-12-18 16:51:38.133190 [info] : Client[18] in!
+2024-12-18 16:51:38.134268 [info] : Client[22](127.0.0.1:15003) in, userCount:2
+2024-12-18 16:51:38.134344 [info] : Client[22] in!
+2024-12-18 16:51:38.136138 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 16:51:38.136285 [debug]: /index.html
+2024-12-18 16:51:38.136366 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:51:38.136409 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 16:51:38.136727 [debug]: filesize:6193, 2  to 6367
+2024-12-18 16:51:38.217724 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 16:51:38.217798 [debug]: /css/shoupiao.css
+2024-12-18 16:51:38.217852 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:51:38.217871 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 16:51:38.218102 [debug]: filesize:7583, 2  to 7757
+2024-12-18 16:51:38.220758 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 16:51:38.220812 [debug]: /js/shoupiao.js
+2024-12-18 16:51:38.220828 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:51:38.220830 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 16:51:38.221067 [debug]: filesize:8006, 2  to 8187
+2024-12-18 16:51:38.237734 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 16:51:38.237855 [debug]: /images/haiou.jpg
+2024-12-18 16:51:38.237929 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:51:38.237950 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 16:51:38.238524 [debug]: filesize:253755, 2  to 253932
+2024-12-18 16:51:38.263855 [info] : Client[23](127.0.0.1:18075) in, userCount:3
+2024-12-18 16:51:38.263924 [info] : Client[23] in!
+2024-12-18 16:51:38.264850 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 16:51:38.265052 [debug]: /fonts/lingli.ttf
+2024-12-18 16:51:38.265124 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:51:38.265141 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 16:51:38.265549 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 16:51:38.266386 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 16:51:38.266572 [debug]: /fonts/houbiwen.otf
+2024-12-18 16:51:38.266621 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:51:38.266636 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 16:51:38.267076 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 16:51:39.033843 [debug]: [GET], [/favicon.ico], [1.1]
+2024-12-18 16:51:39.033967 [debug]: /favicon.ico
+2024-12-18 16:51:39.035087 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:51:39.035130 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 16:51:39.035395 [debug]: filesize:2985, 2  to 3166
+2024-12-18 16:51:44.944421 [info] : Client[18] quit!
+2024-12-18 16:51:44.944874 [info] : Client[18](127.0.0.1:11419) quit, UserCount:2
+2024-12-18 16:51:44.945028 [info] : Client[22] quit!
+2024-12-18 16:51:44.945144 [info] : Client[22](127.0.0.1:15003) quit, UserCount:1
+2024-12-18 16:51:44.945173 [info] : Client[23] quit!
+2024-12-18 18:11:03.451808 [info] : ========== Server init ==========
+2024-12-18 18:11:03.451825 [info] : Port:8000, OpenLinger: false
+2024-12-18 18:11:03.451828 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 18:11:03.451864 [info] : LogSys level: 0
+2024-12-18 18:11:03.451867 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 18:11:03.451868 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 18:11:03.451888 [info] : ========== Server start ==========
+2024-12-18 18:11:06.506778 [info] : Client[18](127.0.0.1:61633) in, userCount:1
+2024-12-18 18:11:06.507055 [info] : Client[18] in!
+2024-12-18 18:11:06.507223 [info] : Client[20](127.0.0.1:64193) in, userCount:2
+2024-12-18 18:11:06.507247 [info] : Client[20] in!
+2024-12-18 18:11:06.508694 [debug]: [GET], [/index.html], [1.1]
+2024-12-18 18:11:06.508833 [debug]: /index.html
+2024-12-18 18:11:06.508902 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 18:11:06.508916 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 18:11:06.509291 [debug]: filesize:6193, 2  to 6367
+2024-12-18 18:11:06.552735 [debug]: [GET], [/css/shoupiao.css], [1.1]
+2024-12-18 18:11:06.552826 [debug]: /css/shoupiao.css
+2024-12-18 18:11:06.552870 [info] : file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 18:11:06.552884 [debug]: file path /home/bluer/tiny_webserver/resources//css/shoupiao.css
+2024-12-18 18:11:06.553219 [debug]: filesize:7583, 2  to 7757
+2024-12-18 18:11:06.554546 [debug]: [GET], [/js/shoupiao.js], [1.1]
+2024-12-18 18:11:06.554660 [debug]: /js/shoupiao.js
+2024-12-18 18:11:06.554697 [info] : file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 18:11:06.554790 [debug]: file path /home/bluer/tiny_webserver/resources//js/shoupiao.js
+2024-12-18 18:11:06.555218 [debug]: filesize:8006, 2  to 8187
+2024-12-18 18:11:06.559443 [debug]: [GET], [/images/haiou.jpg], [1.1]
+2024-12-18 18:11:06.559587 [debug]: /images/haiou.jpg
+2024-12-18 18:11:06.559746 [info] : file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 18:11:06.559884 [debug]: file path /home/bluer/tiny_webserver/resources//images/haiou.jpg
+2024-12-18 18:11:06.560434 [debug]: filesize:253755, 2  to 253932
+2024-12-18 18:11:06.584890 [info] : Client[22](127.0.0.1:706) in, userCount:3
+2024-12-18 18:11:06.585127 [info] : Client[22] in!
+2024-12-18 18:11:06.585207 [debug]: [GET], [/fonts/lingli.ttf], [1.1]
+2024-12-18 18:11:06.585234 [debug]: /fonts/lingli.ttf
+2024-12-18 18:11:06.585375 [info] : file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 18:11:06.585485 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/lingli.ttf
+2024-12-18 18:11:06.585907 [debug]: filesize:2629764, 2  to 2629942
+2024-12-18 18:11:06.586950 [debug]: [GET], [/fonts/houbiwen.otf], [1.1]
+2024-12-18 18:11:06.586999 [debug]: /fonts/houbiwen.otf
+2024-12-18 18:11:06.587020 [info] : file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 18:11:06.587037 [debug]: file path /home/bluer/tiny_webserver/resources//fonts/houbiwen.otf
+2024-12-18 18:11:06.587471 [debug]: filesize:53586408, 2  to 53586587
+2024-12-18 18:11:07.206804 [debug]: [GET], [/favicon.ico], [1.1]
+2024-12-18 18:11:07.207125 [debug]: /favicon.ico
+2024-12-18 18:11:07.208053 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 18:11:07.208165 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 18:11:07.208732 [debug]: filesize:2985, 2  to 3166
+2024-12-18 18:11:45.771661 [info] : Buy ticket, username:uestc ticket_id:1 quantity:1
+2024-12-18 18:11:45.771778 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 18:11:45.780027 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=1 LIMIT 1
+2024-12-18 18:11:45.780923 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='1'
+2024-12-18 18:11:45.786337 [debug]: Record exists.
+2024-12-18 18:11:45.786418 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 1
+2024-12-18 18:11:45.788672 [debug]: Ticket bought successfully: username=uestc, ticket_name=1, quantity=1
+2024-12-18 18:11:45.788736 [info] : Buy ticket, username:uestc ticket_id:2 quantity:1
+2024-12-18 18:11:45.788785 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 18:11:45.789117 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=2 LIMIT 1
+2024-12-18 18:11:45.789269 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='2'
+2024-12-18 18:11:45.791498 [debug]: Record exists.
+2024-12-18 18:11:45.791561 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 2
+2024-12-18 18:11:45.794998 [debug]: Ticket bought successfully: username=uestc, ticket_name=2, quantity=1
+2024-12-18 18:11:45.795054 [info] : Buy ticket, username:uestc ticket_id:3 quantity:1
+2024-12-18 18:11:45.795077 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 18:11:45.795672 [debug]: SQL Query: SELECT ticket_id, available_count FROM tickets WHERE ticket_id=3 LIMIT 1
+2024-12-18 18:11:45.795949 [debug]: SQL Update: UPDATE tickets SET available_count = available_count - 1 WHERE ticket_id='3'
+2024-12-18 18:11:45.798120 [debug]: Record exists.
+2024-12-18 18:11:45.798172 [debug]: SQL Update: UPDATE booking_records SET quantity = quantity + 1 WHERE user_id = 1 AND ticket_id = 3
+2024-12-18 18:11:45.800854 [debug]: Ticket bought successfully: username=uestc, ticket_name=3, quantity=1
+2024-12-18 18:11:45.800929 [debug]: Body:{"tickets":["1","2","3"]}, len:25
+2024-12-18 18:11:45.800944 [debug]: [POST], [/index.html], [1.1]
+2024-12-18 18:11:45.800947 [debug]: /index.html
+2024-12-18 18:11:45.800977 [info] : file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 18:11:45.800980 [debug]: file path /home/bluer/tiny_webserver/resources//index.html
+2024-12-18 18:11:45.800989 [debug]: filesize:6193, 2  to 6367
+2024-12-18 18:12:06.584371 [info] : Client[18] quit!
+2024-12-18 18:12:06.584579 [info] : Client[18](127.0.0.1:61633) quit, UserCount:2
+2024-12-18 18:12:06.585685 [info] : Client[20] quit!
+2024-12-18 18:12:06.585813 [info] : Client[20](127.0.0.1:64193) quit, UserCount:1
+2024-12-18 18:12:06.953305 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 18:12:06.953380 [debug]: [{"tickets":["1","2","3"]}POST], [/viewBookings], [1.1]
+2024-12-18 18:12:06.953385 [debug]: /viewBookings
+2024-12-18 18:12:06.953425 [info] : file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 18:12:06.953485 [debug]: file path /home/bluer/tiny_webserver/resources//404.html
+2024-12-18 18:12:06.953526 [debug]: filesize:2985, 2  to 3166
+2024-12-18 18:13:06.972803 [info] : Client[22] quit!
+2024-12-18 18:23:36.679904 [info] : ========== Server init ==========
+2024-12-18 18:23:36.679922 [info] : Port:8000, OpenLinger: false
+2024-12-18 18:23:36.679925 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 18:23:36.679927 [info] : LogSys level: 0
+2024-12-18 18:23:36.679970 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 18:23:36.679973 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 18:23:36.679975 [info] : ========== Server start ==========
+2024-12-18 18:23:43.099720 [info] : Client[18](127.0.0.1:37087) in, userCount:1
+2024-12-18 18:25:17.668994 [info] : ========== Server init ==========
+2024-12-18 18:25:17.669106 [info] : Port:8000, OpenLinger: false
+2024-12-18 18:25:17.669137 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 18:25:17.669142 [info] : LogSys level: 0
+2024-12-18 18:25:17.669160 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 18:25:17.669164 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 18:25:17.669182 [info] : ========== Server start ==========
+2024-12-18 18:25:18.337551 [info] : Client[18](127.0.0.1:34029) in, userCount:1
+2024-12-18 18:25:18.337670 [info] : Client[18] in!
+2024-12-18 18:26:29.696343 [info] : ========== Server init ==========
+2024-12-18 18:26:29.696352 [info] : Port:8000, OpenLinger: false
+2024-12-18 18:26:29.696354 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 18:26:29.696356 [info] : LogSys level: 0
+2024-12-18 18:26:29.696357 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 18:26:29.696359 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 18:26:29.696361 [info] : ========== Server start ==========
+2024-12-18 18:26:35.370827 [info] : Client[18](127.0.0.1:59537) in, userCount:1
+2024-12-18 18:26:35.371163 [info] : Client[18] in!
+2024-12-18 18:29:10.875549 [info] : ========== Server init ==========
+2024-12-18 18:29:10.875568 [info] : Port:8000, OpenLinger: false
+2024-12-18 18:29:10.875571 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 18:29:10.875617 [info] : LogSys level: 0
+2024-12-18 18:29:10.875719 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 18:29:10.875807 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 18:29:10.876004 [info] : ========== Server start ==========
+2024-12-18 18:29:14.848948 [info] : Client[18](127.0.0.1:18129) in, userCount:1
+2024-12-18 18:29:14.849117 [info] : Client[18] in!
+2024-12-18 18:29:20.336038 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 18:29:20.336090 [debug]: [POST], [/data.json], [1.1]
+2024-12-18 18:29:20.336095 [debug]: /data.json
+2024-12-18 18:29:20.336122 [info] : file path /home/bluer/tiny_webserver/resources//data.json
+2024-12-18 18:29:29.808450 [info] : ========== Server init ==========
+2024-12-18 18:29:29.808529 [info] : Port:8000, OpenLinger: false
+2024-12-18 18:29:29.808598 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 18:29:29.808637 [info] : LogSys level: 0
+2024-12-18 18:29:29.808757 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 18:29:29.808778 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 18:29:29.808782 [info] : ========== Server start ==========
+2024-12-18 18:29:30.556838 [info] : Client[18](127.0.0.1:30346) in, userCount:1
+2024-12-18 18:30:13.713634 [info] : ========== Server init ==========
+2024-12-18 18:30:13.713656 [info] : Port:8000, OpenLinger: false
+2024-12-18 18:30:13.713659 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 18:30:13.713703 [info] : LogSys level: 0
+2024-12-18 18:30:13.713796 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 18:30:13.713811 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 18:30:13.713815 [info] : ========== Server start ==========
+2024-12-18 18:30:19.549611 [info] : Client[18](127.0.0.1:30866) in, userCount:1
+2024-12-18 18:30:19.549750 [info] : Client[18] in!
+2024-12-18 18:30:25.449997 [info] : Get bookings for username: uestc
+2024-12-18 18:30:25.450460 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 18:30:25.452235 [debug]: SQL Query: SELECT tickets.day, tickets.number, tickets.ticket_name, booking_records.quantity FROM booking_records JOIN tickets ON booking_records.ticket_id = tickets.ticket_id WHERE booking_records.user_id = 1
+2024-12-18 18:30:25.453546 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 18:30:25.453582 [debug]: [POST], [/data.json], [1.1]
+2024-12-18 18:30:25.453586 [debug]: /data.json
+2024-12-18 18:30:30.219284 [info] : ========== Server init ==========
+2024-12-18 18:30:30.219355 [info] : Port:8000, OpenLinger: false
+2024-12-18 18:30:30.219519 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 18:30:30.219654 [info] : LogSys level: 0
+2024-12-18 18:30:30.219765 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 18:30:30.219811 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 18:30:30.219856 [info] : ========== Server start ==========
+2024-12-18 18:30:33.180210 [info] : Client[18](127.0.0.1:2789) in, userCount:1
+2024-12-18 18:30:33.180397 [info] : Client[18] in!
+2024-12-18 18:30:42.340772 [info] : Get bookings for username: uestc
+2024-12-18 18:30:52.093377 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 18:31:02.326202 [debug]: SQL Query: SELECT tickets.day, tickets.number, tickets.ticket_name, booking_records.quantity FROM booking_records JOIN tickets ON booking_records.ticket_id = tickets.ticket_id WHERE booking_records.user_id = 1
+2024-12-18 18:31:23.714462 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 18:31:23.714497 [debug]: [POST], [/data.json], [1.1]
+2024-12-18 18:31:23.714501 [debug]: /data.json
+2024-12-18 18:31:23.714522 [info] : file path /home/bluer/tiny_webserver/resources//data.json
+2024-12-18 18:33:07.266393 [info] : ========== Server init ==========
+2024-12-18 18:33:07.266411 [info] : Port:8000, OpenLinger: false
+2024-12-18 18:33:07.266414 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 18:33:07.266415 [info] : LogSys level: 0
+2024-12-18 18:33:07.266465 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 18:33:07.266473 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 18:33:07.266476 [info] : ========== Server start ==========
+2024-12-18 18:33:11.144077 [info] : Client[18](127.0.0.1:23783) in, userCount:1
+2024-12-18 18:33:11.144160 [info] : Client[18] in!
+2024-12-18 18:33:15.787918 [info] : Get bookings for username: uestc
+2024-12-18 18:33:15.788148 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 18:33:15.789070 [debug]: SQL Query: SELECT tickets.day, tickets.number, tickets.ticket_name, booking_records.quantity FROM booking_records JOIN tickets ON booking_records.ticket_id = tickets.ticket_id WHERE booking_records.user_id = 1
+2024-12-18 18:34:14.271716 [info] : Client[18] quit!
+2024-12-18 18:34:14.271929 [info] : Client[18](127.0.0.1:23783) quit, UserCount:0
+2024-12-18 18:34:14.272064 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 18:34:14.272267 [debug]: [POST], [/data.json], [1.1]
+2024-12-18 18:34:14.272532 [debug]: /data.json
+2024-12-18 18:36:00.722579 [info] : ========== Server init ==========
+2024-12-18 18:36:00.722642 [info] : Port:8000, OpenLinger: false
+2024-12-18 18:36:00.722688 [info] : Listen Mode: ET, OpenConn Mode: ET
+2024-12-18 18:36:00.722692 [info] : LogSys level: 0
+2024-12-18 18:36:00.722804 [info] : srcDir: /home/bluer/tiny_webserver/resources/
+2024-12-18 18:36:00.722864 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2024-12-18 18:36:00.722879 [info] : ========== Server start ==========
+2024-12-18 18:36:09.364887 [info] : Client[18](127.0.0.1:54488) in, userCount:1
+2024-12-18 18:36:09.365015 [info] : Client[18] in!
+2024-12-18 18:36:23.102077 [info] : Get bookings for username: uestc
+2024-12-18 18:36:23.102297 [debug]: SQL Query: SELECT user_id FROM users WHERE username='uestc' LIMIT 1
+2024-12-18 18:36:23.103803 [debug]: SQL Query: SELECT tickets.day, tickets.number, tickets.ticket_name, booking_records.quantity FROM booking_records JOIN tickets ON booking_records.ticket_id = tickets.ticket_id WHERE booking_records.user_id = 1
+2024-12-18 18:36:58.779439 [debug]: Body:{"query":"getTicketInfo"}, len:25
+2024-12-18 18:36:58.779643 [debug]: [POST], [/data.json], [1.1]
+2024-12-18 18:36:58.779743 [debug]: /data.json
+2024-12-18 18:36:58.779775 [info] : file path /home/bluer/tiny_webserver/resources//data.json
+2024-12-18 18:36:58.779800 [debug]: file path /home/bluer/tiny_webserver/resources//data.json
+2024-12-18 18:36:58.779819 [debug]: filesize:1892, 2  to 2073
+2024-12-18 18:37:58.782574 [info] : Client[18] quit!

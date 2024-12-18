@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .ticket-info {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        #ticket_info {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Ticket Booking System</h1>
+
+    <!-- 触发获取票务信息的按钮 -->
+    <button onclick="getTicketData()">Get Ticket Info</button>
+
+    <!-- 显示票务信息 -->
+    <div class="ticket-info" id="ticket_info"></div>
+
+    <script>
+        // 获取票务数据并展示
+        function getTicketData() {
+            // 创建 XMLHttpRequest 对象
+            const xhr = new XMLHttpRequest();
+            xhr.open("POST", "/load", true);  // 发送 GET 请求到 /load 路由
+            xhr.setRequestHeader("Content-Type", "application/json");
+
+            // 当请求状态变化时，检查响应状态
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    // 请求成功，解析响应数据
+                    const response = JSON.parse(xhr.responseText);
+                    console.log("Response from server:", response);
+
+                    // 使用响应数据更新页面内容
+                    document.getElementById("ticket_info").innerText = 
+                        `Day: ${response.day}, Train Number: ${response.number}, Ticket Type: ${response.ticket_name}, Quantity: ${response.quantity}`;
+                }
+            };
+
+            // 发送请求
+            xhr.send();
+        }
+    </script>
+</body>
+</html>

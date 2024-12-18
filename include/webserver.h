@@ -34,7 +34,7 @@ private:
     bool InitSocket_(); 
     void InitEventMode_(int trigMode);
     void AddClient_(int fd, sockaddr_in addr);
-  
+    
     void DealListen_();
     void DealWrite_(HttpConn* client);
     void DealRead_(HttpConn* client);
