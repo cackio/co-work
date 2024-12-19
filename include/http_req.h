@@ -15,6 +15,7 @@ struct Booking {
     std::string day;         // 日期
     std::string number;      // 票号
     std::string ticket_name;  // 票名称
+    std::string kind;         // 票种
     int quantity;             // 票的数量
     };
 class HttpRequest {

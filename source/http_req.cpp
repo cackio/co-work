@@ -436,10 +436,11 @@ bool HttpRequest::BuyTicket(const std::string &username, int ticket_id) {
     } 
     else {
     // 记录不存在 插入订票记录
-    snprintf(order, sizeof(order), 
-          "INSERT INTO booking_records(user_id, ticket_id, quantity) "
-          "VALUES(%d, %d, %d)", 
-          user_id, ticket_id, 1);
+    snprintf(order, sizeof(order),
+          "INSERT INTO booking_records(user_id, ticket_id, quantity, kind) "
+          "VALUES(%d, %d, %d, (SELECT kind FROM tickets WHERE ticket_id = %d))",
+          user_id, ticket_id, 1, ticket_id);
+
     LOG_DEBUG("SQL Insert: %s", order);
     if (mysql_query(sql, order)) {
         LOG_ERROR("Insert booking failed: %s", mysql_error(sql));
@@ -496,11 +497,12 @@ std::vector<Booking> HttpRequest::GetBookings(const std::string &username) {
 
     // 2. 查询该用户的所有订票记录
     snprintf(order, sizeof(order), 
-          "SELECT tickets.day, tickets.number, tickets.ticket_name, booking_records.quantity "
+          "SELECT tickets.day, tickets.number, tickets.ticket_name, tickets.kind, booking_records.quantity "
           "FROM booking_records "
           "JOIN tickets ON booking_records.ticket_id = tickets.ticket_id "
           "WHERE booking_records.user_id = %d", 
           user_id);
+
 
     LOG_DEBUG("SQL Query: %s", order);
 
@@ -519,7 +521,8 @@ std::vector<Booking> HttpRequest::GetBookings(const std::string &username) {
             booking.day = row[0];
             booking.number = row[1];
             booking.ticket_name = row[2];
-            booking.quantity = std::stoi(row[3]);
+            booking.kind = row[3];
+            booking.quantity = std::stoi(row[4]);
             bookings.push_back(booking);
         }
     }
@@ -577,6 +580,7 @@ void HttpRequest::SaveBookingsToFile(const std::vector<Booking>& bookings, const
         jsonBooking["number"] = booking.number;
         jsonBooking["ticket_name"] = booking.ticket_name;
         jsonBooking["quantity"] = booking.quantity;
+        jsonBooking["kind"] = booking.kind;
         jsonBookings.push_back(jsonBooking);
     }
 

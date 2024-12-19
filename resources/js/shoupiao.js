@@ -203,7 +203,6 @@ function showDialog() {
 }
 // 弹窗打开及数据渲染
 mine.onclick = function () {
-  showDialog();
   searchTickets();
 };
 // 隐藏对话框
@@ -236,28 +235,35 @@ function searchTickets() {
       // 动态填充数据到HTML元素中
       // 清空之前的内容
       const container = document.querySelector(".train");
-      // container.innerHTML = '';
+      container.innerHTML = '';
 
       // 如果返回的是一个数组
       if (Array.isArray(response)) {
-        // 遍历数组，动态创建内容
-        response.forEach((ticket)=> {
-          const ticketDiv = document.createElement("div");
-          ticketDiv.classList.add("ticket-item");
-
-          ticketDiv.innerHTML = `
-            <p>${ticket.day}</p>
-            <p>${ticket.number}</p>
-            <p>${ticket.ticket_name}</p>
-            <p>${ticket.quantity}</p>
-          `;
-
-          // 将新的票务信息添加到容器
-          container.appendChild(ticketDiv);
-        });
-      } else {
-        console.error("请求出错");
-      }
+        if (response.length === 0) {
+          hideDialog();
+          alert("没有票务信息");
+        }else{        
+            showDialog();
+            // 遍历数组，动态创建内容
+            response.forEach((ticket)=> {
+              const ticketDiv = document.createElement("div");
+              ticketDiv.classList.add("ticket-item");
+    
+              ticketDiv.innerHTML = `
+                <span>${ticket.day}</span>
+                <span>${ticket.number}</span>
+                <span>${ticket.ticket_name}</span>
+                <span>${ticket.kind}</span>
+                <span>${ticket.quantity}</span>
+              `;
+    
+              // 将新的票务信息添加到容器
+              container.appendChild(ticketDiv);
+            });
+          }}
+        else {
+                alert("error");
+              }
     }
   };
 
